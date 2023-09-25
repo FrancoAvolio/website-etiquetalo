@@ -12,6 +12,7 @@ import { HomeButton } from './components/HomeButton/HomeButton';
 import Section from './components/Sections/Section';
 import ScrollButton from './components/Scroll/ScrollButton';
 import Products from './components/Sections/Products';
+import Form from './components/Form/Form';
 
 function App() {
   return (
@@ -60,6 +61,7 @@ function App() {
       </div>
       <Section />
       <Products />
+      <Form/>
     </div>
   );
 }
