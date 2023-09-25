@@ -6,7 +6,7 @@ import Corazon from './assets/etiqueta_corazon.svg';
 import Consultas from './assets/consultas_icono.svg';
 import HoldingHeart from './assets/hands_holding_heart_icono.svg';
 import HandShake from './assets/handshake_icon.png';
-import { Navbar } from './components/NavBar/NavBar';
+import { Navbar } from './components/navbar/navbar';
 import { HomeCard } from './components/HomeCard/HomeCard';
 import { HomeButton } from './components/HomeButton/HomeButton';
 import Section from './components/Sections/Section';
