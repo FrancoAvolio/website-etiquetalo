@@ -9,7 +9,7 @@ export const HomeCard = ({titulo, imagen}) => {
           <div className='mt-2 flex items-center align-items justify-center'>
             <img className='w-20 h-20 logo' src={imagen} alt="logo de etiquetalo " />
           </div>
-          <div className="w-[150] h-9 text-center text-white text-xl font-medium font-['Roboto', 'sans_serif']">{titulo}</div>
+          <div className="w-[150] h-9 px-1 text-center text-white text-xl font-medium font-['Roboto', 'sans_serif']">{titulo}</div>
         </div>
       </div>
     </div>
