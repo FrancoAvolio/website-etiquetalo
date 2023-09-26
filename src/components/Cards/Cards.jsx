@@ -10,7 +10,7 @@ import frio from '../../assets/frio.svg';
 
 const Cards = () => {
   return (
-    <div className="grid gap-4 grid-cols-4 p-16">
+    <div className="grid 2xl:grid-cols-4 xl:grid-cols-3 lg:grid-cols-3 grid-cols-2 gap-8">
       <SingleCard title={'Seguridad'} image={box} />
       <SingleCard title={'Textiles'} image={textiles} />
       <SingleCard title={'Plasticas'} image={plasticas} />

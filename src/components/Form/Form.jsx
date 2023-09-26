@@ -38,7 +38,7 @@ const Form = () => {
       <div className="flex mx-auto">
         <form
           onSubmit={sendEmail}
-          className="ml-4 flex-auto p-4 font-Montserrat"
+          className="ml-4 flex-auto p-4 font-['Roboto, sans_serif']"
         >
           <div className="mb-4">
             <label

@@ -30,6 +30,9 @@ module.exports = withMT({
       fontFamily: {
         sans: ['Roboto', 'ui-sans-serif', 'system-ui'],
       },
+      colors: {
+        'azul-card': '#16284E',
+      },
     },
   },
   plugins: [],

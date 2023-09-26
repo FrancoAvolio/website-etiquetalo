@@ -27,7 +27,7 @@ const ScrollButton = () => {
   };
 
   return (
-    <div className="fixed bottom-36 right-10 z-50">
+    <div className="fixed bottom-24 right-10 z-50">
       {isVisible && (
         <button
           className="bg-black hover:bg-gray-900 rounded-full p-3"

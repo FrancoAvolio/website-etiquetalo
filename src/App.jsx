@@ -12,7 +12,6 @@ import tag_heart from './assets/tag_heart.svg';
 import hands_heart from './assets/hands_heart.svg';
 import headset from './assets/headset.svg';
 
-
 import { Navbar } from './components/navbar/navbar';
 import { HomeCard } from './components/HomeCard/HomeCard';
 import { HomeButton } from './components/HomeButton/HomeButton';
@@ -53,9 +52,9 @@ function App() {
         <HomeCard titulo={'Atentos a tus consultas'} imagen={headset} />
       </section>
 
-      <section className="grid place-items-center bg-[#25D366] w-[50px] h-[50px] z-20 fixed bottom-[30px] right-[40px] rounded-full hover:w-[100px] hover:ease-in-out hover:duration-300">
-        <div className="grid place-items-center align-items-center w-[50px] h-[50px] text-white rounded-full">
-          <AiOutlineWhatsApp className="p-2 text-white text-[50px]" />
+      <section className="grid place-items-center bg-[#25D366] w-[46px] h-[46px] z-20 fixed bottom-[30px] right-[2.35rem] rounded-full hover:w-[100px] hover:ease-in-out hover:duration-300">
+        <div className="grid place-items-center align-items-center w-[46px] h-[46px]">
+          <AiOutlineWhatsApp className="p-2 text-white text-[46px]" />
         </div>
       </section>
 
@@ -68,7 +67,7 @@ function App() {
       </div>
       <Section />
       <Products />
-      <Form/>
+      <Form />
     </div>
   );
 }

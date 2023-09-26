@@ -7,7 +7,7 @@ import imageUrl5 from '../../assets/tear.svg';
 const Section = () => {
   return (
     <section className="-mt-48 w-full flex justify-center bg-gray-200">
-      <div className="w-[420px] h-[52px] left-[462px] top-[994px] absolute text-center text-blue-950 text-[40px] font-bold font-['Roboto', sans_serif] mt-2">
+      <div className="w-[420px] h-[52px] top-[994px] absolute text-center text-blue-950 text-[40px] font-bold font-['Roboto', sans_serif] mt-2">
         Requisitos
         <div className="my-[1px] border-b-[3px] border-blue-400 w-[164px] mx-auto"></div>
       </div>
