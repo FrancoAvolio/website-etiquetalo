@@ -25,7 +25,7 @@ function App() {
   return (
     <div className="w-full">
       <ScrollButton />
-      <header className="relative z-30 h-[100px] w-full mt-0">
+      <header className="relative z-30 h-[110px] w-full mt-0">
         <Navbar />
       </header>
 
