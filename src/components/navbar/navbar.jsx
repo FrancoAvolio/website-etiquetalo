@@ -2,6 +2,7 @@ import React from 'react';
 import logoS from '../../assets/logoSVG.png';
 import logoAzul from '../../assets/logo_azul.png';
 import { HomeButton } from '../HomeButton/HomeButton';
+import './navbar.css'
 
 export const Navbar = () => {
   return (
@@ -21,14 +22,14 @@ export const Navbar = () => {
             alt="logo de etiquetalo "
           />
         </div>
-        <ul className="flex justify-center px-6 gap-4">
-          <li className="px-3 text-white text-lg font-bold font-['Roboto', 'sans_serif']">
+        <ul className="flex justify-center px-6 gap-8">
+          <li className=" text-white text-lg font-bold font-['Roboto', 'sans_serif'] subrayado">
             Nuestros Productos
           </li>
-          <li className="px-3 text-white text-lg font-bold font-['Roboto', 'sans_serif']">
+          <li className=" text-white text-lg font-bold font-['Roboto', 'sans_serif'] subrayado">
             Nuestros Servicios
           </li>
-          <li className="px-3 text-white text-lg font-bold font-['Roboto', 'sans_serif']">
+          <li className=" text-white text-lg font-bold font-['Roboto', 'sans_serif'] subrayado">
             ¿Por qué elegirnos?
           </li>
           <li className="-mt-1">
