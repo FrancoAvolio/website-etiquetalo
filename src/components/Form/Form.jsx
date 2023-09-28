@@ -10,7 +10,6 @@ const Form = () => {
   const [loading, setLoading] = useState(false);
   const [success, setSuccess] = useState(false);
 
-
   const sendEmail = (e) => {
     e.preventDefault();
     setLoading(true);
@@ -107,6 +106,7 @@ const Form = () => {
               value={message}
               onChange={(e) => setMessage(e.target.value)}
               required
+              placeholder="Ingrese aqui su tipo de etiqueta, sus medidas y los detalles que creas necesarios"
             ></textarea>
           </div>
           <div className="text-center">
