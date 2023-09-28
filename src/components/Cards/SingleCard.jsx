@@ -9,28 +9,29 @@ import {
 
 export function SingleCard({ image, title, list, list2 }) {
   return (
-    <Card className="mt-4 w-72 gap-8 object-cover bg-azul-card rounded-none rounded-t-xl">
-      <CardHeader
-        color="blue-gray"
-        className="mx-[1.2px] mt-[0.8px] w-full h-[233px] shadow-md rounded-t-xl rounded-b-none"
-      >
-        <img className="rounded-none z-50" src={image} alt="card-image" />
-      </CardHeader>
-      <CardBody className='h-[138px] w-full'>
-        <Typography variant="h4" className="-mt-16 text-white text-left">
+    <div className="w-286 h-[435px]">
+      <div className="bg-gray-200">
+        <img
+          src={image}
+          alt="Imagen"
+          className="w-full h-[233px] object-cover"
+        />
+      </div>
+      <div className="bg-azul-card p-4">
+        <p className=" text-gray-200 text-xl font-bold font-['Roboto, sans_serif']">
           {title}
-        </Typography>
-        <Typography className="text-gray-300 text-left mt-4 font-normal font-['Roboto, sans_serif']">
-          <li>{list}</li>
-          <li>{list2}</li>
-        </Typography>
-      </CardBody>
-      <CardFooter className="-mt-10 pt-0 text-left">
-        <Button className="bg-white mt-2 px-7 text-azul-card border rounded-full border-azul-card font-['Roboto, sans_serif'] hover:bg-gray-200 transition-all">
+        </p>
+        <li className="mt-1 text-gray-200 text-base font-['Roboto, sans_serif']">
+          {list}
+        </li>
+        <li className=" text-gray-200 text-base font-['Roboto, sans_serif']">
+          {list2}
+        </li>
+        <button class="bg-white text-cyan-900 py-1 rounded-full mt-2 px-[21.74px] text-center text-sm font-semibold font-['Poppins, sans_serif'] leading-normal tracking-tight transition-all">
           Pedir
-        </Button>
-      </CardFooter>
-    </Card>
+        </button>
+      </div>
+    </div>
   );
 }
 

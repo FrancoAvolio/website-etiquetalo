@@ -2,7 +2,7 @@ import Cards from '../Cards/Cards';
 
 const Products = () => {
   return (
-    <section className="w-full h-256 bg-[#E8E8E8] -mt-2">
+    <section className="w-full h-full bg-[#E8E8E8] -mt-2">
       <div className="text-center text-[#16284E] text-[40px] font-bold font-['Roboto', sans_serif] mt-2">
         Nuestros Productos
         <div className="my-[1px] border-b-[3px] border-[#5BB4EB] w-[295px] mx-auto"></div>
@@ -13,7 +13,7 @@ const Products = () => {
           aplicaciones:
         </p>
       </div>
-      <div className="w-full flex justify-center">
+      <div className="w-full flex justify-center h-full">
         <Cards />
       </div>
     </section>

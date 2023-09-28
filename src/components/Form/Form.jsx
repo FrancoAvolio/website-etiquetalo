@@ -34,7 +34,7 @@ const Form = () => {
   };
 
   return (
-    <div className="max-w-[72rem] px-4 pt-10 mx-auto">
+    <div className="max-w-[72rem] px-4 pt-10 mx-auto mt-10">
       <div className="flex mx-auto">
         <form
           onSubmit={sendEmail}

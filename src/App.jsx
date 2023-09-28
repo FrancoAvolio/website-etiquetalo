@@ -96,7 +96,7 @@ function App() {
         </section>
       </div>
 
-      <div className="relative z-20 bg-[#E8E8E8]">
+      <div className="bg-[#E8E8E8]">
         <Products className="" />
         <Form />
       </div>
