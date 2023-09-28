@@ -10,7 +10,7 @@ import {
 export function SingleCard({ image, title, list, list2 }) {
   return (
     <div className="w-286 h-[435px]">
-      <div className="bg-gray-200">
+      <div className="bg-gray-200 rounded-t-[20px] bg-transparent">
         <img
           src={image}
           alt="Imagen"
