@@ -7,7 +7,7 @@ const Products = () => {
         Nuestros Productos
         <div className="my-[1px] border-b-[3px] border-[#5BB4EB] w-[295px] mx-auto"></div>
         {/* <div className="-mt-0.5 border-b-[3px] border-gray-400 w-[295px] mx-auto"></div> */}
-        <p className="mt-4 mb-6 text-[#24485E] text-lg font-normal font-['Roboto, sans_serif']">
+        <p className="mt-4 mb-6 text-second-blue text-xl font-normal font-['Roboto, sans_serif']">
           Dependiendo del material de la etiqueta y del ribbon, ofrecemos
           productos en <br /> distintas calidades, segun tus necesidades y
           aplicaciones:
