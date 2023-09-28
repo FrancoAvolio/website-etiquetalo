@@ -10,6 +10,7 @@ const Form = () => {
   const [loading, setLoading] = useState(false);
   const [success, setSuccess] = useState(false);
 
+
   const sendEmail = (e) => {
     e.preventDefault();
     setLoading(true);
@@ -105,6 +106,7 @@ const Form = () => {
               className="w-full p-6 transition duration-500 bg-gray-100 border-2 rounded-md focus:outline-none focus:border-black"
               value={message}
               onChange={(e) => setMessage(e.target.value)}
+              required
             ></textarea>
           </div>
           <div className="text-center">

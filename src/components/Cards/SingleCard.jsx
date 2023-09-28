@@ -27,7 +27,7 @@ export function SingleCard({ image, title, list, list2 }) {
         <li className=" text-gray-200 text-base font-['Roboto, sans_serif']">
           {list2}
         </li>
-        <button class="bg-white text-cyan-900 py-1 rounded-full mt-2 px-[21.74px] text-center text-sm font-semibold font-['Poppins, sans_serif'] leading-normal tracking-tight transition-all">
+        <button className="bg-white text-second-blue py-1 rounded-full mt-2 px-[21.74px] text-center text-sm font-semibold font-['Poppins, sans_serif'] leading-normal tracking-tight transition-all">
           Pedir
         </button>
       </div>
