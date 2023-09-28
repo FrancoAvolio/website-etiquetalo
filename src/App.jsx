@@ -87,10 +87,14 @@ function App() {
             titulo={'Color de base a eleccion'}
             imagen={imageUrl2}
           />
-          <RequisitosCard
-            titulo={'Textiles y autoadhesivas'}
-            imagen={imageUrl4}
-          />
+          <div className="w-48 h-[170px] bg-white rounded-[20px] shadow-xl shadow-gray-400 border-2 border-white">
+            <div className="">
+              <img className="mx-auto w-full h-[120px]" src={imageUrl4} />
+              <p className="text-xl font-bold -mt-5 text-center text-text-blue font-['Roboto, sans_serif']">
+                Textiles Y Autoadhesivas
+              </p>
+            </div>
+          </div>
           <RequisitosCard titulo={'Único color'} imagen={imageUrl5} />
           <RequisitosCard titulo={'Ancho 110mm'} imagen={imageUrl} />
         </section>

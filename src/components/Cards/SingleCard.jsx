@@ -1,11 +1,3 @@
-import {
-  Card,
-  CardHeader,
-  CardBody,
-  CardFooter,
-  Typography,
-  Button,
-} from '@material-tailwind/react';
 
 export function SingleCard({ image, title, list, list2 }) {
   return (
