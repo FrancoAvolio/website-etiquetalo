@@ -35,7 +35,7 @@ function App() {
         <Navbar />
       </header>
 
-      <section className="relative z-20 mb-[60px] mt-[70px] ps-[150px]">
+      <section className="relative z-20 mb-[80px] mt-[70px] ps-[150px]">
         
         <h1 className=" leading-[100px] h-[200px] w-[600px] text-gray-200 text-[80px] font-bold font-['Roboto', 'sans_serif']">
           Etiquetas
@@ -51,7 +51,7 @@ function App() {
 
       </section>
 
-      <section className=" h-[200px] w-[1200] relative z-20 flex items-center align-items justify-center gap-5 ">
+      <section className=" h-[200px] w-[1200] relative z-20 flex items-center align-items justify-center gap-5 my-[30px]">
         <HomeCard titulo={'Somos profesionales'} imagen={handshake} />
 
         <HomeCard titulo={'Nos Gusta lo que hacemos'} imagen={tag_heart} />
@@ -74,7 +74,7 @@ function App() {
       <div className="absolute top-0 bottom-0 h-[700px] w-full z-10">
         <img
           src={background}
-          className="absolute top-0 bottom-0 w-full z-10 h-[850px]"
+          className="absolute top-0 bottom-0 w-full z-10 h-[800px]"
           alt="Vite logo"
         />
       </div>
