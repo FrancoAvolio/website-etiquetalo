@@ -46,7 +46,7 @@ function App() {
         <HomeButton titulo={'Ver servicios'} />
       </section>
 
-      <section className=" h-[200px] w-[1200] relative z-20 flex items-center align-items justify-center gap-5 ">
+      <section className=" h-[200px] w-[1200] relative z-20 flex items-center align-items justify-center gap-5 my-[30px]">
         <HomeCard titulo={'Somos profesionales'} imagen={handshake} />
 
         <HomeCard titulo={'Nos Gusta lo que hacemos'} imagen={tag_heart} />
@@ -67,7 +67,7 @@ function App() {
       <div className="absolute top-0 bottom-0 h-[700px] w-full z-10">
         <img
           src={background}
-          className="absolute top-0 bottom-0 w-full z-10 h-[850px]"
+          className="absolute top-0 bottom-0 w-full z-10 h-[800px]"
           alt="Vite logo"
         />
       </div>
