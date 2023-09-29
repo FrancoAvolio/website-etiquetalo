@@ -34,7 +34,7 @@ const Form = () => {
   };
 
   return (
-    <div className="max-w-[72rem] px-4 pt-10 mx-auto">
+    <div className="max-w-[72rem] px-4 pt-10 mx-auto mt-10">
       <div className="flex mx-auto">
         <form
           onSubmit={sendEmail}
@@ -105,6 +105,8 @@ const Form = () => {
               className="w-full p-6 transition duration-500 bg-gray-100 border-2 rounded-md focus:outline-none focus:border-black"
               value={message}
               onChange={(e) => setMessage(e.target.value)}
+              required
+              placeholder="Ingrese aqui su tipo de etiqueta, sus medidas y los detalles que creas necesarios"
             ></textarea>
           </div>
           <div className="text-center">

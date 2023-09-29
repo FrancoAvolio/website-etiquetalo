@@ -25,21 +25,18 @@ import imageUrl4 from '../src/assets/change.svg';
 import imageUrl5 from '../src/assets/tear.svg';
 
 function App() {
-
-
   return (
     <div className="w-full">
-
       <ScrollButton />
       <header className="relative z-30 h-[110px] w-full mt-0">
         <Navbar />
       </header>
 
-      <section className="relative z-20 mb-[80px] mt-[150px] ps-[150px]">
+      <section className="relative z-20 mb-[80px] mt-[70px] ps-[150px]">
         
-        <h1 className=" mb-2 leading-[66px] w-[800px] h-[135px] text-gray-200 text-6xl font-bold font-['Roboto', 'sans_serif']">
-          Impresión de
-          <br />etiquetas a medida
+        <h1 className=" leading-[100px] h-[200px] w-[600px] text-gray-200 text-[80px] font-bold font-['Roboto', 'sans_serif']">
+          Etiquetas
+          <br />a medida
         </h1>
 
         <p className=" mb-5 w-473 leading-tight text-white text-md font-normal font-['Roboto', 'sans_serif']">
@@ -48,7 +45,6 @@ function App() {
         </p>
 
         <HomeButton titulo={'Ver servicios'} />
-
       </section>
 
       <section className=" h-[200px] w-[1200] relative z-20 flex items-center align-items justify-center gap-5 my-[30px]">
@@ -61,15 +57,13 @@ function App() {
         <HomeCard titulo={'Atentos a tus consultas'} imagen={headset} />
       </section>
 
-
-      <div className='relative z-30'>
+      <div className="relative z-30">
         <section className="grid place-items-center bg-[#25D366] w-[46px] h-[46px] z-25 fixed bottom-[30px] right-[2.35rem] rounded-full hover:w-[100px] hover:ease-in-out hover:duration-300">
           <div className="grid place-items-center align-items-center w-[46px] h-[46px]">
             <AiOutlineWhatsApp className="p-2 text-white text-[46px]" />
           </div>
         </section>
       </div>
-
 
       <div className="absolute top-0 bottom-0 h-[700px] w-full z-10">
         <img
@@ -78,37 +72,39 @@ function App() {
           alt="Vite logo"
         />
       </div>
-      
-      {/* <Section /> */}
-      <div className=' relative z-20 bg-[#E8E8E8]'>
 
-        <div className='flex items-center justify-center pt-[50px]'>
+      {/* <Section /> */}
+      <div className=" relative z-20 bg-[#E8E8E8]">
+        <div className="flex items-center justify-center pt-[50px]">
           <div className=" text-blue-950 text-[40px] font-bold font-['Roboto', sans_serif] text-[#16284E]">
             <h2>Requisitos</h2>
             <div className="my-[1px] border-b-[3px] border-[#5BB4EB] w-[164px] mx-auto"></div>
           </div>
-
         </div>
 
-        <section className="  h-[430px] w-full flex items-center align-items justify-center gap-5 mx-4 ">
-          <RequisitosCard titulo={'Ancho 110mm'} imagen={imageUrl} />
-
-          <RequisitosCard titulo={'Color de etiqueta a eleccion'} imagen={imageUrl2} />
-
+        <section className=" h-[430px] w-full flex items-center align-items justify-center gap-5 mx-4 ">
           <RequisitosCard titulo={'Largo ilimitado'} imagen={imageUrl3} />
-
-          <RequisitosCard titulo={'Textiles y autoadhesivas'} imagen={imageUrl4} />
-
-          <RequisitosCard titulo={'Unico color'} imagen={imageUrl5} />
-
+          <RequisitosCard
+            titulo={'Color de base a eleccion'}
+            imagen={imageUrl2}
+          />
+          <div className="w-48 h-[170px] bg-white rounded-[20px] shadow-xl shadow-gray-400 border-2 border-white">
+            <div className="">
+              <img className="mx-auto w-full h-[120px]" src={imageUrl4} />
+              <p className="text-xl font-bold -mt-5 text-center text-text-blue font-['Roboto, sans_serif']">
+                Textiles Y Autoadhesivas
+              </p>
+            </div>
+          </div>
+          <RequisitosCard titulo={'Único color'} imagen={imageUrl5} />
+          <RequisitosCard titulo={'Ancho 110mm'} imagen={imageUrl} />
         </section>
       </div>
-      
-      <div className='relative z-20 bg-[#E8E8E8]'>
-        <Products className='' />
+
+      <div className="bg-[#E8E8E8]">
+        <Products className="" />
         <Form />
       </div>
-
     </div>
   );
 }

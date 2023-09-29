@@ -32,6 +32,8 @@ module.exports = withMT({
       },
       colors: {
         'azul-card': '#16284E',
+        'text-blue': '#16284E',
+        'second-blue': '#24485E',
       },
     },
   },

@@ -1,35 +1,29 @@
-import {
-  Card,
-  CardHeader,
-  CardBody,
-  CardFooter,
-  Typography,
-  Button,
-} from '@material-tailwind/react';
 
-export function SingleCard({ image, title }) {
+export function SingleCard({ image, title, list, list2 }) {
   return (
-    <Card className="mt-4 h-[480px] w-72 gap-8 object-cover bg-azul-card rounded-none rounded-t-xl">
-      <CardHeader
-        color="blue-gray"
-        className="mx-[1.2px] mt-[0.8px]  w-full object-cover shadow-md rounded-t-xl rounded-b-none"
-      >
-        <img className="rounded-none" src={image} alt="card-image" />
-      </CardHeader>
-      <CardBody>
-        <Typography variant="h4" className="-mt-10 mb-2 text-white text-left">
+    <div className="w-286 h-[435px]">
+      <div className="bg-gray-200 rounded-t-[20px] bg-transparent">
+        <img
+          src={image}
+          alt="Imagen"
+          className="w-full h-[233px] object-cover"
+        />
+      </div>
+      <div className="bg-azul-card p-4">
+        <p className=" text-gray-200 text-xl font-bold font-['Roboto, sans_serif']">
           {title}
-        </Typography>
-        <Typography className="text-gray-300 text-left mt-4 font-normal font-['Roboto, sans_serif']">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, cumque.
-        </Typography>
-      </CardBody>
-      <CardFooter className="-mt-10 pt-0 text-left">
-        <Button className="bg-white -mt-2 text-azul-card border border-azul-card font-['Roboto, sans_serif'] hover:bg-gray-200 transition-all">
+        </p>
+        <li className="mt-1 text-gray-200 text-base font-['Roboto, sans_serif']">
+          {list}
+        </li>
+        <li className=" text-gray-200 text-base font-['Roboto, sans_serif']">
+          {list2}
+        </li>
+        <button className="bg-white text-second-blue py-1 rounded-full mt-2 px-[21.74px] text-center text-sm font-semibold font-['Poppins, sans_serif'] leading-normal tracking-tight transition-all">
           Pedir
-        </Button>
-      </CardFooter>
-    </Card>
+        </button>
+      </div>
+    </div>
   );
 }
 
