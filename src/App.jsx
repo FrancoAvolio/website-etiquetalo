@@ -67,7 +67,7 @@ function App() {
       <div className="absolute top-0 bottom-0 h-[800px] w-full z-10">
         <img
           src={background}
-          className="absolute top-0 bottom-0 w-full z-10 h-[660px]"
+          className="absolute top-0 bottom-0 w-full z-10 h-[630px]"
           alt="Vite logo"
         />
       </div>
