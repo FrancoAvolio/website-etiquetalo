@@ -37,7 +37,7 @@ function App() {
 
       <section className="relative z-20 mb-[80px] mt-[70px] ps-[150px]">
         
-        <h1 className=" leading-[66px] w-[800px] h-[135px] text-gray-200 text-6xl font-bold font-['Roboto', 'sans_serif']">
+        <h1 className=" mb-2 leading-[66px] w-[800px] h-[135px] text-gray-200 text-6xl font-bold font-['Roboto', 'sans_serif']">
           Impresión de
           <br />etiquetas a medida
         </h1>
