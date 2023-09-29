@@ -65,10 +65,10 @@ function App() {
         </section>
       </div>
 
-      <div className="absolute top-0 bottom-0 h-[700px] w-full z-10">
+      <div className="absolute top-0 bottom-0 h-[800px] w-full z-10">
         <img
           src={background}
-          className="absolute top-0 bottom-0 w-full z-10 h-[700px]"
+          className="absolute top-0 bottom-0 w-full z-10 h-[660px]"
           alt="Vite logo"
         />
       </div>
