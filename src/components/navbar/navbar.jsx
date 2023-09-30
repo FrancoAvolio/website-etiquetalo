@@ -8,11 +8,11 @@ export const Navbar = () => {
   return (
     <div className="fadeIn fixed top-0 w-full items-center">
       <nav
-        className="flex items-center justify-between px-5 mb-10 mx-[40px] my-[20px] "
+        className="flex items-center justify-between px-5 mb-10 mx-10 my-[1.25rem] sm:h-auto sm:p-0 "
         style={{
           background: 'rgba(22, 40, 78, 0.60)',
           borderRadius: 20,
-          backdropFilter: 'blur(2px)',
+          backdropFilter: 'blur(0.125rem)',
         }}
       >
         <div className="logo">
@@ -22,7 +22,7 @@ export const Navbar = () => {
             alt="logo de etiquetalo "
           />
         </div>
-        <ul className="flex justify-center px-6 gap-8">
+        <ul className="flex justify-center px-6 gap-8 lg:flex-wrap md:flex-wrap sm:flex-wrap sm:h-auto">
           <li className=" text-white text-lg font-bold font-['Roboto', 'sans_serif'] subrayado">
             Nuestros Productos
           </li>
