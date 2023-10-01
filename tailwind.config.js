@@ -36,6 +36,24 @@ module.exports = withMT({
         'second-blue': '#24485E',
       },
     },
+    screens : {
+      // '2sm' : '320px',
+
+      'sm': '640px',
+      // => @media (min-width: 640px) { ... }
+
+      'md': '768x',
+      // => @media (min-width: 1024px) { ... }
+
+      'lg': '1024px',
+      // => @media (min-width: 1280px) { ... }
+
+      'xl': '1280px',
+      // => @media (min-width: 1024px) { ... }
+
+      '2xl': '1536px',
+      // => @media (min-width: 1280px) { ... }
+    }
   },
   plugins: [],
 });
