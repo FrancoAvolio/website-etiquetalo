@@ -33,7 +33,7 @@ import DrawerAppBar from './components/Bar/DrawerAppBar';
 
 function App() {
   return (
-    <div className="w-full bg-[#e8e8e8]">
+    <div className="w-full bg-white">
       <ScrollButton />
       <header className="relative z-30 h-[6.875rem] w-full mt-0">
         <Navbar />
@@ -64,14 +64,6 @@ function App() {
         <HomeCard titulo={'Atentos a tus consultas'} imagen={headset} />
       </section>
 
-      <div className="relative z-30">
-        <section className="grid place-items-center bg-[#25D366] w-[2.875rem] h-[2.875rem] z-25 fixed bottom-[1.875rem] right-[2.35rem] rounded-full hover:w-[6.25rem] hover:ease-in-out hover:duration-300">
-          <div className="grid place-items-center align-items-center w-[2.875rem] h-[2.875rem]">
-            <AiOutlineWhatsApp className="p-2 text-white text-[2.875rem]" />
-          </div>
-        </section>
-      </div>
-
       <div className="absolute top-0 bottom-0 h-[50rem] w-full z-10">
         <img
           src={background}
@@ -80,8 +72,13 @@ function App() {
         />
       </div>
 
+
+
+
+
+
       {/* <Section /> */}
-      <div className="relative z-20 bg-[#E8E8E8]">
+      <div className="relative z-20 bg-white">
         <div className="flex items-center justify-center pt-[3.125rem]">
           <div className="text-blue-950 text-[2.5rem] font-bold font-['Roboto', sans_serif] text-[#16284E]">
             <h2>Nuestros productos</h2>
@@ -107,8 +104,18 @@ function App() {
         </section>
       </div>
 
+
+
+
+
+
       <div className="bg-[#E8E8E8] 2sm:p-2">
-        <Products className="" />
+        <Products className=" bg-white" />
+
+
+
+
+
 
         <div className='flex justify-center flex-col w-full h-[55.625rem] flex-wrap px-[60px]' style={{background: 'linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #E8E8E8 31%)'}}>
           <div className="text-center text-[#16284E] text-[2.5rem] font-bold font-['Roboto', sans_serif] mt-2 mb-[6rem] flex-wrap">
@@ -161,6 +168,13 @@ function App() {
             <img src={imagenElegirnos} alt="" />
           </div>
           
+          <div className="relative z-30">
+            <section className="grid place-items-center bg-[#25D366] w-[2.875rem] h-[2.875rem] z-25 fixed bottom-[1.875rem] right-[2.35rem] rounded-full hover:w-[6.25rem] hover:ease-in-out hover:duration-300">
+              <div className="grid place-items-center align-items-center w-[2.875rem] h-[2.875rem]">
+                <AiOutlineWhatsApp className="p-2 text-white text-[2.875rem]" />
+              </div>
+            </section>
+          </div>
         </div>
 
         <Form />
