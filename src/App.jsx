@@ -110,13 +110,13 @@ function App() {
       <div className="bg-[#E8E8E8] 2sm:p-2">
         <Products className="" />
 
-        <div className='flex justify-center flex-col w-full h-[55.625rem] flex-wrap' style={{background: 'linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #E8E8E8 31%)'}}>
-          <div className="text-center text-[#16284E] text-[2.5rem] font-bold font-['Roboto', sans_serif] mt-2 mb-11 flex-wrap">
+        <div className='flex justify-center flex-col w-full h-[55.625rem] flex-wrap px-[60px]' style={{background: 'linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #E8E8E8 31%)'}}>
+          <div className="text-center text-[#16284E] text-[2.5rem] font-bold font-['Roboto', sans_serif] mt-2 mb-[6rem] flex-wrap">
             ¿Por qué elegirnos?
             <div className="my-[1px] border-b-[3px] border-[#5BB4EB] w-[295px] mx-auto"></div>
           </div>
 
-          <div className='flex justify-center items-center gap-[130px]'>
+          <div className='flex justify-center items-center gap-[130px] p-11'>
             <ul className='flex flex-col gap-[70px] justify-between'>
 
               <div className='relative w-[31.25rem] h-[8.75rem] rounded-tr-[20px] rounded-bl-[20px] text-[#16284E] grid items-center py-4 ps-[5rem] pe-4' style={{background:'rgba(61, 121, 158, 0.30)',}}>
