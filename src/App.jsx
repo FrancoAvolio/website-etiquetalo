@@ -11,6 +11,8 @@ import headset from './assets/headset.svg';
 import { Navbar } from './components/navbar/navbar';
 import { HomeCard } from './components/HomeCard/HomeCard';
 import { HomeButton } from './components/HomeButton/HomeButton';
+// import {DrawerAppBar} from './components/Bar/DrawerAppBar';
+
 // import Section from './components/Sections/Section';
 import ScrollButton from './components/Scroll/ScrollButton';
 import Products from './components/Sections/Products';
@@ -24,14 +26,18 @@ import imageUrl3 from '../src/assets/rulermeasure.svg';
 import imageUrl4 from '../src/assets/change.svg';
 import imageUrl5 from '../src/assets/tear.svg';
 
+import { Drawer } from '@material-tailwind/react';
+import DrawerAppBar from './components/Bar/DrawerAppBar';
+
 function App() {
   return (
     <div className="w-full">
       <ScrollButton />
       <header className="relative z-30 h-[6.875rem] w-full mt-0">
-        <Navbar />
+        {/* <Navbar /> */}
+        <DrawerAppBar />
       </header>
-
+      
       <section className="relative z-20 sm:mb-20 sm:mt-[4.375rem] sm:ps-20 lg:ps-40 flex flex-col sm:flex-wrap max-sm:flex-wrap  flex-wrap h-auto ps-4 mb-10 text-xs my-10">
         
         <h1 className="sm:mb-4 sm:leading-[4.125rem] sm:h-[8.438rem] text-gray-200 sm:text-[3.75rem] font-bold font-['Roboto', 'sans_serif'] h-auto text-5xl my-4">
