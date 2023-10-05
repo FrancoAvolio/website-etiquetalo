@@ -57,7 +57,7 @@ function App() {
       <section className="md:h-[12.5rem] sm:h-auto sm:p-5 relative z-20 flex items-center justify-center gap-5 sm:my-[1.875rem] sm:flex-wrap sh-auto flex-wrap my-5 px-7">
         <HomeCard titulo={'Somos profesionales'} imagen={handshake} />
 
-        <HomeCard titulo={'Nos Gusta lo que hacemos'} imagen={tag_heart} />
+        <HomeCard titulo={'Nos gusta lo que hacemos'} imagen={tag_heart} />
 
         <HomeCard titulo={'Soluciones de calidad'} imagen={hands_heart} />
 
@@ -84,7 +84,7 @@ function App() {
       <div className="relative z-20 bg-[#E8E8E8]">
         <div className="flex items-center justify-center pt-[3.125rem]">
           <div className="text-blue-950 text-[2.5rem] font-bold font-['Roboto', sans_serif] text-[#16284E]">
-            <h2>Requisitos</h2>
+            <h2>Nuestros productos</h2>
             <div className="my-[0.063rem] border-b-[0.188rem] border-[#5BB4EB] w-[10.25rem] mx-auto"></div>
           </div>
         </div>
