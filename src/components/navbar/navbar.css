@@ -4,7 +4,7 @@
 }
 
 .subrayado::after {
-    @apply  content-[''] bg-[#5BB4EB] h-[2px] w-[0%] left-0 -bottom-[1px] rounded-xl absolute duration-300
+    @apply  content-[''] bg-blue-600 h-[2px] w-[0%] left-0 -bottom-[1px] rounded-xl absolute duration-300
 }
 .subrayado:hover::after {
     @apply w-[100%]

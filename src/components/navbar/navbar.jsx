@@ -22,18 +22,18 @@ export const Navbar = () => {
             alt="logo de etiquetalo "
           />
         </div>
-        <ul className="flex justify-center px-6 gap-8 lg:flex-wrap md:flex-wrap sm:flex-wrap sm:h-auto">
-          <li className=" text-white text-lg font-bold font-['Roboto', 'sans_serif'] subrayado">
-            Nuestros Productos
+        <ul className="flex justify-center font-semibold px-6 gap-8 lg:flex-wrap md:flex-wrap sm:flex-wrap sm:h-auto">
+          <li className=" text-white text-lg font-semibold font-['Roboto', 'sans_serif'] subrayado">
+            Nuestros productos
           </li>
-          <li className=" text-white text-lg font-bold font-['Roboto', 'sans_serif'] subrayado">
-            Nuestros Servicios
+          <li className=" text-white text-lg font-semibold font-['Roboto', 'sans_serif'] subrayado">
+            Nuestros servicios
           </li>
-          <li className=" text-white text-lg font-bold font-['Roboto', 'sans_serif'] subrayado">
+          <li className=" text-white text-lg font-semibold font-['Roboto', 'sans_serif'] subrayado">
             ¿Por qué elegirnos?
           </li>
           <li className="-mt-1">
-            <HomeButton titulo={'Contactanos'} />
+            <HomeButton titulo={'Contáctanos'} />
           </li>
         </ul>
       </nav>
