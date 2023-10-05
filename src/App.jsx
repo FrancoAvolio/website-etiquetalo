@@ -133,8 +133,8 @@ function App() {
                   <div className='absolute translate-x-[120%] translate-y-[-10%] text-center text-[#F8F8F8] text-4xl font-bold' style={{textShadow: '0px 4px 4px rgba(0, 0, 0, 0.25)'}}>1</div> 
                 </div>
                 <ul className='list-disc'>
-                  <li className='text-[16px] leading-tigli font-normal font-["Roboto", "sans_serif"]'>Te ayudamos a encontrar la mejor etiqueta para tus productos.</li>
-                  <li className='text-[16px] leading-tigli font-normal font-["Roboto", "sans_serif"]'>Definimos la etiqueta según tus necesidades de control de inventario, incluyendo tipo de código, longitud de código, y tipo de etiqueta.</li>
+                  <li className='text-[16px] mb-2 leading-tight font-normal font-["Roboto", "sans_serif"]'>Te ayudamos a encontrar la mejor etiqueta para tus productos.</li>
+                  <li className='text-[16px] leading-tight font-normal font-["Roboto", "sans_serif"]'>Definimos la etiqueta según tus necesidades de control de inventario, incluyendo tipo de código, longitud de código, y tipo de etiqueta.</li>
                 </ul>
               </div>
 
@@ -145,8 +145,8 @@ function App() {
                   <div className='absolute translate-x-[120%] translate-y-[-10%] text-center text-[#F8F8F8] text-4xl font-bold' style={{textShadow: '0px 4px 4px rgba(0, 0, 0, 0.25)'}}>2</div> 
                 </div>
                 <ul className='list-disc'>
-                  <li className='text-base leading-tigli font-normal font-["Roboto", "sans_serif"]'>Garantizamos una entrega rápida y puntual de tus etiquetas.</li>
-                  <li className='text-[16px] leading-tigli font-normal font-["Roboto", "sans_serif"]'>Nos comprometemos a mantener tus proyectos en tiempo y forma.</li>
+                  <li className='text-base mb-2 leading-tight font-normal font-["Roboto", "sans_serif"]'>Garantizamos una entrega rápida y puntual de tus etiquetas.</li>
+                  <li className='text-[16px] leading-tight font-normal font-["Roboto", "sans_serif"]'>Nos comprometemos a mantener tus proyectos en tiempo y forma.</li>
                 </ul>
                 
               </div>
@@ -158,8 +158,8 @@ function App() {
                   <div className='absolute translate-x-[120%] translate-y-[-10%] text-center text-[#F8F8F8] text-4xl font-bold' style={{textShadow: '0px 4px 4px rgba(0, 0, 0, 0.25)'}}>3</div> 
                 </div>
                 <ul className='list-disc'>
-                  <li className='text-[16px] leading-tigli font-normal font-["Roboto", "sans_serif"]'>Ofrecemos un servicio completo de etiquetado para simplificar tu proceso de etiquetado.</li>
-                  <li className='text-[16px] leading-tigli font-normal font-["Roboto", "sans_serif"]'>Nuestro equipo experto se encarga de etiquetar tus productos de manera precisa y eficiente.</li>
+                  <li className='text-[16px] mb-2 leading-tight font-normal font-["Roboto", "sans_serif"]'>Ofrecemos un servicio completo de etiquetado para simplificar tu proceso de etiquetado.</li>
+                  <li className='text-[16px] leading-tight font-normal font-["Roboto", "sans_serif"]'>Nuestro equipo experto se encarga de etiquetar tus productos de manera precisa y eficiente.</li>
                 </ul>
                 
               </div>
