@@ -33,7 +33,7 @@ import DrawerAppBar from './components/Bar/DrawerAppBar';
 
 function App() {
   return (
-    <div className="w-full">
+    <div className="w-full bg-[#e8e8e8]">
       <ScrollButton />
       <header className="relative z-30 h-[6.875rem] w-full mt-0">
         <Navbar />
