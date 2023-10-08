@@ -11,9 +11,7 @@ import headset from './assets/headset.svg';
 import { Navbar } from './components/navbar/navbar';
 import { HomeCard } from './components/HomeCard/HomeCard';
 import { HomeButton } from './components/HomeButton/HomeButton';
-// import {DrawerAppBar} from './components/Bar/DrawerAppBar';
 
-// import Section from './components/Sections/Section';
 import ScrollButton from './components/Scroll/ScrollButton';
 import Products from './components/Sections/Products';
 import Form from './components/Form/Form';
@@ -28,11 +26,22 @@ import imageUrl5 from '../src/assets/tear.svg';
 import imagenElegirnos from '../src/assets/trabajador_con_etiquedadora.png';
 import cajaCeleste from './../src/assets/caja_celeste.png'
 
-import { Drawer } from '@material-tailwind/react';
-import DrawerAppBar from './components/Bar/DrawerAppBar';
  
-import {EtiquetasCard} from './components/EtiquetasCard/EtiquetasCard';
-import seguridad from './../src/assets/seguridad.png';
+import Seguridad from './../src/assets/seguridad.png';
+import Textil from './../src/assets/textil.png'
+import PlasticaTransparente from './../src/assets/plastica.png'
+import PlasticasColor from './../src/assets/plasticasColor.png'
+import EconomicasColor from './../src/assets/economicasColor.png'
+import EconomicasTermosensibles from './../src/assets/economicasTermosensibles.png'
+
+import { EtiquetasCard } from './components/EtiquetasCard/EtiquetasCard';
+
+const seguridadLista = ['OPP (plástica autoadhesiva).', 'Máxima durabilidad (5 años)', 'Sugerida para intemperie.', 'Impresión de máxima calidad.', 'Mayor costo.'];
+const textilLista = ['Poliamida / fasco (no autoadhesivas).', 'Soporta el lavado.', 'Impresión de máxima calidad.','Costo medio.'];
+const plasticasTransparentesLista = ['OPP (plástica autoadhesivas).', 'Máxima durabilidad (5 años).', 'Sugerida para intemperie.', 'Impresión de máxima calidad.', 'Costo medio.'];
+const plasticasColorLista = ['OPP (plástica autoadhesivas).','Máxima durabilidad (5 años).','Sugerida para intemperie.','Impresión de máxima calidad.','Costo medio.'];
+const economicasColor = ['Calidad de impresión simple.','NO apta para intemperie.','Baja durabilidad.','Bajo costo.'];
+const economicasTermosensibles = ['Calidad de impresión básica.', 'NO apta para intemperie.','Mínima durabilidad.','Muy bajo costo.'];
 
 function App() {
   return (
@@ -75,12 +84,6 @@ function App() {
         />
       </div>
 
-
-
-
-
-
-      {/* <Section /> */}
       <div className="relative z-20 bg-white">
         <div className="flex items-center justify-center pt-[3.125rem]">
           <div className="text-blue-950 text-[2.5rem] font-bold font-['Roboto', sans_serif] text-[#16284E]">
@@ -108,17 +111,42 @@ function App() {
       </div>
 
 
-
-
-
-
       <div className="bg-[#E8E8E8] 2sm:p-2">
         <Products className=" bg-white" />
 
-
-
-
-
+        <div className='w-full flex justify-center h-full'>
+          <div className='grid 2xl:grid-cols-3 xl:grid-cols-3 lg:grid-cols-3 grid-cols-2 gap-4 mx-16 bg-white'>
+            <EtiquetasCard 
+              titulo={'Seguridad (VOID)'} 
+              imagen={Seguridad} 
+              aplicacion={'bienes de cambio exterior y de uso.'} 
+              lista={seguridadLista} /> 
+            <EtiquetasCard 
+              titulo={'Textiles'}
+              imagen={Textil} 
+              aplicacion={'Identifica las prendas'}
+              lista={textilLista} /> 
+            <EtiquetasCard 
+              titulo={'Plásticas Transparentes '} 
+              imagen={PlasticaTransparente} 
+              aplicacion={'varias'} 
+              lista={plasticasTransparentesLista} /> 
+            <EtiquetasCard titulo={'Plásticas color'} 
+              imagen={PlasticasColor} 
+              aplicacion={'varias.'} 
+              lista={plasticasColorLista} /> 
+            <EtiquetasCard 
+              titulo={'Económicas Ilustración color'} 
+              imagen={EconomicasColor} 
+              aplicacion={'Aplicación: Bienes de cambio de rotacion media/alta. '} 
+              lista={economicasColor} /> 
+            <EtiquetasCard 
+              titulo={'Económicas termosensible autoadhesiva.'} 
+              imagen={EconomicasTermosensibles} 
+              aplicacion={'Aplicación: Bienes de cambio de alta rotación. '} 
+              lista={economicasTermosensibles} />
+          </div>
+        </div> 
 
         <div className='flex justify-center flex-col w-full h-[55.625rem] flex-wrap px-[60px]' style={{background: 'linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #E8E8E8 31%)'}}>
           <div className="text-center text-[#16284E] text-[2.5rem] font-bold font-['Roboto', sans_serif] mt-2 mb-[6rem] flex-wrap">
@@ -170,8 +198,7 @@ function App() {
             <img src={imagenElegirnos} alt="" />
           </div>
 
-          <EtiquetasCard imagen={seguridad} titulo={'seguridad'} />
-          
+
           <div className="relative z-30">
             <section className="grid place-items-center bg-[#25D366] w-[2.875rem] h-[2.875rem] z-25 fixed bottom-[1.875rem] right-[2.35rem] rounded-full hover:w-[6.25rem] hover:ease-in-out hover:duration-300">
               <div className="grid place-items-center align-items-center w-[2.875rem] h-[2.875rem]">
@@ -183,6 +210,7 @@ function App() {
 
         <Form />
       </div>
+
     </div>
   );
 }
