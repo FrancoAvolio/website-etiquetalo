@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import emailjs from '@emailjs/browser';
 import './Form.css';
 
+import {AlertMessage} from '../AlertMessage/AlertMessage'
+
 const Form = () => {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');

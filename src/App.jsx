@@ -30,6 +30,9 @@ import cajaCeleste from './../src/assets/caja_celeste.png'
 
 import { Drawer } from '@material-tailwind/react';
 import DrawerAppBar from './components/Bar/DrawerAppBar';
+ 
+import {EtiquetasCard} from './components/EtiquetasCard/EtiquetasCard';
+import seguridad from './../src/assets/seguridad.png';
 
 function App() {
   return (
@@ -86,7 +89,7 @@ function App() {
           </div>
         </div>
 
-        <section className="md:h-[26.875rem] md:w-full sm:p-5 flex items-center align-items justify-center gap-5 sm:mx-4 flex-wrap h-auto my-10 px-10">
+        <section className="md:h-[26.875rem] md:w-full sm:p-5 flex items-center align-items justify-center sm:gap-[6.688rem] sm:mx-4 flex-wrap h-auto my-10 px-10">
           {/* <RequisitosCard titulo={'Largo ilimitado'} imagen={imageUrl3} /> */}
           <RequisitosCard titulo={'Color de base a eleccion'} imagen={imageUrl2} />
 
@@ -163,10 +166,11 @@ function App() {
                 </ul>
                 
               </div>
-
             </ul>
             <img src={imagenElegirnos} alt="" />
           </div>
+
+          <EtiquetasCard imagen={seguridad} titulo={'seguridad'} />
           
           <div className="relative z-30">
             <section className="grid place-items-center bg-[#25D366] w-[2.875rem] h-[2.875rem] z-25 fixed bottom-[1.875rem] right-[2.35rem] rounded-full hover:w-[6.25rem] hover:ease-in-out hover:duration-300">
