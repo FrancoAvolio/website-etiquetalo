@@ -1,8 +1,7 @@
 import React from 'react';
-import logoS from '../../assets/logoSVG.png';
 import logoAzul from '../../assets/logo_azul.png';
 import { HomeButton } from '../HomeButton/HomeButton';
-import './navbar.css'
+import './Navbar.css'
 
 export const Navbar = () => {
   return (
