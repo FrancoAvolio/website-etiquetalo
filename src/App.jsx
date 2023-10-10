@@ -8,7 +8,7 @@ import tag_heart from './assets/tag_heart.svg';
 import hands_heart from './assets/hands_heart.svg';
 import headset from './assets/headset.svg';
 
-import { Navbar } from './components/navbar/navbar';
+import { Navbar } from './components/Navbar/Navbar';
 import { HomeCard } from './components/HomeCard/HomeCard';
 import { HomeButton } from './components/HomeButton/HomeButton';
 

@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
 import emailjs from '@emailjs/browser';
 import './Form.css';
-
-// import { AlertMessage } from '../AlertMessage/AlertMessage';
+import { AlertMessage } from '../AlertMessage/AlertMessage';
 
 const Form = () => {
   const [name, setName] = useState('');
@@ -123,13 +122,7 @@ const Form = () => {
             >
               {loading ? 'Enviando...' : 'Enviar'}
             </button>
-            {success && (
-              // <p className="text-green-500 mt-2">
-              //   El correo electrónico se envió correctamente.
-              // </p>
-              <AlertMessage />
-              
-            )}
+            {success && <AlertMessage />}
           </div>
         </form>
       </div>

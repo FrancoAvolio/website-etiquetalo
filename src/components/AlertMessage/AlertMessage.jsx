@@ -5,7 +5,7 @@ import Stack from '@mui/material/Stack';
 
 export const AlertMessage = () => {
   return (
-    <Stack sx={{ width: '100%' }} spacing={2}>
+    <Stack sx={{ width: '50%' }} spacing={2}>
       <Alert severity="success">
         <AlertTitle>¡Éxito!</AlertTitle>
         Su correo electrónico ha sido enviado con — <strong>correctamente!</strong>
