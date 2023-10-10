@@ -156,7 +156,7 @@ function App() {
 
 
 
-        <div className='flex justify-center flex-col w-full h-[55.625rem] flex-wrap px-[60px]' style={{background: 'linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #E8E8E8 31%)'}}>
+        <div className='flex justify-center flex-col w-full flex-wrap sm:px-[60px] h-auto p-2' style={{background: 'linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #E8E8E8 31%)'}}>
           <ElegirnosSection />
         </div>
 
