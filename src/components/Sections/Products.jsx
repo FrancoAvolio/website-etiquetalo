@@ -14,7 +14,7 @@ const Products = () => {
         </p>
       </div>
       <div className="w-full flex justify-center h-full">
-        <Cards />
+        {/* <Cards /> */}
       </div>
     </section>
   );

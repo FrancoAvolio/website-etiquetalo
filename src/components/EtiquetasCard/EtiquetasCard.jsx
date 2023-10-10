@@ -27,7 +27,7 @@ export const EtiquetasCard = ({titulo, imagen, aplicacion, lista}) => {
                         ))}
                     </ul>
                 </div>
-                <p className="card-info">
+                <p className="card-info w-full mx-auto p-2">
                     Aplicación: {aplicacion} 
                 </p>
             </div>

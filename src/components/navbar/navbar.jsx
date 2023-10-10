@@ -4,6 +4,13 @@ import { HomeButton } from '../HomeButton/HomeButton';
 import './Navbar.css';
 
 export const Navbar = () => {
+  const scrollToSection = (sectionId) => {
+    const section = document.getElementById(sectionId);
+    if (section) {
+      section.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <div className="fadeIn fixed top-0 w-full items-center">
       <nav
@@ -22,16 +29,25 @@ export const Navbar = () => {
           />
         </div>
         <ul className="flex justify-center font-semibold px-6 gap-8 lg:flex-wrap md:flex-wrap sm:flex-wrap sm:h-auto">
-          <li className=" text-white text-lg font-semibold font-['Roboto', 'sans_serif'] subrayado">
+          <li
+            onClick={() => scrollToSection('productos')}
+            className=" text-white text-lg font-semibold font-['Roboto', 'sans_serif'] subrayado"
+          >
             Nuestros productos
           </li>
-          <li className=" text-white text-lg font-semibold font-['Roboto', 'sans_serif'] subrayado">
+          <li
+            onClick={() => scrollToSection('servicios')}
+            className=" text-white text-lg font-semibold font-['Roboto', 'sans_serif'] subrayado"
+          >
             Nuestros servicios
           </li>
-          <li className=" text-white text-lg font-semibold font-['Roboto', 'sans_serif'] subrayado">
+          <li
+            onClick={() => scrollToSection('porque-elegirnos')}
+            className=" text-white text-lg font-semibold font-['Roboto', 'sans_serif'] subrayado"
+          >
             ¿Por qué elegirnos?
           </li>
-          <li className="-mt-1">
+          <li onClick={() => scrollToSection('form')} className="-mt-1">
             <HomeButton titulo={'Contáctanos'} />
           </li>
         </ul>

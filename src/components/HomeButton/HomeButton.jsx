@@ -5,7 +5,6 @@ export const HomeButton = ({ titulo }) => {
     <div className="w-[10.5rem] h-10 bg-white rounded-[6.25rem] hover:bg-gray-300 ">
       <a
         className="text-[#16284E] text-lg font-medium font-['Roboto', 'sans_serif'] flex align-items justify-center pt-1"
-        href="#"
       >
         {titulo}
       </a>

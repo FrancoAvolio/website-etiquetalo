@@ -2,7 +2,7 @@ import './index.css';
 import './App.css';
 
 import { AiOutlineWhatsApp } from 'react-icons/ai';
-import { Navbar } from './components/navbar/navbar';
+import { Navbar } from './components/Navbar/Navbar.jsx';
 import { HomeCard } from './components/HomeCard/HomeCard';
 import { HomeButton } from './components/HomeButton/HomeButton';
 import { RequisitosCard } from './components/RequisitosCard/RequisitosCard';
@@ -74,7 +74,7 @@ const economicasTermosensibles = [
 function App() {
   return (
     <div className="w-full bg-white">
-      <header className="relative z-30 h-[6.875rem] w-full mt-0">
+      <header className="relative z-30 h-[6.875rem] w-full mt-0 cursor-pointer">
         <Navbar />
         {/* <DrawerAppBar /> */}
       </header>
@@ -111,11 +111,11 @@ function App() {
         />
       </div>
 
-      <div className="relative z-20 bg-white">
+      <div id="productos" className="relative z-20 bg-white">
         <div className="flex items-center justify-center pt-[3.125rem]">
           <div className="text-blue-950 text-[2.5rem] font-bold font-['Roboto', sans_serif] text-[#16284E]">
             <h2>Nuestros productos</h2>
-            <div className="my-[0.063rem] border-b-[0.188rem] border-[#5BB4EB] w-[10.25rem] mx-auto"></div>
+            <div className="my-[0.063rem] border-b-[0.188rem] border-[#5BB4EB] w-[21.1rem] mx-auto"></div>
           </div>
         </div>
         <section className="md:h-[26.875rem] md:w-full sm:p-5 flex items-center align-items justify-center sm:gap-[6.688rem] sm:mx-4 flex-wrap h-auto my-10 px-10">
@@ -141,7 +141,7 @@ function App() {
         </section>
       </div>
 
-      <div className="bg-[#E8E8E8] 2sm:p-2">
+      <div id="servicios" className="bg-[#E8E8E8] 2sm:p-2">
         <Products className=" bg-white" />
 
         <div className="w-full flex justify-center h-full">
@@ -186,6 +186,7 @@ function App() {
         </div>
 
         <div
+          id="porque-elegirnos"
           className="flex justify-center flex-col w-full flex-wrap sm:px-[60px] h-auto p-2"
           style={{
             background:
@@ -194,11 +195,7 @@ function App() {
         >
           <ElegirnosSection />
         </div>
-
-        <div>
           <Form />
-        </div>
-
         <div className="relative z-30">
           <section className="grid place-items-center bg-[#25D366] w-[2.875rem] h-[2.875rem] z-25 fixed bottom-[1.875rem] right-[2.35rem] rounded-full hover:w-[6.25rem] hover:ease-in-out hover:duration-300">
             <div className="grid place-items-center align-items-center w-[2.875rem] h-[2.875rem]">
