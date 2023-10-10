@@ -12,12 +12,12 @@ export const EtiquetasCard = ({titulo, imagen, aplicacion, lista}) => {
         <div className="card">
             <img src={imagen} alt="" className="card-img" />
             <div className='absolute bottom-0 w-full h-[4rem] bg-[#16284E] flex flex-row justify-around'>
-                <h1 className=" text-[#E8E8E8] text-xl text-center font-['Roboto, sans_serif'] grid items-center">{titulo}</h1>
+                <h1 className=" text-[#E8E8E8] text-[16px] text-center font-['Roboto, sans_serif'] grid items-center">{titulo}</h1>
                 <div className='grid items-center'><MdOutlineExpandCircleDown className=' text-[#E8E8E8] text-2xl text-center rotate-180 grid items-center' /></div>
             </div>
             <div className="card-body flex flex-col gap-6 ps-12 ">
                 <div className='flex flex-row justify-around mt-4 text-[#E8E8E8]'>
-                    <h1 className=" text-xl text-center font-['Roboto, sans_serif'] grid items-center">{titulo}</h1>
+                    <h1 className=" text-[16px] text-center font-['Roboto, sans_serif'] grid items-center">{titulo}</h1>
                     <div className='grid items-center'><MdOutlineExpandCircleDown className='text-2xl grid items-center' /></div>
                 </div>
                 <div className="card-sub-title">

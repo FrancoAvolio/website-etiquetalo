@@ -23,8 +23,7 @@ import imageUrl from '../src/assets/ruler.svg';
 import imageUrl2 from '../src/assets/etiqueta.svg';
 import imageUrl4 from '../src/assets/change.svg';
 import imageUrl5 from '../src/assets/tear.svg';
-import imagenElegirnos from '../src/assets/trabajador_con_etiquedadora.png';
-import cajaCeleste from './../src/assets/caja_celeste.png'
+
 
 import Seguridad from './../src/assets/seguridad.png';
 import Textil from './../src/assets/textil.png'
@@ -43,7 +42,7 @@ const economicasTermosensibles = ['Calidad de impresión básica.', 'NO apta par
 function App() {
   return (
     <div className="w-full bg-white">
-
+      
       <header className="relative z-30 h-[6.875rem] w-full mt-0">
         <Navbar />
         {/* <DrawerAppBar /> */}
