@@ -113,10 +113,14 @@ const Form = () => {
               </div>
             </div>
             <p className='text-white text-[20px] font-["Roboto,sans_serif"] mx-auto text-center mt-6'>
-              Te ayudamos a armar tu etiqueta, usa esta guia para hacer tu pedido!
+              Te ayudamos a armar tu etiqueta, usa esta guia para hacer tu
+              pedido!
             </p>
             <div className="w-full mt-2">
-              <label htmlFor="message" className="text-left font-medium text-white">
+              <label
+                htmlFor="message"
+                className="text-left font-medium text-white"
+              >
                 Mensaje
               </label>
               <textarea
