@@ -1,4 +1,4 @@
-
+/* 
 .subrayado {
     @apply relative
 }
@@ -8,4 +8,4 @@
 }
 .subrayado:hover::after {
     @apply w-[100%]  bg-[#5BB4EB]
-}
+} */
