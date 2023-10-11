@@ -39,10 +39,10 @@ export const EtiquetasCard = ({titulo, imagen, aplicacion, lista}) => {
 
             { isVisible && (
 
-                <div className="card-body flex flex-col gap-6 ps-12 ">
+                <div className="card-body flex flex-col gap-6 ps-12">
                     <div className='flex flex-row mt-4 text-[#E8E8E8] justify-around'>
                         <h1 className=" text-base text-center font-['Roboto, sans_serif'] grid items-center">{titulo}</h1>
-                        <button type='button' onClick={ocultarTarjeta} className='grid items-center'> <InfoButton className="" titulo={downIcon}/></button>
+                        <button type='button' onClick={ocultarTarjeta} className='grid items-center px-3'> <InfoButton className="" titulo={downIcon}/></button>
                     </div>
                     <div className="card-sub-title">
                         <ul className="list-disc font-['Roboto, sans_serif']" >
