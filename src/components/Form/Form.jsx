@@ -37,7 +37,7 @@ const Form = () => {
   return (
     <section
       id="form"
-      className="bg-gradient-to-b from-[#162843] to-[#3d799e] p-24"
+      className="bg-gradient-to-b from-[#162843] to-[#3d799e] p-12"
     >
       <div className="w-full text-center text-white text-[54px] font-semibold font-['Roboto, sans_serif']">
         ¿Listo para Transformar tu Etiquetado?
@@ -47,7 +47,7 @@ const Form = () => {
         <br />
         ¡Contáctanos hoy mismo!
       </p>
-      <div className="mt-14 w-2/3 flex mx-12">
+      <div className="mt-14 w-2/3 flex mx-[7.6%]">
         <form onSubmit={sendEmail} className="px-4 font-['Roboto, sans_serif']">
           <div className="container mx-auto">
             <div className="grid grid-cols-2 gap-4">
@@ -126,7 +126,7 @@ const Form = () => {
               <textarea
                 name="message"
                 id="message"
-                className="w-[730px] p-6 mt-2 transition duration-500 bg-gray-100 border-2 rounded-md focus:outline-none focus:border-black"
+                className="w-[680px] p-6 mt-2 transition duration-500 bg-gray-100 border-2 rounded-md focus:outline-none focus:border-black"
                 value={message}
                 onChange={(e) => setMessage(e.target.value)}
                 required
@@ -149,19 +149,28 @@ const Form = () => {
             </div>
           </div>
         </form>
-        <div className="bg-[#3D799E] w-[295px] h-[373px] mb-8 rounded-lg shadow-lg mx-10">
-          <div className="mx-14">
-            <h6 className="text-2xl text-white font-bold mt-4">
-              Ayudanos a cotizar mas rapido!
-            </h6>
-            <ul className="list-disc pl-4">
-              <li>Item 1</li>
-              <li>Item 2</li>
-              <li>Item 3</li>
-            </ul>
-            <p className="text-white mt-2">
-              
+        <div className="w-full p-6 px-12">
+          <div className="bg-[#3D799E] rounded-lg shadow-lg h-[323px] w-[298px]">
+            <p className="text-white text-center p-1">
+              Ayúdanos a cotizar aún más rápido!
             </p>
+            <div className="text-white text-left px-6 mt-4">
+              <p className="mb-2">Tipo de etiquetas</p>
+              <ul className="list-disc list-inside grid grid-cols-2 gap-2">
+                <li>Seguridad</li>
+                <li>Seguridad</li>
+                <li>Seguridad</li>
+                <li>Seguridad</li>
+                <li>Seguridad</li>
+              </ul>
+              <p className="text-white text-left mt-2">Cantidad Ancho y alto</p>
+              <p className="text-white text-left mt-2">
+                Color de fondo e impresion
+              </p>
+              <p className="text-white text-left mt-2 m-1">
+                Si contas con un diseño de tu impresion no dudes en comentarlo!
+              </p>
+            </div>
           </div>
         </div>
       </div>
