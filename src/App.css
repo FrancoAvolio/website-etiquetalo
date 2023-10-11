@@ -1,3 +1,8 @@
 .logo {
   mix-blend-mode: color-dodge;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+}

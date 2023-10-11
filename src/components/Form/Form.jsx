@@ -47,7 +47,7 @@ const Form = () => {
         <br />
         ¡Contáctanos hoy mismo!
       </p>
-      <div className="mt-14 w-2/3">
+      <div className="mt-14 w-2/3 flex mx-12">
         <form onSubmit={sendEmail} className="px-4 font-['Roboto, sans_serif']">
           <div className="container mx-auto">
             <div className="grid grid-cols-2 gap-4">
@@ -126,7 +126,7 @@ const Form = () => {
               <textarea
                 name="message"
                 id="message"
-                className="w-full p-6 mt-2 transition duration-500 bg-gray-100 border-2 rounded-md focus:outline-none focus:border-black"
+                className="w-[730px] p-6 mt-2 transition duration-500 bg-gray-100 border-2 rounded-md focus:outline-none focus:border-black"
                 value={message}
                 onChange={(e) => setMessage(e.target.value)}
                 required
@@ -149,6 +149,21 @@ const Form = () => {
             </div>
           </div>
         </form>
+        <div className="bg-[#3D799E] w-[295px] h-[373px] mb-8 rounded-lg shadow-lg mx-10">
+          <div className="mx-14">
+            <h6 className="text-2xl text-white font-bold mt-4">
+              Ayudanos a cotizar mas rapido!
+            </h6>
+            <ul className="list-disc pl-4">
+              <li>Item 1</li>
+              <li>Item 2</li>
+              <li>Item 3</li>
+            </ul>
+            <p className="text-white mt-2">
+              
+            </p>
+          </div>
+        </div>
       </div>
     </section>
   );
