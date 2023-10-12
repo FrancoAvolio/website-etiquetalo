@@ -86,11 +86,10 @@ function App() {
         </h1>
 
         <p className="sm:leading-tight sm:text-lg text-white sm:text-md font-normal font-['Roboto', 'sans_serif'] text-xs">
-          La etiqueta perfecta para cada producto. Explora nuestras <br />
-          etiquetas impresas a medida y destaca en el mercado.
+          La etiqueta perfecta para cada producto.
         </p>
 
-        <HomeButton titulo={'Ver servicios'} />
+        
       </section>
 
       <section className="md:h-[12.5rem] sm:h-auto sm:p-5 relative z-20 flex items-center justify-center gap-5 sm:my-[1.875rem] sm:flex-wrap sh-auto flex-wrap my-5 px-7">

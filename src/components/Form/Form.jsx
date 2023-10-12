@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import emailjs from '@emailjs/browser';
 import { AlertMessage } from '../AlertMessage/AlertMessage';
 import ticket from '../../assets/ticket.svg';
-import vector from '../../assets/vector.svg'
+import vector from '../../assets/vector.svg';
 
 const Form = () => {
   const [name, setName] = useState('');
@@ -13,34 +13,34 @@ const Form = () => {
   const [loading, setLoading] = useState(false);
   const [success, setSuccess] = useState(false);
 
-const sendEmail = (e) => {
-  e.preventDefault();
-  setLoading(true);
+  const sendEmail = (e) => {
+    e.preventDefault();
+    setLoading(true);
 
-  emailjs
-    .sendForm(
-      'service_t4qix5j',
-      'template_eo9uida',
-      e.target,
-      'zyHnD8lWhNVngCumG'
-    )
-    .then(
-      (response) => {
-        console.log(response);
-        setLoading(false);
-        setSuccess(true);
-        setName('');
-        setEmail('');
-        setMessage('');
-        setCompany('');
-        setTelefono('');
-        setTimeout(() => setSuccess(false), 5000);
-      },
-      (error) => {
-        console.log(error);
-      }
-    );
-};
+    emailjs
+      .sendForm(
+        'service_t4qix5j',
+        'template_eo9uida',
+        e.target,
+        'zyHnD8lWhNVngCumG'
+      )
+      .then(
+        (response) => {
+          console.log(response);
+          setLoading(false);
+          setSuccess(true);
+          setName('');
+          setEmail('');
+          setMessage('');
+          setCompany('');
+          setTelefono('');
+          setTimeout(() => setSuccess(false), 5000);
+        },
+        (error) => {
+          console.log(error);
+        }
+      );
+  };
 
   return (
     <section
@@ -120,11 +120,7 @@ const sendEmail = (e) => {
                 />
               </div>
             </div>
-            <p className='text-white text-[20px] font-["Roboto,sans_serif"] mx-auto text-center mt-6'>
-              Te ayudamos a armar tu etiqueta, usa esta guia para hacer tu
-              pedido!
-            </p>
-            <div className="w-full mt-2">
+            <div className="w-full mt-10">
               <label
                 htmlFor="message"
                 className="text-left font-medium text-white"
