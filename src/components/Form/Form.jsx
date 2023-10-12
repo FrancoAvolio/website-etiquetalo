@@ -138,7 +138,7 @@ const sendEmail = (e) => {
                 value={message}
                 onChange={(e) => setMessage(e.target.value)}
                 required
-                placeholder="Ingresa aquí el tipo de etiqueta deseada, cantidad, medidas y todos los detalles que creas necesarios para hacer tu pedido. !Esperamos tu contacto!"
+                placeholder="Ingresa aquí todos los detalles que creas necesarios para hacer tu pedido. !Esperamos tu contacto!"
               ></textarea>
             </div>
             <div className="col-span-2 text-left mt-4 mx-2">
@@ -165,8 +165,8 @@ const sendEmail = (e) => {
                 src={ticket}
                 alt="ticket"
               />
-              <p className="w-[274.86px] absolute -left-[1%] -top-3 rotate-[-6.11deg] text-center text-white text-xl font-semibold font-['Roboto, sans_serif']">
-                ¡Ayudanos a cotizar aún más rápido!
+              <p className="w-[274.86px] absolute -left-[1%] top-0 rotate-[-6.11deg] text-center text-white text-xl font-semibold font-['Roboto, sans_serif']">
+                ¡Ayudanos a cotizarte!
               </p>
             </div>
             <div className="mt-[60px]">
@@ -182,7 +182,7 @@ const sendEmail = (e) => {
                 <li className="list-disc list-inside">Color de impresion</li>
               </ul>
             </div>
-            <div className="w-[334.10px] h-[72.10px] border-dashed  bg-second-blue rounded-bl-[10px] rounded-br-[10px] border-t-2 border-gray-200 -mt-[21.6px]">
+            <div className="w-[334.10px] h-[70.10px] border-dashed  bg-second-blue rounded-bl-[10px] rounded-br-[10px] border-t-2 border-gray-200 -mt-[21.6px]">
               <p className="text-center text-gray-200 -py-1">
                 ¿Ya pensaste en el diseño? <br /> Adjuntanos la imagen en <br />{' '}
                 info@etiquetalo.com.ar
