@@ -2,7 +2,7 @@ import './index.css';
 import './App.css';
 
 import { AiOutlineWhatsApp } from 'react-icons/ai';
-import { Navbar } from './components/Navbar/Navbar.jsx';
+import { Navbar } from './components/navbar/navbar';
 import { HomeCard } from './components/HomeCard/HomeCard';
 import { HomeButton } from './components/HomeButton/HomeButton';
 import { RequisitosCard } from './components/RequisitosCard/RequisitosCard';
