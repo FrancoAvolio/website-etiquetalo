@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import emailjs from '@emailjs/browser';
 import { AlertMessage } from '../AlertMessage/AlertMessage';
 import ticket from '../../assets/ticket.svg';
+import vector from '../../assets/vector.svg'
 
 const Form = () => {
   const [name, setName] = useState('');
@@ -181,7 +182,7 @@ const sendEmail = (e) => {
                 <li className="list-disc list-inside">Color de impresion</li>
               </ul>
             </div>
-            <div className="w-[334.10px] h-[72.10px] bg-second-blue rounded-bl-[10px] rounded-br-[10px] border-t-2 border-gray-200 -mt-[21.6px]">
+            <div className="w-[334.10px] h-[72.10px] border-dashed  bg-second-blue rounded-bl-[10px] rounded-br-[10px] border-t-2 border-gray-200 -mt-[21.6px]">
               <p className="text-center text-gray-200 -py-1">
                 ¿Ya pensaste en el diseño? <br /> Adjuntanos la imagen en <br />{' '}
                 info@etiquetalo.com.ar

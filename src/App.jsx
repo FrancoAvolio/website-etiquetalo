@@ -137,11 +137,11 @@ function App() {
           <div className="sm:w-48 sm:h-[10.625rem] bg-white rounded-[1.25rem] shadow-xl shadow-gray-400 border-2 border-white w-[6rem] h-[5.4rem]">
             <div className="">
               <img
-                className="sm:mx-auto sm:w-full sm:h-[7.5rem] w-[5rem] h-[3rem] mt-0"
+                className="sm:mx-auto sm:w-full sm:h-[7.5rem] w-[5rem] h-[8rem] mt-0"
                 src={imageUrl4}
               />
               <p className="sm:text-xl font-bold sm:-mt-5 text-center text-text-blue font-['Roboto, sans_serif'] text-xs mt-0">
-                Textiles Y Autoadhesivas
+                Textiles o Autoadhesivas
               </p>
             </div>
           </div>
