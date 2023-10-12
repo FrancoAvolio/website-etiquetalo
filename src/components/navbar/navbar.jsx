@@ -1,7 +1,7 @@
 import React from 'react';
 import logoAzul from '../../assets/logo_azul.png';
 import { HomeButton } from '../HomeButton/HomeButton';
-import './Navbar.css';
+import './navbar.css';
 
 export const Navbar = () => {
   
