@@ -3,7 +3,7 @@ import './HomeCard.css'
 
 export const HomeCard = ({titulo, imagen}) => {
   return (
-    <div className='mt-6'>
+    <div className='mt-8'>
       <div className="fadeIn sm:w-52 sm:h-44 bg-[#16284E] rounded-2xl grid place-items-center w-[6.5rem] h-[5.5rem] ">
         <div className="sm:w-48 sm:h-40 rounded-2xl border-2 border-white flex flex-col w-[6rem] h-[5rem]">
           <div className='mt-2 flex items-center align-items justify-center'>
