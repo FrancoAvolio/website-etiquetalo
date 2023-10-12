@@ -146,8 +146,8 @@ function App() {
             </div>
           </div>
 
-          <RequisitosCard titulo={'Único color'} imagen={imageUrl5} />
-          <RequisitosCard titulo={'Ancho 110mm'} imagen={imageUrl} />
+          <RequisitosCard titulo={'Único color de impresion'} imagen={imageUrl5} />
+          <RequisitosCard titulo={'Ancho hasta 110mm'} imagen={imageUrl} />
         </section>
       </div>
 
