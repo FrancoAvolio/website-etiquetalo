@@ -137,7 +137,7 @@ const sendEmail = (e) => {
                 value={message}
                 onChange={(e) => setMessage(e.target.value)}
                 required
-                placeholder="Ingrese aquí su tipo de etiqueta, sus medidas y los detalles que crea necesarios"
+                placeholder="Ingresa aquí el tipo de etiqueta deseada, cantidad, medidas y todos los detalles que creas necesarios para hacer tu pedido. !Esperamos tu contacto!"
               ></textarea>
             </div>
             <div className="col-span-2 text-left mt-4 mx-2">
@@ -173,7 +173,7 @@ const sendEmail = (e) => {
                 Para ofrecerte tu presupuesto final brindanos la siguiente
                 informacion
               </p>
-              <ul className="text-text-blue -mt-7 text-left p-8 text-lg font-normal">
+              <ul className="text-text-blue -mt-7 text-left p-8 text-lg font-normal font-['Roboto, sans_serif']">
                 <li className="list-disc list-inside">Tipo de etiqueta</li>
                 <li className="list-disc list-inside">Cantidad</li>
                 <li className="list-disc list-inside">Dimensiones</li>
