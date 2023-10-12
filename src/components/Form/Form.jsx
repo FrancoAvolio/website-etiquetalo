@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import emailjs from '@emailjs/browser';
 import { AlertMessage } from '../AlertMessage/AlertMessage';
+import ticket from '../../assets/ticket.svg';
 
 const Form = () => {
   const [name, setName] = useState('');
@@ -47,8 +48,8 @@ const Form = () => {
         <br />
         ¡Contáctanos hoy mismo!
       </p>
-      <div className="mt-14 w-2/3 flex mx-[7.6%]">
-        <form onSubmit={sendEmail} className="px-4 font-['Roboto, sans_serif']">
+      <div className="mt-14 max-w-6xl mx-auto w-full flex">
+        <form onSubmit={sendEmail} className="px-8 font-['Roboto, sans_serif']">
           <div className="container mx-auto">
             <div className="grid grid-cols-2 gap-4">
               <div>
@@ -133,7 +134,7 @@ const Form = () => {
                 placeholder="Ingrese aquí su tipo de etiqueta, sus medidas y los detalles que crea necesarios"
               ></textarea>
             </div>
-            <div className="col-span-2 text-center">
+            <div className="col-span-2 text-left mt-4 mx-2">
               <button
                 type="submit"
                 className={`px-12 py-2 font-semibold bg-white text-text-blue transition duration-300 rounded-full ${
@@ -149,26 +150,35 @@ const Form = () => {
             </div>
           </div>
         </form>
-        <div className="w-full p-6 px-12">
-          <div className="bg-[#3D799E] rounded-lg shadow-lg h-[323px] w-[298px]">
-            <p className="text-white text-center p-1">
-              Ayúdanos a cotizar aún más rápido!
-            </p>
-            <div className="text-white text-left px-6 mt-4">
-              <p className="mb-2">Tipo de etiquetas</p>
-              <ul className="list-disc list-inside grid grid-cols-2 gap-2">
-                <li>Seguridad</li>
-                <li>Seguridad</li>
-                <li>Seguridad</li>
-                <li>Seguridad</li>
-                <li>Seguridad</li>
-              </ul>
-              <p className="text-white text-left mt-2">Cantidad Ancho y alto</p>
-              <p className="text-white text-left mt-2">
-                Color de fondo e impresion
+        <div className="w-full p-3 px-12">
+          <div className="w-[340px] h-[345px] bg-gray-200 rounded-[10px] shadow border-2 border-gray-200">
+            <div className="relative">
+              <img
+                className="absolute -top-8 -left-7"
+                src={ticket}
+                alt="ticket"
+              />
+              <p className="w-[274.86px] absolute -left-[1%] -top-3 rotate-[-6.11deg] text-center text-white text-xl font-semibold font-['Roboto, sans_serif']">
+                ¡Ayudanos a cotizar aún más rápido!
               </p>
-              <p className="text-white text-left mt-2 m-1">
-                Si contas con un diseño de tu impresion no dudes en comentarlo!
+            </div>
+            <div className="mt-[60px]">
+              <p className="text-center text-text-blue text-lg font-normal font-['Roboto, sans_serif']">
+                Para ofrecerte tu presupuesto final brindanos la siguiente
+                informacion
+              </p>
+              <ul className="text-text-blue -mt-7 text-left p-8 text-lg font-normal">
+                <li className="list-disc list-inside">Tipo de etiqueta</li>
+                <li className="list-disc list-inside">Cantidad</li>
+                <li className="list-disc list-inside">Dimensiones</li>
+                <li className="list-disc list-inside">Color de fondo</li>
+                <li className="list-disc list-inside">Color de impresion</li>
+              </ul>
+            </div>
+            <div className="w-[334.10px] h-[72.10px] bg-second-blue rounded-bl-[10px] rounded-br-[10px] border-t-2 border-gray-200 -mt-[21.6px]">
+              <p className="text-center text-gray-200 -py-1">
+                ¿Ya pensaste en el diseño? <br /> Adjuntanos la imagen en <br />{' '}
+                info@etiquetalo.com.ar
               </p>
             </div>
           </div>
