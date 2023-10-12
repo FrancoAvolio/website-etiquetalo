@@ -4,6 +4,7 @@ import { HomeButton } from '../HomeButton/HomeButton';
 import './Navbar.css';
 
 export const Navbar = () => {
+  
   const scrollToSection = (sectionId) => {
     const section = document.getElementById(sectionId);
     if (section) {

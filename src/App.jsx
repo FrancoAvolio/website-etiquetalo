@@ -73,7 +73,7 @@ const economicasTermosensibles = [
 
 function App() {
   return (
-    <div className="w-full bg-white">
+    <div className="w-full bg-white z-30">
       <header className="relative z-30 h-[6.875rem] w-full mt-0 cursor-pointer">
         <Navbar />
         {/* <DrawerAppBar /> */}
@@ -94,13 +94,22 @@ function App() {
       </section>
 
       <section className="md:h-[12.5rem] sm:h-auto sm:p-5 relative z-20 flex items-center justify-center gap-5 sm:my-[1.875rem] sm:flex-wrap sh-auto flex-wrap my-5 px-7">
-        <HomeCard titulo={'Somos profesionales'} imagen={handshake} />
-
-        <HomeCard titulo={'Nos gusta lo que hacemos'} imagen={tag_heart} />
-
-        <HomeCard titulo={'Soluciones de calidad'} imagen={hands_heart} />
-
-        <HomeCard titulo={'Atentos a tus consultas'} imagen={headset} />
+        <HomeCard 
+          titulo={'Somos profesionales'} 
+          imagen={handshake} 
+        />
+        <HomeCard 
+          titulo={'Nos gusta lo que hacemos'} 
+          imagen={tag_heart} 
+        />
+        <HomeCard 
+          titulo={'Soluciones de calidad'} 
+          imagen={hands_heart} 
+        />
+        <HomeCard 
+          titulo={'Atentos a tus consultas'} 
+          imagen={headset} 
+        />
       </section>
 
       <div className="absolute top-0 bottom-0 h-[50rem] w-full z-10">
@@ -111,14 +120,15 @@ function App() {
         />
       </div>
 
-      <div id="productos" className="relative z-20 bg-white">
-        <div className="flex items-center justify-center pt-[3.125rem]">
+      <div id="productos" className="relative z-20  mt-[8rem] h-full" style={{ backgroundImage:'linear-gradient(180deg, #ffffff 0%, #e8e8e8 18%, #e8e8e8 82%, #ffffff 100%);'}}>
+        <div className="flex items-center justify-center pt-[3.125rem]  h-full">
           <div className="text-blue-950 text-[2.5rem] font-bold font-['Roboto', sans_serif] text-[#16284E]">
             <h2>Nuestros productos</h2>
             <div className="my-[0.063rem] border-b-[0.188rem] border-[#5BB4EB] w-[21.1rem] mx-auto"></div>
           </div>
         </div>
-        <section className="md:h-[26.875rem] md:w-full sm:p-5 flex items-center align-items justify-center sm:gap-[6.688rem] sm:mx-4 flex-wrap h-auto my-10 px-10">
+
+        <section className="md:h-[26.875rem] md:w-full sm:p-5 flex items-center align-items justify-center sm:gap-[6.688rem] sm:mx-4 flex-wrap px-10 h-[400px]">
           <RequisitosCard
             titulo={'Color de base a eleccion'}
             imagen={imageUrl2}
@@ -141,11 +151,23 @@ function App() {
         </section>
       </div>
 
-      <div id="servicios" className="bg-[#E8E8E8] 2sm:p-2">
-        <Products className=" bg-white" />
+      <div id="servicios" className="2sm:p-2 mt-[5rem] z-20" style={{ backgroundImage: 'linear-gradient(180deg, #e8e8e8 1%, #ffffff 45%, #e8e8e8 100%)',}}>
+      
 
-        <div className="w-full flex justify-center h-full">
-          <div className="grid 2xl:grid-cols-3 xl:grid-cols-3 lg:grid-cols-3 grid-cols-2 gap-4 mx-16 bg-white">
+        <section className="w-full h-full mt-[5rem]">
+          <div className="text-center text-[#16284E] text-[40px] font-bold font-['Roboto', sans_serif] mb-11">
+            Tipos de etiqueta
+            <div className="my-[1px] border-b-[3px] border-[#5BB4EB] w-[295px] mx-auto"></div>
+            <p className="mt-4 mb-6 text-second-blue text-xl font-normal font-['Roboto, sans_serif']">
+              Dependiendo del material de la etiqueta y del ribbon, ofrecemos
+              productos en <br /> distintas calidades, segun tus necesidades y
+              aplicaciones:
+            </p>
+          </div>
+        </section>
+
+        <div className="w-full flex justify-center h-full bg-transparent">
+          <div className="grid gap-y-20 gap-x-5 2xl:grid-cols-3 xl:grid-cols-3 lg:grid-cols-3 grid-cols-2 mx-16 bg-transparent ">
             <EtiquetasCard
               titulo={'Seguridad (VOID)'}
               imagen={Seguridad}
@@ -188,15 +210,15 @@ function App() {
         <div
           id="porque-elegirnos"
           className="flex justify-center flex-col w-full flex-wrap sm:px-[60px] h-auto p-2"
-          style={{
-            background:
-              'linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #E8E8E8 31%)',
-          }}
+          style={{ background:'linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #E8E8E8 31%)',}}
         >
           <ElegirnosSection />
+
         </div>
-          <Form />
-        <div className="relative z-30">
+
+        <Form />
+
+        <div className="relative z-40">
           <section className="grid place-items-center bg-[#25D366] w-[2.875rem] h-[2.875rem] z-25 fixed bottom-[1.875rem] right-[2.35rem] rounded-full hover:w-[6.25rem] hover:ease-in-out hover:duration-300">
             <div className="grid place-items-center align-items-center w-[2.875rem] h-[2.875rem]">
               <AiOutlineWhatsApp className="p-2 text-white text-[2.875rem]" />

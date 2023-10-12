@@ -32,8 +32,17 @@ export const EtiquetasCard = ({titulo, imagen, aplicacion, lista}) => {
         <div className="card">
             <img src={imagen} alt="" className="card-img" />
             <div className='absolute bottom-0 w-full h-[4rem] bg-[#16284E] flex flex-row justify-around'>
-                <h1 className=" text-[#E8E8E8] text-base text-center font-['Roboto, sans_serif'] grid items-center">{titulo}</h1>
-                <button type='button' onClick={mostrarTarjeta} className='grid items-center'><InfoButton titulo={'+info'}/></button>
+
+                <h1 className=" text-[#E8E8E8] text-base text-center font-['Roboto, sans_serif'] grid items-center">
+                    {titulo}
+                </h1>
+
+                <button 
+                    type='button' 
+                    onClick={mostrarTarjeta} 
+                    className='grid items-center'>
+                    <InfoButton titulo={'+info'}/>
+                </button>
             </div>
 
 
@@ -41,9 +50,20 @@ export const EtiquetasCard = ({titulo, imagen, aplicacion, lista}) => {
 
                 <div className="card-body flex flex-col gap-6 ps-12">
                     <div className='flex flex-row mt-4 text-[#E8E8E8] justify-around'>
-                        <h1 className=" text-base text-center font-['Roboto, sans_serif'] grid items-center">{titulo}</h1>
-                        <button type='button' onClick={ocultarTarjeta} className='grid items-center px-3'> <InfoButton className="" titulo={downIcon}/></button>
+                        <h1 
+                            className=" text-base text-center font-['Roboto, sans_serif'] grid items-center">
+                            {titulo}
+                        </h1>
+
+                        <button 
+                            type='button' 
+                            onClick={ocultarTarjeta} 
+                            className='grid items-center px-3'> 
+                            <InfoButton className="" titulo={downIcon}/>
+                        </button>
+
                     </div>
+
                     <div className="card-sub-title">
                         <ul className="list-disc font-['Roboto, sans_serif']" >
                             {lista.map((item) => (            
@@ -51,6 +71,7 @@ export const EtiquetasCard = ({titulo, imagen, aplicacion, lista}) => {
                             ))}
                         </ul>
                     </div>
+
                     <p className="card-info w-full mx-auto p-2">
                         Aplicación: {aplicacion} 
                     </p>
@@ -72,8 +93,7 @@ export const EtiquetasCard = ({titulo, imagen, aplicacion, lista}) => {
                     Aplicación: {aplicacion} 
                 </p>
             </div> */}
-
-
+            
         </div>
   )
 };
