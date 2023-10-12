@@ -120,7 +120,7 @@ function App() {
         />
       </div>
 
-      <div id="productos" className="relative z-20  mt-[8rem] h-full" style={{ backgroundImage:'linear-gradient(180deg, #ffffff 0%, #e8e8e8 18%, #e8e8e8 82%, #ffffff 100%);'}}>
+      <div id="productos" className="relative z-20  mt-[8rem] h-full" style={{ backgroundImage: 'linear-gradient(180deg, #ffffff 0%, #e8e8e8 20%, #e8e8e8 83%, #ffffff 100%)',}}>
         <div className="flex items-center justify-center pt-[3.125rem]  h-full">
           <div className="text-blue-950 text-[2.5rem] font-bold font-['Roboto', sans_serif] text-[#16284E]">
             <h2>Nuestros productos</h2>
@@ -199,7 +199,7 @@ function App() {
               lista={economicasColor}
             />
             <EtiquetasCard
-              titulo={'Económicas termosensible autoadhesiva.'}
+              titulo={'Económicas termosensible'}
               imagen={EconomicasTermosensibles}
               aplicacion={'Bienes de cambio de alta rotación. '}
               lista={economicasTermosensibles}
