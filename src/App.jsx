@@ -151,7 +151,7 @@ function App() {
         </section>
       </div>
 
-      <div id="servicios" className="2sm:p-2 mt-[5rem] z-20" style={{ backgroundImage: 'linear-gradient(180deg, #e8e8e8 1%, #ffffff 45%, #e8e8e8 100%)',}}>
+      <div id="servicios" className="2sm:p-2 mt-[5rem] z-20" style={{ backgroundImage: 'linear-gradient(180deg, #ffffff 0%, #e8e8e8 20%, #e8e8e8 83%, #ffffff 100%)',}}>
       
 
         <section className="w-full h-full mt-[5rem]">
