@@ -80,7 +80,7 @@ function App() {
       </header>
 
       <section className="relative z-20 sm:mb-20 sm:mt-[4.375rem] sm:ps-20 lg:ps-40 flex flex-col sm:flex-wrap max-sm:flex-wrap  flex-wrap h-auto ps-4 mb-10 text-xs my-10 gap-4">
-        <h1 className="sm:leading-[4.125rem] sm:h-[8.438rem] text-gray-200 sm:text-[3.75rem] font-bold font-['Roboto', 'sans_serif'] h-auto text-5xl">
+        <h1 className="sm:leading-[4.125rem] sm:h-[8.438rem] mt-8 text-gray-200 sm:text-[3.75rem] font-bold font-['Roboto', 'sans_serif'] h-auto text-5xl">
           Impresión de <br />
           etiquetas a medida
         </h1>
