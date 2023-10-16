@@ -9,6 +9,7 @@ import { RequisitosCard } from './components/RequisitosCard/RequisitosCard';
 import { EtiquetasCard } from './components/EtiquetasCard/EtiquetasCard';
 import { ElegirnosSection } from './components/ElegirnosSection/ElegirnosSection';
 import { Footer } from './components/Footer/Footer';
+// import { DrawerAppBar } from './components/Bar/DrawerAppBar';
 
 import ScrollButton from './components/Scroll/ScrollButton';
 import Products from './components/Sections/Products';

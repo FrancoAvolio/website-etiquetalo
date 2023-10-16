@@ -40,7 +40,7 @@ export const Navbar = () => {
             onClick={() => scrollToSection('servicios')}
             className=" text-white text-lg font-semibold font-['Roboto', 'sans_serif'] subrayado"
           >
-            Nuestros servicios
+            Tipos de etiquetas
           </li>
           <li
             onClick={() => scrollToSection('porque-elegirnos')}
