@@ -80,7 +80,7 @@ function App() {
         {/* <DrawerAppBar /> */}
       </header>
 
-      <section className="relative z-30 sm:mb-20 sm:mt-[4.375rem] sm:ps-20 lg:ps-40 flex flex-col sm:flex-wrap max-sm:flex-wrap  flex-wrap h-auto ps-4 mb-10 text-xs my-10 gap-4">
+      <section className="relative z-20 sm:mb-20 sm:mt-[4.375rem] sm:ps-20 lg:ps-40 flex flex-col sm:flex-wrap max-sm:flex-wrap  flex-wrap h-auto ps-4 mb-10 text-xs my-10 gap-4">
         <h1 className="sm:leading-[4.125rem] sm:h-[8.438rem] mt-12 text-gray-200 sm:text-[3.75rem] font-bold font-['Roboto', 'sans_serif'] h-auto text-5xl">
           Impresión de <br />
           etiquetas a medida
@@ -93,7 +93,7 @@ function App() {
         
       </section>
 
-      <section className="md:h-[12.5rem] sm:h-auto sm:p-5 relative z-30 flex items-center justify-center gap-5 sm:my-[1.875rem] sm:flex-wrap sh-auto flex-wrap my-5 px-7">
+      <section className="md:h-[12.5rem] sm:h-auto sm:p-5 relative z-20 flex items-center justify-center gap-5 sm:my-[1.875rem] sm:flex-wrap sh-auto flex-wrap my-5 px-7">
         <HomeCard 
           titulo={'Somos profesionales'} 
           imagen={handshake} 
@@ -120,7 +120,7 @@ function App() {
         />
       </div>
 
-      <div id="productos" className="relative z-30  mt-[8rem] h-full" style={{ backgroundImage: 'linear-gradient(180deg, #ffffff 0%, #e8e8e8 20%, #e8e8e8 83%, #ffffff 100%)',}}>
+      <div id="productos" className="relative z-20  mt-[8rem] h-full" style={{ backgroundImage: 'linear-gradient(180deg, #ffffff 0%, #e8e8e8 20%, #e8e8e8 83%, #ffffff 100%)',}}>
         <div className="flex items-center justify-center pt-[3.125rem]  h-full">
           <div className="text-blue-950 text-[2.5rem] font-bold font-['Roboto', sans_serif] text-[#16284E]">
             <h2>Nuestros productos</h2>
