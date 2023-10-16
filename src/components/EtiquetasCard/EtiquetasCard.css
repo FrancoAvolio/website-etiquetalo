@@ -9,7 +9,6 @@
 } */
 
 .card {
-    width: 400px;
     height: 371px;
     overflow: hidden;
     position: relative;
@@ -18,7 +17,7 @@
 }
 
 .card-img {
-    width:400px;
+    width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: 15px;
@@ -27,7 +26,7 @@
 
 .card-body {
     width: 100%;
-    height: 60%;
+    /* height: 60%; */
     bottom: 0;
     bottom: -100%;
     position: absolute;

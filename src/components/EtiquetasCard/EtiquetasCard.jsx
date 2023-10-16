@@ -29,7 +29,7 @@ export const EtiquetasCard = ({titulo, imagen, aplicacion, lista}) => {
 
 
   return (  
-        <div className="card">
+        <div className="card md:w-[25rem] w-auto">
             <img src={imagen} alt="" className="card-img" />
             <div className='absolute bottom-0 w-full h-[4rem] bg-[#16284E] flex flex-row justify-between'>
 
@@ -48,7 +48,7 @@ export const EtiquetasCard = ({titulo, imagen, aplicacion, lista}) => {
 
             { isVisible && (
 
-                <div className="card-body flex flex-col gap-3 ps-9">
+                <div className="card-body flex flex-col gap-3 ps-9 sm:h-[60%] h-auto">
                     <div className='flex flex-row mt-4 text-[#E8E8E8] justify-between'>
                         <h1 
                             className="text-base font-bold text-center font-['Roboto, sans_serif'] grid items-center">

@@ -146,8 +146,14 @@ function App() {
             </div>
           </div>
 
-          <RequisitosCard titulo={'Único color de impresion'} imagen={imageUrl5} />
-          <RequisitosCard titulo={'Ancho hasta 110mm'} imagen={imageUrl} />
+          <RequisitosCard 
+            titulo={'Único color de impresion'} 
+            imagen={imageUrl5} 
+          />
+          <RequisitosCard 
+            titulo={'Ancho hasta 110mm'} 
+            imagen={imageUrl} 
+          />
         </section>
       </div>
 
@@ -167,7 +173,7 @@ function App() {
         </section>
 
         <div className="w-full flex justify-center h-full bg-transparent">
-          <div className="grid gap-y-20 gap-x-5 2xl:grid-cols-3 xl:grid-cols-3 lg:grid-cols-3 grid-cols-2 mx-16 bg-transparent ">
+          <div className="grid gap-y-20 sm:gap-x-5 gap-4 2xl:grid-cols-3 xl:grid-cols-3 lg:grid-cols-3 grid-cols-2 md:mx-16 mx-2 bg-transparent w-full ">
             <EtiquetasCard
               titulo={'Seguridad (VOID)'}
               imagen={Seguridad}
