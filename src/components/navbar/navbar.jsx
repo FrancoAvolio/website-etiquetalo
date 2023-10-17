@@ -21,7 +21,7 @@ export const Navbar = () => {
   return (
     <div className="fadeIn fixed top-0 sm:w-full items-center">
       <nav
-        className="flex items-center justify-between px-5 mb-10 mx-10 my-[1.25rem] sm:h-auto"
+        className="flex items-center justify-between px-3 mb-10 mx-10 my-[1.25rem] sm:h-auto"
         style={{
           background: 'rgba(22, 40, 78, 0.60)',
           borderRadius: 20,
@@ -45,23 +45,23 @@ export const Navbar = () => {
         <ul
           className={`${
             menuOpen ? 'block' : 'hidden'
-          } sm:flex justify-center font-semibold px-6 py-4 gap-8 lg:flex-wrap md:flex-wrap sm:flex-wrap sm:h-auto`}
+          } sm:flex justify-center font-semibold  py-2 px-2 gap-8 lg:flex-wrap md:flex-wrap sm:flex-wrap sm:h-auto`}
         >
           <li
             onClick={() => scrollToSection('productos')}
-            className=" text-white text-lg font-semibold font-['Roboto', 'sans_serif'] subrayado pb-2"
+            className=" text-white text-lg font-semibold font-['Roboto', 'sans_serif'] subrayado pt-2"
           >
             Nuestros productos
           </li>
           <li
             onClick={() => scrollToSection('servicios')}
-            className=" text-white text-lg font-semibold font-['Roboto', 'sans_serif'] subrayado pb-2"
+            className=" text-white text-lg font-semibold font-['Roboto', 'sans_serif'] subrayado pt-2 "
           >
             Tipos de etiquetas
           </li>
           <li
             onClick={() => scrollToSection('porque-elegirnos')}
-            className="text-white text-lg font-semibold font-['Roboto', 'sans_serif'] subrayado pb-2"
+            className="text-white text-lg font-semibold font-['Roboto', 'sans_serif'] subrayado pt-2 "
           >
             ¿Por qué elegirnos?
           </li>
