@@ -146,7 +146,7 @@ function App() {
               </p>
             </div>
           </div>
-
+          
           <RequisitosCard 
             titulo={'Único color de impresion'} 
             imagen={imageUrl5} 
