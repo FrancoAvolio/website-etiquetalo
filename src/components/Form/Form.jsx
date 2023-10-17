@@ -54,7 +54,7 @@ const Form = () => {
         <br />
         ¡Contáctanos hoy mismo!
       </p>
-      <div className="mt-14 max-w-6xl mx-auto w-full flex">
+      <div className="mt-14 max-w-6xl mx-auto w-full flex flex-col sm:flex-row">
         <form onSubmit={sendEmail} className="px-8 font-['Roboto, sans_serif']">
           <div className="container mx-auto">
             <div className="grid grid-cols-2 gap-4">
@@ -129,7 +129,7 @@ const Form = () => {
               <textarea
                 name="message"
                 id="message"
-                className="w-[680px] p-6 mt-2 transition duration-500 bg-gray-100 border-2 rounded-md focus:outline-none focus:border-black"
+                className="w-full p-6 mt-2 transition duration-500 bg-gray-100 border-2 rounded-md focus:outline-none focus:border-black"
                 value={message}
                 onChange={(e) => setMessage(e.target.value)}
                 required
@@ -152,7 +152,7 @@ const Form = () => {
             </div>
           </div>
         </form>
-        <div className="w-full -mt-2 px-16">
+        <div className="w-full sm:w-1/2 -mt-2 px-12 hidden sm:block">
           <div className="w-[340px] h-[345px] bg-gray-200 rounded-[10px] shadow border-2 border-gray-200">
             <div className="relative">
               <img
@@ -169,38 +169,38 @@ const Form = () => {
                 Para ofrecerte tu presupuesto final brindanos la siguiente
                 informacion
               </p>
-              </div>
-              <ol className="text-text-blue -mt-6 text-left p-8 text-lg font-normal font-['Roboto, sans_serif']">
-                <li className="">
-                  {' '}
-                  <span className="">1. </span>Tipo de etiqueta
-                </li>
-                <li className="">
-                  {' '}
-                  <span className="">2. </span>Cantidad
-                </li>
-                <li className="">
-                  {' '}
-                  <span className="">3. </span>Dimensiones
-                </li>
-                <li className="">
-                  {' '}
-                  <span className="">4. </span>Color de fondo
-                </li>
-                <li className="">
-                  {' '}
-                  <span className="">5. </span>Color de impresion
-                </li>
-              </ol>
             </div>
-            <div className="w-[340.10px] h-[91.10px] border-t-dashed  bg-second-blue rounded-bl-[10px] rounded-br-[10px] border-t-2 border-4 border-gray-200 -mt-16 ">
-              <p className="text-center p-2 text-gray-200">
-                ¿Ya pensaste en el diseño? <br /> Adjuntanos la imagen en <br />{' '}
-                info@etiquetalo.com.ar
-              </p>
-            </div>
+            <ol className="text-text-blue -mt-6 text-left p-8 text-lg font-normal font-['Roboto, sans_serif']">
+              <li className="">
+                {' '}
+                <span className="">1. </span>Tipo de etiqueta
+              </li>
+              <li className="">
+                {' '}
+                <span className="">2. </span>Cantidad
+              </li>
+              <li className="">
+                {' '}
+                <span className="">3. </span>Dimensiones
+              </li>
+              <li className="">
+                {' '}
+                <span className="">4. </span>Color de fondo
+              </li>
+              <li className="">
+                {' '}
+                <span className="">5. </span>Color de impresion
+              </li>
+            </ol>
+          </div>
+          <div className="w-[340.10px] h-[91.10px] border-t-dashed  bg-second-blue rounded-bl-[10px] rounded-br-[10px] border-t-2 border-4 border-gray-200 -mt-16 ">
+            <p className="text-center p-2 text-gray-200">
+              ¿Ya pensaste en el diseño? <br /> Adjuntanos la imagen en <br />{' '}
+              info@etiquetalo.com.ar
+            </p>
           </div>
         </div>
+      </div>
     </section>
   );
 };
