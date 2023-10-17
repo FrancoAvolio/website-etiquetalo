@@ -2,14 +2,20 @@ import React from 'react';
 import logoAzul from '../../assets/logo_azul.png';
 import { HomeButton } from '../HomeButton/HomeButton';
 import './navbar.css';
+import { useState } from 'react';
+import { GiHamburgerMenu } from 'react-icons/gi';
 
 export const Navbar = () => {
-  
   const scrollToSection = (sectionId) => {
     const section = document.getElementById(sectionId);
     if (section) {
       section.scrollIntoView({ behavior: 'smooth' });
     }
+  };
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
   };
 
   return (
@@ -29,26 +35,37 @@ export const Navbar = () => {
             alt="logo de etiquetalo "
           />
         </div>
-        <ul className="flex justify-center font-semibold px-6 gap-8 lg:flex-wrap md:flex-wrap sm:flex-wrap sm:h-auto">
+
+        <div className="sm:hidden">
+          <button className="text-white text-2xl ml-4 p-2" onClick={toggleMenu}>
+            <GiHamburgerMenu />
+          </button>
+        </div>
+
+        <ul
+          className={`${
+            menuOpen ? 'block' : 'hidden'
+          } sm:flex justify-center font-semibold px-6 py-4 gap-8 lg:flex-wrap md:flex-wrap sm:flex-wrap sm:h-auto`}
+        >
           <li
             onClick={() => scrollToSection('productos')}
-            className=" text-white text-lg font-semibold font-['Roboto', 'sans_serif'] subrayado"
+            className=" text-white text-lg font-semibold font-['Roboto', 'sans_serif'] subrayado pb-2"
           >
             Nuestros productos
           </li>
           <li
             onClick={() => scrollToSection('servicios')}
-            className=" text-white text-lg font-semibold font-['Roboto', 'sans_serif'] subrayado"
+            className=" text-white text-lg font-semibold font-['Roboto', 'sans_serif'] subrayado pb-2"
           >
             Tipos de etiquetas
           </li>
           <li
             onClick={() => scrollToSection('porque-elegirnos')}
-            className=" text-white text-lg font-semibold font-['Roboto', 'sans_serif'] subrayado"
+            className="text-white text-lg font-semibold font-['Roboto', 'sans_serif'] subrayado pb-2"
           >
             ¿Por qué elegirnos?
           </li>
-          <li onClick={() => scrollToSection('form')} className="-mt-1">
+          <li onClick={() => scrollToSection('form')} className="-mt-1 pt-2">
             <HomeButton titulo={'Contáctanos'} />
           </li>
         </ul>
@@ -56,3 +73,5 @@ export const Navbar = () => {
     </div>
   );
 };
+
+export default Navbar;
