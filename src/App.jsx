@@ -90,27 +90,13 @@ function App() {
         <p className="sm:leading-tight sm:text-lg text-white sm:text-md font-normal font-['Roboto', 'sans_serif'] text-xs">
           La etiqueta perfecta para cada producto.
         </p>
-
-        
       </section>
 
       <section className="md:h-[12.5rem] sm:h-auto sm:p-5 relative z-20 flex items-center justify-center gap-5 sm:my-[1.875rem] sm:flex-wrap sh-auto flex-wrap my-5 px-7">
-        <HomeCard 
-          titulo={'Somos profesionales'} 
-          imagen={handshake} 
-        />
-        <HomeCard 
-          titulo={'Nos gusta lo que hacemos'} 
-          imagen={tag_heart} 
-        />
-        <HomeCard 
-          titulo={'Soluciones de calidad'} 
-          imagen={hands_heart} 
-        />
-        <HomeCard 
-          titulo={'Atentos a tus consultas'} 
-          imagen={headset} 
-        />
+        <HomeCard titulo={'Somos profesionales'} imagen={handshake} />
+        <HomeCard titulo={'Nos gusta lo que hacemos'} imagen={tag_heart} />
+        <HomeCard titulo={'Soluciones de calidad'} imagen={hands_heart} />
+        <HomeCard titulo={'Atentos a tus consultas'} imagen={headset} />
       </section>
 
       <div className="absolute top-0 bottom-0 h-[50rem] w-full z-10">
@@ -121,7 +107,14 @@ function App() {
         />
       </div>
 
-      <div id="productos" className="relative z-20  mt-[8rem] h-full" style={{ backgroundImage: 'linear-gradient(180deg, #ffffff 0%, #e8e8e8 20%, #e8e8e8 83%, #ffffff 100%)',}}>
+      <div
+        id="productos"
+        className="relative z-20  mt-[8rem] h-full"
+        style={{
+          backgroundImage:
+            'linear-gradient(180deg, #ffffff 0%, #e8e8e8 20%, #e8e8e8 83%, #ffffff 100%)',
+        }}
+      >
         <div className="flex items-center justify-center pt-[3.125rem]  h-full">
           <div className="text-blue-950 text-[2.5rem] font-bold font-['Roboto', sans_serif] text-[#16284E]">
             <h2>Nuestros productos</h2>
@@ -135,32 +128,27 @@ function App() {
             imagen={imageUrl2}
           />
 
-          <div className="sm:w-48 sm:h-[10.625rem] bg-white rounded-[1.25rem] shadow-xl shadow-gray-400 border-2 border-white w-[6rem] h-[5.4rem]">
-            <div className="">
-              <img
-                className="sm:mx-auto sm:w-full sm:h-[7.5rem] w-[5rem] h-[8rem] mt-0"
-                src={imageUrl4}
-              />
-              <p className="sm:text-xl font-bold sm:-mt-5 text-center text-text-blue font-['Roboto, sans_serif'] text-xs mt-0">
-                Textiles o Autoadhesivas
-              </p>
-            </div>
-          </div>
-          
-          <RequisitosCard 
-            titulo={'Único color de impresion'} 
-            imagen={imageUrl5} 
+          <RequisitosCard
+            titulo={'Textiles o Autoadhesivas'}
+            imagen={imageUrl4}
           />
-          <RequisitosCard 
-            titulo={'Ancho hasta 110mm'} 
-            imagen={imageUrl} 
+
+          <RequisitosCard
+            titulo={'Único color de impresion'}
+            imagen={imageUrl5}
           />
+          <RequisitosCard titulo={'Ancho hasta 110mm'} imagen={imageUrl} />
         </section>
       </div>
 
-      <div id="servicios" className="2sm:p-2 mt-[5rem] z-30" style={{ backgroundImage: 'linear-gradient(180deg, #ffffff 0%, #e8e8e8 20%, #e8e8e8 83%, #ffffff 100%)',}}>
-      
-
+      <div
+        id="servicios"
+        className="2sm:p-2 mt-[5rem] z-30"
+        style={{
+          backgroundImage:
+            'linear-gradient(180deg, #ffffff 0%, #e8e8e8 20%, #e8e8e8 83%, #ffffff 100%)',
+        }}
+      >
         <section className="w-full h-full mt-[5rem]">
           <div className="text-center text-[#16284E] text-[40px] font-bold font-['Roboto', sans_serif] mb-11">
             Tipos de etiqueta
@@ -214,20 +202,20 @@ function App() {
           </div>
         </div>
 
-        <div id="porque-elegirnos" className=" z-30 flex justify-center flex-col w-full flex-wrap sm:px-[60px] h-auto p-2"
-          style={{ background:'linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #E8E8E8 31%)',}}
+        <div
+          id="porque-elegirnos"
+          className=" z-30 flex justify-center flex-col w-full flex-wrap sm:px-[60px] h-auto p-2"
+          style={{
+            background:
+              'linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #E8E8E8 31%)',
+          }}
         >
           <ElegirnosSection />
-
         </div>
 
-        
         <Form />
-        
 
         <Footer />
-        
-        
 
         <div className="relative z-40">
           <section className="grid place-items-center bg-[#25D366] w-[2.875rem] h-[2.875rem] z-25 fixed bottom-[1.875rem] right-[2.35rem] rounded-full hover:w-[6.25rem] hover:ease-in-out hover:duration-300">
