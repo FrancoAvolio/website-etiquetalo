@@ -26,7 +26,6 @@ const Form = () => {
       )
       .then(
         (response) => {
-          console.log(response);
           setLoading(false);
           setSuccess(true);
           setName('');

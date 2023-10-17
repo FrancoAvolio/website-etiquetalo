@@ -12,7 +12,7 @@ const ScrollButton = () => {
   }, []);
 
   const toggleVisibility = () => {
-    if (window.pageYOffset > 300) {
+    if (window.scrollY > 300) {
       setIsVisible(true);
     } else {
       setIsVisible(false);
