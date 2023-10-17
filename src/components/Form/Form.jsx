@@ -152,7 +152,7 @@ const Form = () => {
             </div>
           </div>
         </form>
-        <div className="w-full p-3 px-12">
+        <div className="w-full -mt-2 px-16">
           <div className="w-[340px] h-[345px] bg-gray-200 rounded-[10px] shadow border-2 border-gray-200">
             <div className="relative">
               <img
@@ -169,23 +169,38 @@ const Form = () => {
                 Para ofrecerte tu presupuesto final brindanos la siguiente
                 informacion
               </p>
-              <ul className="text-text-blue -mt-7 text-left p-8 text-lg font-normal font-['Roboto, sans_serif']">
-                <li className="list-disc list-inside">Tipo de etiqueta</li>
-                <li className="list-disc list-inside">Cantidad</li>
-                <li className="list-disc list-inside">Dimensiones</li>
-                <li className="list-disc list-inside">Color de fondo</li>
-                <li className="list-disc list-inside">Color de impresion</li>
-              </ul>
+              </div>
+              <ol className="text-text-blue -mt-6 text-left p-8 text-lg font-normal font-['Roboto, sans_serif']">
+                <li className="">
+                  {' '}
+                  <span className="">1. </span>Tipo de etiqueta
+                </li>
+                <li className="">
+                  {' '}
+                  <span className="">2. </span>Cantidad
+                </li>
+                <li className="">
+                  {' '}
+                  <span className="">3. </span>Dimensiones
+                </li>
+                <li className="">
+                  {' '}
+                  <span className="">4. </span>Color de fondo
+                </li>
+                <li className="">
+                  {' '}
+                  <span className="">5. </span>Color de impresion
+                </li>
+              </ol>
             </div>
-            <div className="w-[334.10px] h-[70.10px] border-dashed  bg-second-blue rounded-bl-[10px] rounded-br-[10px] border-t-2 border-gray-200 -mt-[21.6px]">
-              <p className="text-center text-gray-200 -py-1">
+            <div className="w-[340.10px] h-[91.10px] border-t-dashed  bg-second-blue rounded-bl-[10px] rounded-br-[10px] border-t-2 border-4 border-gray-200 -mt-16 ">
+              <p className="text-center p-2 text-gray-200">
                 ¿Ya pensaste en el diseño? <br /> Adjuntanos la imagen en <br />{' '}
                 info@etiquetalo.com.ar
               </p>
             </div>
           </div>
         </div>
-      </div>
     </section>
   );
 };

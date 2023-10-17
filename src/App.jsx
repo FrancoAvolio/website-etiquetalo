@@ -129,7 +129,7 @@ function App() {
           </div>
         </div>
 
-        <section className="md:h-[26.875rem] md:w-full sm:p-5 flex items-center align-items justify-center sm:gap-[6.688rem] sm:mx-4 flex-wrap px-10 h-[400px]">
+        <section className="md:h-[26.875rem] md:w-full sm:p-5 flex items-center align-items justify-center sm:gap-[7.688rem] sm:mx-4 flex-wrap px-10 h-[400px]">
           <RequisitosCard
             titulo={'Color de base a eleccion'}
             imagen={imageUrl2}
