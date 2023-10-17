@@ -19,9 +19,9 @@ export const Navbar = () => {
   };
 
   return (
-    <div className="fadeIn fixed top-0 w-full items-center">
+    <div className="fadeIn fixed top-0 sm:w-full items-center">
       <nav
-        className="flex items-center justify-between px-5 mb-10 mx-10 my-[1.25rem] sm:h-auto sm:p-0 "
+        className="flex items-center justify-between px-5 mb-10 mx-10 my-[1.25rem] sm:h-auto"
         style={{
           background: 'rgba(22, 40, 78, 0.60)',
           borderRadius: 20,
@@ -36,7 +36,7 @@ export const Navbar = () => {
           />
         </div>
 
-        <div className="sm:hidden">
+        <div className="sm:hidden sm:overflow-hidden">
           <button className="text-white text-2xl ml-4 p-2" onClick={toggleMenu}>
             <GiHamburgerMenu />
           </button>
