@@ -2,7 +2,7 @@ import './index.css';
 import './App.css';
 
 import { AiOutlineWhatsApp } from 'react-icons/ai';
-import { Navbar } from './components/navbar/navbar';
+import { Navbar } from './components/Navbar/navbar';
 import { HomeCard } from './components/HomeCard/HomeCard';
 import { HomeButton } from './components/HomeButton/HomeButton';
 import { RequisitosCard } from './components/RequisitosCard/RequisitosCard';
@@ -109,14 +109,14 @@ function App() {
 
       <div
         id="productos"
-        className="relative z-20 mt-[8rem] h-full"
+        className="relative z-20 mt-[4rem] h-full"
         style={{
           backgroundImage:
             'linear-gradient(180deg, #ffffff 0%, #e8e8e8 20%, #e8e8e8 83%, #ffffff 100%)',
         }}
       >
         <div className="flex items-center justify-center pt-[3.125rem]  h-full">
-          <div className="text-blue-950 text-[2.5rem] font-bold font-['Roboto', sans_serif] text-[#16284E]">
+          <div className="text-blue-950 text-[2.5rem] font-bold font-['Roboto', sans_serif] text-[#16284E] mb-10">
             <h2 className="text-center">Nuestros productos</h2>
             <div className="my-[0.063rem] border-b-[0.188rem] border-[#5BB4EB] w-[21.1rem] mx-auto"></div>
           </div>
@@ -149,8 +149,8 @@ function App() {
             'linear-gradient(180deg, #ffffff 0%, #e8e8e8 20%, #e8e8e8 83%, #ffffff 100%)',
         }}
       >
-        <section className="w-full h-full mt-[10rem]">
-          <div className="text-center text-[#16284E] text-[40px] font-bold font-['Roboto', sans_serif] mb-11">
+        <section className="w-full h-full mt-[8rem]">
+          <div className="text-center text-[#16284E] text-[40px] font-bold font-['Roboto', sans_serif] sm:mb-20">
             Tipos de etiqueta
             <div className="my-[1px] border-b-[3px] border-[#5BB4EB] w-[295px] mx-auto"></div>
             <p className="mt-4 mb-6 text-second-blue text-xl font-normal font-['Roboto, sans_serif']">
@@ -204,7 +204,7 @@ function App() {
 
         <div
           id="porque-elegirnos"
-          className=" z-30 flex justify-center flex-col w-full flex-wrap sm:px-[60px] mt-[10rem] h-auto p-2"
+          className=" z-30 flex justify-center flex-col w-full flex-wrap sm:px-[60px] mt-[7rem] h-auto p-2"
           style={{
             background:
               'linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #E8E8E8 31%)',
