@@ -109,7 +109,7 @@ function App() {
 
       <div
         id="productos"
-        className="relative z-20  mt-[8rem] h-full"
+        className="relative z-20 mt-[8rem] h-full"
         style={{
           backgroundImage:
             'linear-gradient(180deg, #ffffff 0%, #e8e8e8 20%, #e8e8e8 83%, #ffffff 100%)',
@@ -117,7 +117,7 @@ function App() {
       >
         <div className="flex items-center justify-center pt-[3.125rem]  h-full">
           <div className="text-blue-950 text-[2.5rem] font-bold font-['Roboto', sans_serif] text-[#16284E]">
-            <h2>Nuestros productos</h2>
+            <h2 className="text-center">Nuestros productos</h2>
             <div className="my-[0.063rem] border-b-[0.188rem] border-[#5BB4EB] w-[21.1rem] mx-auto"></div>
           </div>
         </div>
@@ -149,7 +149,7 @@ function App() {
             'linear-gradient(180deg, #ffffff 0%, #e8e8e8 20%, #e8e8e8 83%, #ffffff 100%)',
         }}
       >
-        <section className="w-full h-full mt-[5rem]">
+        <section className="w-full h-full mt-[10rem]">
           <div className="text-center text-[#16284E] text-[40px] font-bold font-['Roboto', sans_serif] mb-11">
             Tipos de etiqueta
             <div className="my-[1px] border-b-[3px] border-[#5BB4EB] w-[295px] mx-auto"></div>
@@ -161,7 +161,7 @@ function App() {
           </div>
         </section>
 
-        <div className="w-full flex justify-center h-full bg-transparent">
+        <div className="w-full flex justify-center h-full bg-transparent mt-[10rem]">
           <div className="grid gap-y-20 sm:gap-x-5 gap-4 2xl:grid-cols-3 xl:grid-cols-3 lg:grid-cols-3 grid-cols-2 md:mx-16 mx-2 bg-transparent w-full ">
             <EtiquetasCard
               titulo={'Seguridad (VOID)'}
@@ -204,7 +204,7 @@ function App() {
 
         <div
           id="porque-elegirnos"
-          className=" z-30 flex justify-center flex-col w-full flex-wrap sm:px-[60px] h-auto p-2"
+          className=" z-30 flex justify-center flex-col w-full flex-wrap sm:px-[60px] mt-[10rem] h-auto p-2"
           style={{
             background:
               'linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #E8E8E8 31%)',

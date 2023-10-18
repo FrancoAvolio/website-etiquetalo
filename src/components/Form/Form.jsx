@@ -44,7 +44,7 @@ const Form = () => {
   return (
     <section
       id="form"
-      className="bg-gradient-to-b from-[#162843] to-[#3d799e] p-12"
+      className="bg-gradient-to-b mt-[10rem] from-[#162843] to-[#3d799e] p-12"
     >
       <div className="w-full text-center text-white text-[54px] font-semibold font-['Roboto, sans_serif']">
         ¿Listo para Transformar tu Etiquetado?
