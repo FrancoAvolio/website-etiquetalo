@@ -149,7 +149,7 @@ function App() {
             'linear-gradient(180deg, #ffffff 0%, #e8e8e8 20%, #e8e8e8 83%, #ffffff 100%)',
         }}
       >
-        <section className="w-full h-full sm:mt-[7rem] mt-[14rem]">
+        <section className="w-full h-full sm:mt-[7rem] mt-[20rem]">
           <div className="text-center text-[#16284E] text-[40px] font-bold font-['Roboto', sans_serif]">
             Tipos de etiqueta
             <div className="my-[1px] border-b-[3px] border-[#5BB4EB] w-[295px] mx-auto"></div>
