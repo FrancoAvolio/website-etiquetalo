@@ -76,7 +76,7 @@ const economicasTermosensibles = [
 function App() {
   return (
     <div className="w-full navbar bg-white z-30">
-      <header className="relative z-30 h-[6.875rem] w-full cursor-pointer">
+      <header className="relative z-30 h-[6.875rem] w-full cursor-pointer flex justify-center items-center">
         <Navbar />
         {/* <DrawerAppBar /> */}
       </header>
