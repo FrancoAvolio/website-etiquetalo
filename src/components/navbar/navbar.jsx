@@ -21,7 +21,7 @@ export const Navbar = () => {
   return (
     <div className="fadeIn fixed top-0 sm:w-full items-center">
       <nav
-        className="flex items-center justify-between px-16 mb-10 mx-1 sm:mx-10 my-[1.25rem] sm:h-auto"
+        className="flex items-center justify-between px-1 mb-10 mx-1 sm:mx-10 my-[1.25rem] sm:h-auto"
         style={{
           background: 'rgba(22, 40, 78, 0.60)',
           borderRadius: 20,
@@ -65,7 +65,10 @@ export const Navbar = () => {
           >
             ¿Por qué elegirnos?
           </li>
-          <li onClick={() => scrollToSection('form')} className="-mt-1 pt-6 sm:pt-2">
+          <li
+            onClick={() => scrollToSection('form')}
+            className="-mt-1 pt-6 sm:pt-2"
+          >
             <HomeButton titulo={'Contáctanos'} />
           </li>
         </ul>

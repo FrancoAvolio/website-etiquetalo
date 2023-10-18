@@ -75,8 +75,8 @@ const economicasTermosensibles = [
 
 function App() {
   return (
-    <div className="w-full bg-white z-30">
-      <header className="relative z-30 h-[6.875rem] sm:w-full w-2/3 cursor-pointer">
+    <div className="w-full navbar bg-white z-30">
+      <header className="relative z-30 h-[6.875rem] w-full cursor-pointer">
         <Navbar />
         {/* <DrawerAppBar /> */}
       </header>
@@ -149,7 +149,7 @@ function App() {
             'linear-gradient(180deg, #ffffff 0%, #e8e8e8 20%, #e8e8e8 83%, #ffffff 100%)',
         }}
       >
-        <section className="w-full h-full mt-[7rem]">
+        <section className="w-full h-full sm:mt-[7rem] mt-[14rem]">
           <div className="text-center text-[#16284E] text-[40px] font-bold font-['Roboto', sans_serif]">
             Tipos de etiqueta
             <div className="my-[1px] border-b-[3px] border-[#5BB4EB] w-[295px] mx-auto"></div>
@@ -161,7 +161,7 @@ function App() {
           </div>
         </section>
 
-        <div className="w-full flex justify-center h-full bg-transparent mt-[10rem]">
+        <div className="w-full flex justify-center h-full bg-transparent mt-14 sm:mt-[10rem]">
           <div className="grid gap-y-20 sm:gap-x-5 gap-4 2xl:grid-cols-3 xl:grid-cols-3 lg:grid-cols-3 grid-cols-2 md:mx-16 mx-2 bg-transparent w-full ">
             <EtiquetasCard
               titulo={'Seguridad (VOID)'}
@@ -204,7 +204,7 @@ function App() {
 
         <div
           id="porque-elegirnos"
-          className=" z-30 flex justify-center flex-col w-full flex-wrap sm:px-[60px] mt-[6rem] h-auto p-2"
+          className=" z-30 flex justify-center flex-col w-full flex-wrap sm:px-[60px] mt-[5rem] h-auto p-2"
           style={{
             background:
               'linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #E8E8E8 31%)',

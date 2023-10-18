@@ -9,3 +9,7 @@
 .subrayado:hover::after {
     @apply w-[100%]  bg-[#5BB4EB]
 }
+
+.navbar{
+    overflow-x: hidden;
+}
