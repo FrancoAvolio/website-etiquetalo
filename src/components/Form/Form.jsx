@@ -97,7 +97,7 @@ const Form = () => {
             />
           </div>
           <div>
-            <label htmlFor="user_phone" className="mb-2 font-medium text-white">
+            <label htmlFor="phone" className="mb-2 font-medium text-white">
               Teléfono
             </label>
             <input
