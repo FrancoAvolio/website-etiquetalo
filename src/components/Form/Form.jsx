@@ -134,7 +134,7 @@ const Form = () => {
               <textarea
                 name="message"
                 id="message"
-                className="w-full p-6 mt-2 transition duration-500 bg-gray-100 border-2 rounded-md focus:outline-none focus:border-black"
+                className="w-full p-6 mt-2 sm:h-28 h-40  transition duration-500 bg-gray-100 border-2 rounded-md focus:outline-none focus:border-black"
                 value={message}
                 onChange={(e) => setMessage(e.target.value)}
                 required
