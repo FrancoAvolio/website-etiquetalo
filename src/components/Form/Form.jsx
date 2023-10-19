@@ -141,7 +141,7 @@ const Form = () => {
                 placeholder="Ingresa aquí todos los detalles que creas necesarios para hacer tu pedido. ¡Esperamos tu contacto!"
               ></textarea>
             </div>
-            <div className="col-span-2 text-left mt-4 mx-2">
+            <div className="col-span-2 text-left mt-4 mx-0">
               <button
                 type="submit"
                 className={`px-12 py-2 font-semibold bg-white text-text-blue transition duration-300 rounded-full ${
