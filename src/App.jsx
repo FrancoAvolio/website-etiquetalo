@@ -87,7 +87,7 @@ function App() {
           etiquetas a medida
         </h1>
 
-        <p className="sm:leading-tight sm:text-lg text-white sm:text-md font-normal font-['Roboto', 'sans_serif'] text-xs">
+        <p className="sm:leading-tight sm:text-lg text-white sm:text-md font-normal font-['Roboto', 'sans_serif'] text-[1rem]">
           La etiqueta perfecta para cada producto.
         </p>
       </section>
