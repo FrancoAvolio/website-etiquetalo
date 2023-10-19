@@ -49,7 +49,7 @@ const Form = () => {
       <div className="w-full text-center text-white text-[32px] sm:text-[54px] font-semibold font-['Roboto, sans_serif']">
         ¿Listo para Transformar tu Etiquetado?
       </div>
-      <p className="text-center text-white text-[16px] sm:text-[22px] font-['Roboto, sans_serif'] mt-6">
+      <p className="text-center text-white text-[17px] sm:text-[22px] font-['Roboto, sans_serif'] mt-6">
         Permítenos ayudarte a encontrar la solución perfecta para tus etiquetas.{' '}
         <br />
         ¡Contáctanos hoy mismo!
