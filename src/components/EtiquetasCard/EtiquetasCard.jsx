@@ -72,7 +72,7 @@ export const EtiquetasCard = ({titulo, imagen, aplicacion, lista}) => {
                         </ul>
                     </div>
 
-                    <p className="card-info w-full mb-3 text-base font-normal">
+                    <p className="card-info font-['Roboto, sans_serif'] w-full mb-3 sm:text-base font-normal text-[0.75rem]">
                         Aplicación: {aplicacion} 
                     </p>
                 </div> 
