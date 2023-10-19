@@ -126,18 +126,25 @@ function App() {
           <RequisitosCard
             titulo={'Color de base a eleccion'}
             imagen={imageUrl2}
+            alt={'Etiqueta base a color'}
           />
 
           <RequisitosCard
             titulo={'Textiles o Autoadhesivas'}
             imagen={imageUrl4}
+            alt={'Etiqueta textil y autoadhesiva'}
           />
 
           <RequisitosCard
             titulo={'Único color de impresion'}
             imagen={imageUrl5}
+            alt={'Etiqueta impresa color unico'}
           />
-          <RequisitosCard titulo={'Ancho hasta 110mm'} imagen={imageUrl} />
+          <RequisitosCard
+            titulo={'Ancho hasta 110mm'}
+            imagen={imageUrl}
+            alt={'Etiqueta ancha'}
+          />
         </section>
       </div>
 

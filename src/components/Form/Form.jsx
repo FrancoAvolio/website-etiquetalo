@@ -55,7 +55,7 @@ const Form = () => {
       <div className="container mx-auto">
         <div className={`grid sm:grid-cols-2 grid-cols-1 gap-4`}>
           <div>
-            <label htmlFor="name" className="mb-2 font-medium text-white">
+            <label htmlFor="user_name" className="mb-2 font-medium text-white">
               Nombre y apellido
             </label>
             <input
@@ -69,7 +69,7 @@ const Form = () => {
             />
           </div>
           <div>
-            <label htmlFor="company" className="mb-2 font-medium text-white">
+            <label htmlFor="user_company" className="mb-2 font-medium text-white">
               Empresa
             </label>
             <input
@@ -97,7 +97,7 @@ const Form = () => {
             />
           </div>
           <div>
-            <label htmlFor="phone" className="mb-2 font-medium text-white">
+            <label htmlFor="user_phone" className="mb-2 font-medium text-white">
               Teléfono
             </label>
             <input
