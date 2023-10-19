@@ -42,106 +42,122 @@ const Form = () => {
   };
 
   return (
-   <section id="form" className="bg-gradient-to-b mt-[10rem] from-[#162843] to-[#3d799e] p-12">
-  <div className="w-full text-center text-white text-[54px] font-semibold font-['Roboto, sans_serif']">
-    ¿Listo para Transformar tu Etiquetado?
-  </div>
-  <p className="text-center text-white text-[22px] font-['Roboto, sans_serif'] mt-6">
-    Permítenos ayudarte a encontrar la solución perfecta para tus etiquetas. <br />
-    ¡Contáctanos hoy mismo!
-  </p>
-  <div className="mt-14 max-w-6xl mx-auto w-full flex flex-col sm:flex-row">
-    <form onSubmit={sendEmail} className="px-8 font-['Roboto, sans_serif']">
-      <div className="container mx-auto">
-        <div className={`grid sm:grid-cols-2 grid-cols-1 gap-4`}>
-          <div>
-            <label htmlFor="name" className="mb-2 font-medium text-white">
-              Nombre y apellido
-            </label>
-            <input
-              type="text"
-              name="user_name"
-              id="user_name"
-              className="w-full p-2 transition duration-500 bg-gray-100 border-2 rounded-md focus:outline-none focus:border-black"
-              value={name}
-              onChange={(e) => setName(e.target.value)}
-              required
-            />
-          </div>
-          <div>
-            <label htmlFor="company" className="mb-2 font-medium text-white">
-              Empresa
-            </label>
-            <input
-              type="text"
-              name="user_company"
-              id="user_company"
-              className="w-full p-2 transition duration-500 bg-gray-100 border-2 rounded-md focus:outline-none focus:border-black"
-              value={company}
-              onChange={(e) => setCompany(e.target.value)}
-              required
-            />
-          </div>
-          <div>
-            <label htmlFor="email" className="mb-2 font-medium text-white">
-              Correo electrónico
-            </label>
-            <input
-              type="email"
-              name="user_email"
-              id="email"
-              className="w-full p-2 transition duration-500 bg-gray-100 border-2 rounded-md focus:outline-none focus:border-black"
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
-              required
-            />
-          </div>
-          <div>
-            <label htmlFor="phone" className="mb-2 font-medium text-white">
-              Teléfono
-            </label>
-            <input
-              type="number"
-              name="user_phone"
-              id="phone"
-              className="w-full p-2 transition duration-500 bg-gray-100 border-2 rounded-md focus:outline-none focus:border-black"
-              value={telefono}
-              onChange={(e) => setTelefono(e.target.value)}
-              required
-            />
-          </div>
-        </div>
-        <div className="w-full mt-10">
-          <label htmlFor="message" className="text-left font-medium text-white">
-            Mensaje
-          </label>
-          <textarea
-            name="message"
-            id="message"
-            className="w-full p-6 mt-2 transition duration-500 bg-gray-100 border-2 rounded-md focus:outline-none focus:border-black"
-            value={message}
-            onChange={(e) => setMessage(e.target.value)}
-            required
-            placeholder="Ingresa aquí todos los detalles que creas necesarios para hacer tu pedido. ¡Esperamos tu contacto!"
-          ></textarea>
-        </div>
-        <div className="col-span-2 text-left mt-4 mx-2">
-          <button
-            type="submit"
-            className={`px-12 py-2 font-semibold bg-white text-text-blue transition duration-300 rounded-full ${
-              loading
-                ? 'bg-gray-500 cursor-not-allowed'
-                : 'bg-black/70 hover:bg-gray-200'
-            }`}
-            disabled={loading}
-          >
-            {loading ? 'Enviando...' : 'Enviar'}
-          </button>
-          {success && <AlertMessage />}
-        </div>
+    <section
+      id="form"
+      className="bg-gradient-to-b mt-[10rem] from-[#162843] to-[#3d799e] p-12"
+    >
+      <div className="w-full text-center text-white text-[32px] sm:text-[54px] font-semibold font-['Roboto, sans_serif']">
+        ¿Listo para Transformar tu Etiquetado?
       </div>
-    </form>
-        <div className="w-full sm:w-1/2 -mt-2 px-12 hidden sm:block">
+      <p className="text-center text-white text-[17px] sm:text-[22px] font-['Roboto, sans_serif'] mt-6">
+        Permítenos ayudarte a encontrar la solución perfecta para tus etiquetas.{' '}
+        <br />
+        ¡Contáctanos hoy mismo!
+      </p>
+      <div className="mt-14 max-w-6xl mx-auto w-full flex flex-col sm:flex-row">
+        <form
+          onSubmit={sendEmail}
+          className="px-8 font-['Roboto, sans_serif'] mx-auto"
+        >
+          <div className="container mx-auto">
+            <div className={`grid sm:grid-cols-2 grid-cols-1 gap-4`}>
+              <div>
+                <label
+                  htmlFor="user_name"
+                  className="mb-2 font-medium text-white"
+                >
+                  Nombre y apellido
+                </label>
+                <input
+                  type="text"
+                  name="user_name"
+                  id="user_name"
+                  className="w-full p-2 transition duration-500 bg-gray-100 border-2 rounded-md focus:outline-none focus:border-black"
+                  value={name}
+                  onChange={(e) => setName(e.target.value)}
+                  required
+                />
+              </div>
+              <div>
+                <label
+                  htmlFor="user_company"
+                  className="mb-2 font-medium text-white"
+                >
+                  Empresa
+                </label>
+                <input
+                  type="text"
+                  name="user_company"
+                  id="user_company"
+                  className="w-full p-2 transition duration-500 bg-gray-100 border-2 rounded-md focus:outline-none focus:border-black"
+                  value={company}
+                  onChange={(e) => setCompany(e.target.value)}
+                  required
+                />
+              </div>
+              <div>
+                <label htmlFor="email" className="mb-2 font-medium text-white">
+                  Correo electrónico
+                </label>
+                <input
+                  type="email"
+                  name="user_email"
+                  id="email"
+                  className="w-full p-2 transition duration-500 bg-gray-100 border-2 rounded-md focus:outline-none focus:border-black"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                  required
+                />
+              </div>
+              <div>
+                <label htmlFor="phone" className="mb-2 font-medium text-white">
+                  Teléfono
+                </label>
+                <input
+                  type="number"
+                  name="user_phone"
+                  id="phone"
+                  className="w-full p-2 transition duration-500 bg-gray-100 border-2 rounded-md focus:outline-none focus:border-black"
+                  value={telefono}
+                  onChange={(e) => setTelefono(e.target.value)}
+                  required
+                />
+              </div>
+            </div>
+            <div className="w-full mt-10">
+              <label
+                htmlFor="message"
+                className="text-left font-medium text-white"
+              >
+                Mensaje
+              </label>
+              <textarea
+                name="message"
+                id="message"
+                className="w-full p-6 mt-2 sm:h-28 h-40  transition duration-500 bg-gray-100 border-2 rounded-md focus:outline-none focus:border-black"
+                value={message}
+                onChange={(e) => setMessage(e.target.value)}
+                required
+                placeholder="Ingresa aquí todos los detalles que creas necesarios para hacer tu pedido. ¡Esperamos tu contacto!"
+              ></textarea>
+            </div>
+            <div className="col-span-2 text-left mt-4 mx-0">
+              <button
+                type="submit"
+                className={`px-12 py-2 font-semibold bg-white text-text-blue transition duration-300 rounded-full ${
+                  loading
+                    ? 'bg-gray-500 cursor-not-allowed'
+                    : 'bg-black/70 hover:bg-gray-200'
+                }`}
+                disabled={loading}
+              >
+                {loading ? 'Enviando...' : 'Enviar'}
+              </button>
+              {success && <AlertMessage />}
+            </div>
+          </div>
+        </form>
+        <div className="w-full sm:w-1/2 -mt-2 px-12 lg:block sm:hidden md:hidden hidden">
           <div className="w-[340px] h-[345px] bg-gray-200 rounded-[10px] shadow border-2 border-gray-200">
             <div className="relative">
               <img

@@ -116,28 +116,39 @@ function App() {
         }}
       >
         <div className="flex items-center justify-center pt-[3.125rem]  h-full">
-          <div className="text-blue-950 text-[2.5rem] font-bold font-['Roboto', sans_serif] text-[#16284E] mb-10">
-            <h2 className="text-center">Nuestros productos</h2>
-            <div className="my-[0.063rem] border-b-[0.188rem] border-[#5BB4EB] w-[21.1rem] mx-auto"></div>
+          <div className="text-blue-950 text-[2.5rem] font-bold font-['Roboto', sans_serif] text-[#16284E] sm:mb-10">
+            <h2 className="text-center text-3xl sm:text-[40px]">Nuestros productos</h2>
+            <div className="sm:my-[1rem] border-b-[0.188rem] border-[#5BB4EB] sm:w-[21.1rem] mx-auto"></div>
           </div>
         </div>
 
-        <section className="md:h-[26.875rem] md:w-full sm:p-5 flex items-center align-items justify-center gap-8 sm:gap-[7.688rem] sm:mx-4 flex-wrap px-10 h-[400px]">
+        <section className="flex flex-wrap items-center justify-center gap-4 mt-20 sm:gap-10 md:gap-16 p-2 md:px-5 md:h-[23.875rem] w-full md:space-x-4 xl:space-x-16 sm:space-x-4">
           <RequisitosCard
             titulo={'Color de base a eleccion'}
             imagen={imageUrl2}
+            alt={'Etiqueta base a color'}
+            className="w-full sm:w-1/2 md:w-1/4"
           />
 
           <RequisitosCard
             titulo={'Textiles o Autoadhesivas'}
             imagen={imageUrl4}
+            alt={'Etiqueta textil y autoadhesiva'}
+            className="w-full sm:w-1/2 md:w-1/4"
           />
 
           <RequisitosCard
             titulo={'Único color de impresion'}
             imagen={imageUrl5}
+            alt={'Etiqueta impresa color unico'}
+            className="w-full sm:w-1/2 md:w-1/4"
           />
-          <RequisitosCard titulo={'Ancho hasta 110mm'} imagen={imageUrl} />
+          <RequisitosCard
+            titulo={'Ancho hasta 110mm'}
+            imagen={imageUrl}
+            alt={'Etiqueta ancha'}
+            className="w-full sm:w-1/2 md:w-1/4"
+          />
         </section>
       </div>
 
@@ -149,7 +160,7 @@ function App() {
             'linear-gradient(180deg, #ffffff 0%, #e8e8e8 20%, #e8e8e8 83%, #ffffff 100%)',
         }}
       >
-        <section className="w-full h-full sm:mt-[7rem] mt-[20rem]">
+        <section className="w-full h-full sm:mt-[7rem] mt-[8rem] xl:mt-[8rem] lg:mt-[8rem] md:mt-[8rem]">
           <div className="text-center text-[#16284E] text-[40px] font-bold font-['Roboto', sans_serif]">
             Tipos de etiqueta
             <div className="my-[1px] border-b-[3px] border-[#5BB4EB] w-[295px] mx-auto"></div>
