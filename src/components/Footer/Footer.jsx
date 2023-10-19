@@ -26,9 +26,9 @@ export const Footer = () => {
                 <div className='text-[#24485E] font-medium text-2xl'>www.etiquetalo.com.ar</div>
 
                 <div className='flex gap-4 mt-[3rem]'>
-                    <BsFacebook className='sm:w-[3rem] sm:h-[3rem] text-[#16284E] hover:scale-105 duration-75 w-auto h-auto'/><a href=""></a>
-                    <FaInstagramSquare className='sm:w-[3rem] sm:h-[3rem] text-[#16284E] hover:scale-105 duration-75 w-auto h-auto'/><a href=""></a>
-                    <BsLinkedin className='sm:w-[3rem] sm:h-[3rem] text-[#16284E] hover:scale-105 duration-75 w-auto h-auto'/><a href=""></a>
+                    <BsFacebook className='sm:w-[3rem] sm:h-[3rem] text-[#16284E] hover:scale-105 duration-75 w-auto h-auto'/><a href="" aria-label='Facebook Page'></a>
+                    <FaInstagramSquare className='sm:w-[3rem] sm:h-[3rem] text-[#16284E] hover:scale-105 duration-75 w-auto h-auto'/><a href="" aria-label='Instagram Page'></a>
+                    <BsLinkedin className='sm:w-[3rem] sm:h-[3rem] text-[#16284E] hover:scale-105 duration-75 w-auto h-auto'/><a href="" aria-label='Linkedin Page'></a>
                 </div>
 
             </div>

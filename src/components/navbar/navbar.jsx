@@ -30,7 +30,7 @@ export const Navbar = () => {
       >
         <div className="logo">
           <img
-            className="w-full sm:w-48 h-24 sm:mx-auto sm:px-3 pb-3 pt-1"
+            className="w-full sm:w-48 h-24 sm:h-24 sm:mx-auto sm:px-3 pb-3 pt-1"
             src={logoAzul}
             alt="logo de etiquetalo "
           />
