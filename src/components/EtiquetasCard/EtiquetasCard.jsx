@@ -33,14 +33,14 @@ export const EtiquetasCard = ({titulo, imagen, aplicacion, lista}) => {
             <img src={imagen} alt="" className="card-img" />
             <div className='absolute bottom-0 w-full h-[4rem] bg-[#16284E] flex flex-row justify-between'>
 
-                <h1 className=" text-[#E8E8E8] text-base font-bold  text-center font-['Roboto, sans_serif'] grid items-center ms-9">
+                <h1 className=" text-[#E8E8E8] sm:text-base font-bold  text-center font-['Roboto, sans_serif'] grid items-center ms-9 text-[0.75rem]">
                     {titulo}
                 </h1>
 
                 <button 
                     type='button' 
                     onClick={mostrarTarjeta} 
-                    className='grid items-center me-7'>
+                    className='grid items-center sm:me-7 me-4 sm:text-base text-[0.75rem]'>
                     <InfoButton titulo={'+info'}/>
                 </button>
             </div>
@@ -51,7 +51,7 @@ export const EtiquetasCard = ({titulo, imagen, aplicacion, lista}) => {
                 <div className="card-body flex flex-col gap-3 ps-9 sm:h-[60%] h-auto">
                     <div className='flex flex-row mt-4 text-[#E8E8E8] justify-between'>
                         <h1 
-                            className="text-base font-bold text-center font-['Roboto, sans_serif'] grid items-center">
+                            className="sm:text-base font-bold text-center font-['Roboto, sans_serif'] grid items-center text-[0.75rem]">
                             {titulo}
                         </h1>
 
@@ -65,7 +65,7 @@ export const EtiquetasCard = ({titulo, imagen, aplicacion, lista}) => {
                     </div>
 
                     <div className="card-sub-title ps-4">
-                        <ul className="list-disc font-['Roboto, sans_serif'] text-base font-normal" >
+                        <ul className="list-disc font-['Roboto, sans_serif'] sm:text-base font-normal text-[0.75rem]" >
                             {lista.map((item) => (            
                                 <li>{item}</li>
                             ))}
@@ -77,22 +77,6 @@ export const EtiquetasCard = ({titulo, imagen, aplicacion, lista}) => {
                     </p>
                 </div> 
             )}
-            {/* <div className="card-body flex flex-col gap-6 ps-12 ">
-                <div className='flex flex-row mt-4 text-[#E8E8E8]'>
-                    <h1 className=" text-base text-center font-['Roboto, sans_serif'] grid items-center">{titulo}</h1>
-                    <div onClick={ocultarTarjeta} className='grid items-center'><div className=' text-[#E8E8E8] text-base text-center grid items-center' >-info</div></div>
-                </div>
-                <div className="card-sub-title">
-                    <ul className="list-disc font-['Roboto, sans_serif']" >
-                        {lista.map((item) => (            
-                            <li>{item}</li>
-                        ))}
-                    </ul>
-                </div>
-                <p className="card-info w-full mx-auto p-2">
-                    Aplicación: {aplicacion} 
-                </p>
-            </div> */}
 
         </div>
   )
