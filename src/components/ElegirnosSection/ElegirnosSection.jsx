@@ -1,6 +1,7 @@
 import React from 'react'
 import imagenElegirnos from './../../assets/trabajador_con_etiquedadora.png'
 import cajaCeleste from './../../assets/caja_celeste.png'
+import './ElegirnosSection.css'
 
 export const ElegirnosSection = () => {
   return (
@@ -18,8 +19,7 @@ export const ElegirnosSection = () => {
             <div className="absolute top-0 left-0 translate-x-[-25%] translate-y-[-25%] h-[4.5rem] w-[4.5rem] grid items-center">
               <img className="h-full w-full" src={cajaCeleste} alt="" />
               <div
-                className="absolute translate-x-[120%] translate-y-[-10%] text-center text-[#F8F8F8] text-4xl font-bold"
-                style={{ textShadow: '0px 4px 4px rgba(0, 0, 0, 0.25)' }}
+                className="absolute sombra translate-x-[120%] translate-y-[-10%] text-center text-[#F8F8F8] text-4xl font-bold"
               >
                 1
               </div>
@@ -43,8 +43,7 @@ export const ElegirnosSection = () => {
             <div className="absolute top-0 left-0 translate-x-[-25%] translate-y-[-25%] h-[4.5rem] w-[4.5rem] grid items-center">
               <img className="h-full w-full" src={cajaCeleste} alt="" />
               <div
-                className="absolute translate-x-[120%] translate-y-[-10%] text-center text-[#F8F8F8] text-4xl font-bold"
-                style={{ textShadow: '0px 4px 4px rgba(0, 0, 0, 0.25)' }}
+                className="absolute sombra translate-x-[120%] translate-y-[-10%] text-center text-[#F8F8F8] text-4xl font-bold"
               >
                 2
               </div>
@@ -66,8 +65,7 @@ export const ElegirnosSection = () => {
             <div className="absolute top-0 left-0 translate-x-[-25%] translate-y-[-25%] h-[4.5rem] w-[4.5rem] grid items-center">
               <img className="h-full w-full" src={cajaCeleste} alt="" />
               <div
-                className="absolute translate-x-[120%] translate-y-[-10%] text-center text-[#F8F8F8] text-4xl font-bold"
-                style={{ textShadow: '0px 4px 4px rgba(0, 0, 0, 0.25)' }}
+                className="absolute sombra translate-x-[120%] translate-y-[-10%] text-center text-[#F8F8F8] text-4xl font-bold"
               >
                 3
               </div>
@@ -90,8 +88,7 @@ export const ElegirnosSection = () => {
             <div className="absolute top-0 left-0 translate-x-[-25%] translate-y-[-25%] h-[4.5rem] w-[4.5rem] grid items-center">
               <img className="h-full w-full" src={cajaCeleste} alt="" />
               <div
-                className="absolute translate-x-[120%] translate-y-[-10%] text-center text-[#F8F8F8] text-4xl font-bold"
-                style={{ textShadow: '0px 4px 4px rgba(0, 0, 0, 0.25)' }}
+                className="absolute sombra translate-x-[120%] translate-y-[-10%] text-center text-[#F8F8F8] text-4xl font-bold"
               >
                 4
               </div>
