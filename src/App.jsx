@@ -229,11 +229,13 @@ function App() {
         <Footer />
 
         <div className="relative z-40">
-          <section className="grid place-items-center bg-[#25D366] w-[2.875rem] h-[2.875rem] z-25 fixed bottom-[1.875rem] right-[2.35rem] rounded-full hover:w-[6.25rem] hover:ease-in-out hover:duration-300">
-            <div className="grid place-items-center align-items-center w-[2.875rem] h-[2.875rem]">
-              <AiOutlineWhatsApp className="p-2 text-white text-[2.875rem]" />
-            </div>
-          </section>
+          <a href="https://w.app/Celes">
+            <section className="grid place-items-center bg-[#25D366] w-[2.875rem] h-[2.875rem] z-25 fixed bottom-[1.875rem] right-[2.35rem] rounded-full hover:w-[6.25rem] hover:ease-in-out hover:duration-300">
+                <div className="grid place-items-center align-items-center w-[2.875rem] h-[2.875rem]">
+                  <AiOutlineWhatsApp className="p-2 text-white text-[2.875rem]" />
+                </div>
+              </section>
+          </a>
         </div>
 
         <ScrollButton />
