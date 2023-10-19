@@ -25,10 +25,10 @@ export const Footer = () => {
 
                 <div className='text-[#24485E] font-medium sm:text-2xl text-xl flex flex-wrap'>www.etiquetalo.com.ar</div>
 
-                <div className='flex gap-4 mt-[3rem] w-auto'>
-                    <a href="" aria-label='Facebook Page'><BsFacebook className='sm:w-[3rem] sm:h-[3rem] text-[#16284E] hover:scale-105 duration-75 w-auto h-auto'/></a>
-                    <a href="" aria-label='Instagram Page'><FaInstagramSquare className='sm:w-[3rem] sm:h-[3rem] text-[#16284E] hover:scale-105 duration-75 w-auto h-auto'/></a>
-                    <a href="" aria-label='Linkedin Page'><BsLinkedin className='sm:w-[3rem] sm:h-[3rem] text-[#16284E] hover:scale-105 duration-75 w-auto h-auto'/></a>
+                <div className='flex gap-4  sm:mt-[3rem] mt-2 sm:w-auto'>
+                    <a href="" aria-label='Facebook Page'><BsFacebook className='sm:w-[3rem] sm:h-[3rem] text-[#16284E] hover:scale-105 duration-75 w-[2.5rem] h-[2.5rem]'/></a>
+                    <a href="" aria-label='Instagram Page'><FaInstagramSquare className='sm:w-[3rem] sm:h-[3rem] text-[#16284E] hover:scale-105 duration-75 w-[2.5rem] h-[2.5rem]'/></a>
+                    <a href="" aria-label='Linkedin Page'><BsLinkedin className='sm:w-[3rem] sm:h-[3rem] text-[#16284E] hover:scale-105 duration-75 w-[2.5rem] h-[2.5rem]'/></a>
                 </div>
 
             </div>
