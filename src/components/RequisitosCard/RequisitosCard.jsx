@@ -7,7 +7,8 @@ export const RequisitosCard = ({ titulo, imagen, alt }) => {
         <div className="">
           <img
             className="mx-auto sm:mt-5 sm:w-[5.625rem] sm:h-[4.375rem] w-[2.4rem] h-[3rem] mt-0"
-            src={imagen} alt={alt}
+            src={imagen}
+            alt={alt}
           />
           <p className="sm:text-xl font-bold sm:mt-2 text-center text-text-blue font-['Roboto, sans_serif'] text-xs mt-0">
             {titulo}
