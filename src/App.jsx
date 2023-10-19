@@ -215,7 +215,7 @@ function App() {
 
         <div
           id="porque-elegirnos"
-          className=" z-30 flex justify-center flex-col sm:w-full flex-wrap sm:px-[60px] mt-[5rem] h-auto w-auto p-3"
+          className=" z-30 flex justify-center flex-col sm:w-full flex-wrap sm:px-[60px] mt-[5rem] h-auto w-auto px-6"
           style={{
             background:
               'linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #E8E8E8 31%)',

@@ -13,7 +13,7 @@ export const ElegirnosSection = () => {
       <div className="flex flex-row lg:flex-nowrap justify-center items-center gap-[2rem] mt-[4rem] sm:p-11 h-auto w-full p-0 flex-wrap">
         <ul className="flex flex-col gap-[2.5rem] justify-between sm:w-[40rem] w-full h-auto lg:min-w-[400px]">
           <div className="relative bg-[#FFF] sm:w-full md:h-[8.75rem] rounded-tr-[20px] rounded-bl-[20px] text-[#16284E] grid items-center py-4 ps-[6rem] pe-3 w-full h-auto">
-            <h2 className="absolute top-[-19%] left-[12%] text-[#16284E] text-[1.5rem] font-semibold font-['Roboto', 'sans_serif'] leading-7 w-full">
+            <h2 className="absolute top-[-19%] left-[12%] text-[#16284E] sm:text-[1.5rem] font-semibold font-['Roboto', 'sans_serif'] leading-7 w-full text-xl sm:ms-0 ms-3">
               Te asesoramos
             </h2>
             <div className="absolute top-0 left-0 translate-x-[-25%] translate-y-[-25%] h-[4.5rem] w-[4.5rem] grid items-center">
@@ -37,7 +37,7 @@ export const ElegirnosSection = () => {
           </div>
 
           <div className="relative bg-[#FFF] sm:w-full md:h-[8.75rem] rounded-tr-[20px] rounded-bl-[20px] text-[#16284E] grid items-center py-4 ps-[6rem] pe-3 w-full h-auto">
-            <h2 className="absolute top-[-19%] left-[12%] text-[#16284E] text-[1.5rem] font-semibold font-['Roboto', 'sans_serif'] leading-7">
+            <h2 className="absolute top-[-19%] left-[12%] text-[#16284E] sm:text-[1.5rem] font-semibold font-['Roboto', 'sans_serif'] leading-7 w-full text-xl sm:ms-0 ms-3">
               Pronta entrega
             </h2>
             <div className="absolute top-0 left-0 translate-x-[-25%] translate-y-[-25%] h-[4.5rem] w-[4.5rem] grid items-center">
@@ -59,7 +59,7 @@ export const ElegirnosSection = () => {
           </div>
 
           <div className="relative bg-[#FFF] sm:w-full md:h-[8.75rem] rounded-tr-[20px] rounded-bl-[20px] text-[#16284E] grid items-center py-4 ps-[6rem] pe-3 w-full h-auto">
-            <h2 className="absolute top-[-19%] left-[12%] text-[#16284E] text-[1.5rem] font-semibold font-['Roboto', 'sans_serif'] leading-7">
+            <h2 className="absolute top-[-19%] left-[12%] text-[#16284E] sm:text-[1.5rem] font-semibold font-['Roboto', 'sans_serif'] leading-7 w-full text-xl sm:ms-0 ms-3">
               Diseño
             </h2>
             <div className="absolute top-0 left-0 translate-x-[-25%] translate-y-[-25%] h-[4.5rem] w-[4.5rem] grid items-center">
@@ -82,7 +82,7 @@ export const ElegirnosSection = () => {
           </div>
 
           <div className="relative bg-[#FFF] sm:w-full md:h-[8.75rem] rounded-tr-[20px] rounded-bl-[20px] text-[#16284E] grid items-center py-4 ps-[6rem] pe-3 w-full h-auto">
-            <h2 className="absolute top-[-19%] left-[12%] text-[#16284E] text-[1.5rem] font-semibold font-['Roboto', 'sans_serif'] leading-7">
+            <h2 className="absolute top-[-19%] left-[12%] text-[#16284E] sm:text-[1.5rem] font-semibold font-['Roboto', 'sans_serif'] leading-7 w-full text-xl sm:ms-0 ms-3">
               Consultanos por otros servicios
             </h2>
             <div className="absolute top-0 left-0 translate-x-[-25%] translate-y-[-25%] h-[4.5rem] w-[4.5rem] grid items-center">
