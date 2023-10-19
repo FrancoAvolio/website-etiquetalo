@@ -161,7 +161,7 @@ function App() {
         }}
       >
         <section className="w-full h-full sm:mt-[7rem] mt-[8rem] xl:mt-[8rem] lg:mt-[8rem] md:mt-[8rem]">
-          <div className="text-center text-[#16284E] text-[40px] font-bold font-['Roboto', sans_serif]">
+          <div className="text-center text-[#16284E] sm:text-[40px] font-bold font-['Roboto', sans_serif] text-3xl ">
             Tipos de etiqueta
             <div className="my-[1px] border-b-[3px] border-[#5BB4EB] w-[295px] mx-auto"></div>
             <p className="mt-4 mb-6 text-second-blue text-xl font-normal font-['Roboto, sans_serif']">

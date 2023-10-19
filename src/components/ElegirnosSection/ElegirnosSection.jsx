@@ -6,7 +6,7 @@ import './ElegirnosSection.css'
 export const ElegirnosSection = () => {
   return (
     <div className="flex flex-col flex-wrap h-auto mt-[8rem]">
-      <div className="text-center text-[#16284E] text-[2.5rem] font-bold font-['Roboto', sans_serif] mt-2 mb-[2rem] flex-wrap h-auto">
+      <div className="text-center text-[#16284E] sm:text-[2.5rem] text-3xl font-bold font-['Roboto', sans_serif] mt-2 mb-[2rem] flex-wrap h-auto">
         ¿Por qué elegirnos?
         <div className="my-[1px] border-b-[3px] border-[#5BB4EB] w-[295px] mx-auto"></div>
       </div>
