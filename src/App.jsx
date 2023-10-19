@@ -117,8 +117,8 @@ function App() {
       >
         <div className="flex items-center justify-center pt-[3.125rem]  h-full">
           <div className="text-blue-950 text-[2.5rem] font-bold font-['Roboto', sans_serif] text-[#16284E] sm:mb-10">
-            <h2 className="text-center">Nuestros productos</h2>
-            <div className="my-[0.063rem] border-b-[0.188rem] border-[#5BB4EB] w-[21.1rem] mx-auto"></div>
+            <h2 className="text-center text-xl sm:text-[40px]">Nuestros productos</h2>
+            <div className="sm:my-[1rem] border-b-[0.188rem] border-[#5BB4EB] sm:w-[21.1rem] mx-auto"></div>
           </div>
         </div>
 
