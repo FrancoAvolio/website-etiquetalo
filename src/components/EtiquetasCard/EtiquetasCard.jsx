@@ -33,7 +33,7 @@ export const EtiquetasCard = ({titulo, imagen, aplicacion, lista}) => {
             <img src={imagen} alt="" className="card-img" />
             <div className='absolute bottom-0 w-full h-[4rem] bg-[#16284E] flex flex-row justify-between'>
 
-                <h1 className=" text-[#E8E8E8] sm:text-base font-bold  text-center font-['Roboto, sans_serif'] grid items-center ms-9 text-[0.75rem]">
+                <h1 className="text-[#E8E8E8] sm:text-base font-bold  text-center font-['Roboto, sans_serif'] grid items-center ms-9 text-[0.75rem]">
                     {titulo}
                 </h1>
 
