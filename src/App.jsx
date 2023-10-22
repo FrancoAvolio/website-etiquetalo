@@ -92,11 +92,13 @@ function App() {
         </p>
       </section>
 
-      <section className="md:h-[12.5rem] sm:h-auto sm:p-5 relative z-20 flex items-center justify-center gap-5 sm:my-[1.875rem] sm:flex-wrap sh-auto flex-wrap my-5 px-7">
+      <section className="relative z-20 flex items-center justify-center gap-5 h-auto flex-wrap my-5 px-7 md:h-[12.5rem] max-w-[390px] 2sm:m-auto sm:max-w-[800px] md:p-0 lg:min-w-[1000px] lg:p-0 xl:max-w-[1100px] sm:px-20 sm:my-[1.875rem] md:w-full sm:m-auto sm:flex-wrap " >
+
         <HomeCard titulo={'Somos profesionales'} imagen={handshake} />
         <HomeCard titulo={'Nos gusta lo que hacemos'} imagen={tag_heart} />
         <HomeCard titulo={'Soluciones de calidad'} imagen={hands_heart} />
         <HomeCard titulo={'Atentos a tus consultas'} imagen={headset} />
+
       </section>
 
       <div className="absolute top-0 bottom-0 h-[50rem] w-full z-10">
@@ -110,14 +112,13 @@ function App() {
       <div
         id="productos"
         className="relative z-20 mt-[4rem] h-full"
-        style={{
-          backgroundImage:
-            'linear-gradient(180deg, #ffffff 0%, #e8e8e8 20%, #e8e8e8 83%, #ffffff 100%)',
-        }}
+        style={{ backgroundImage: 'linear-gradient(180deg, #ffffff 0%, #e8e8e8 20%, #e8e8e8 83%, #ffffff 100%)',}}
       >
         <div className="flex items-center justify-center pt-[3.125rem]  h-full">
           <div className="text-blue-950 text-[2.5rem] font-bold font-['Roboto', sans_serif] text-[#16284E] sm:mb-10">
-            <h2 className="text-center text-3xl sm:text-[40px]">Nuestros productos</h2>
+            <h2 className="text-center text-3xl sm:text-[40px]">
+              Nuestros productos
+            </h2>
             <div className="sm:my-[1rem] border-b-[0.188rem] border-[#5BB4EB] sm:w-[21.1rem] mx-auto"></div>
           </div>
         </div>
