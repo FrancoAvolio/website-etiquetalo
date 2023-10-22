@@ -163,8 +163,8 @@ function App() {
         <section className="w-full h-full sm:mt-[7rem] mt-[8rem] xl:mt-[8rem] lg:mt-[8rem] md:mt-[8rem]">
           <div className="text-center text-[#16284E] sm:text-[40px] font-bold font-['Roboto', sans_serif] text-3xl ">
             Tipos de etiqueta
-            <div className="my-[1px] border-b-[3px] border-[#5BB4EB] w-[295px] mx-auto"></div>
-            <p className="mt-4 mb-6 text-second-blue text-xl font-normal font-['Roboto, sans_serif']">
+            <div className="border-b-[3px] border-[#5BB4EB] w-[295px] mx-auto my-4"></div>
+            <p className="mt-4 mb-6 text-second-blue text-xl font-normal font-['Roboto, sans_serif'] mx-4">
               Dependiendo del material de la etiqueta y del ribbon, ofrecemos
               productos en <br /> distintas calidades, segun tus necesidades y
               aplicaciones:
@@ -215,11 +215,8 @@ function App() {
 
         <div
           id="porque-elegirnos"
-          className=" z-30 flex justify-center flex-col sm:w-full flex-wrap sm:px-[60px] mt-[5rem] h-auto w-auto px-6"
-          style={{
-            background:
-              'linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #E8E8E8 31%)',
-          }}
+          className=" z-30 flex justify-center flex-col sm:w-auto flex-wrap sm:px-[3.5rem] mt-[5rem] h-auto w-auto px-6"
+          style={{ background:'linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #E8E8E8 31%)',}}
         >
           <ElegirnosSection />
         </div>
