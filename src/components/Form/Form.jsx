@@ -34,7 +34,7 @@ const Form = () => {
           setMessage('');
           setCompany('');
           setTelefono('');
-          setTimeout(() => setSuccess(false), 5000);
+          setTimeout(() => setSuccess(false), 10000);
         },
         (error) => {
           console.log(error);
