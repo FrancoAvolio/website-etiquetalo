@@ -8,7 +8,7 @@ export const ElegirnosSection = () => {
     <div className="flex flex-col flex-wrap h-auto mt-[8rem]">
       <div className="text-center text-[#16284E] sm:text-[2.5rem] text-3xl font-bold font-['Roboto', sans_serif] mt-2 mb-[2rem] flex-wrap h-auto">
         ¿Por qué elegirnos?
-        <div className="my-[1px] border-b-[3px] border-[#5BB4EB] w-[295px] mx-auto"></div>
+        <div className="sm:my-[1rem] border-b-[0.188rem] border-[#5BB4EB] w-[17rem] sm:w-[21.1rem] mx-auto"></div>
       </div>
       <div className="flex flex-row lg:flex-nowrap justify-center items-center gap-[2rem] mt-[4rem] sm:p-11 h-auto w-full p-0 flex-wrap">
         <ul className="flex flex-col gap-[2.5rem] justify-between sm:w-[40rem] w-full h-auto lg:min-w-[400px]">
@@ -18,9 +18,7 @@ export const ElegirnosSection = () => {
             </h2>
             <div className="absolute top-0 left-0 translate-x-[-25%] translate-y-[-25%] h-[4.5rem] w-[4.5rem] grid items-center">
               <img className="h-full w-full" src={cajaCeleste} alt="" />
-              <div
-                className="absolute sombra translate-x-[120%] translate-y-[-10%] text-center text-[#F8F8F8] text-4xl font-bold"
-              >
+              <div className="absolute sombra translate-x-[120%] translate-y-[-10%] text-center text-[#F8F8F8] text-4xl font-bold">
                 1
               </div>
             </div>
@@ -42,9 +40,7 @@ export const ElegirnosSection = () => {
             </h2>
             <div className="absolute top-0 left-0 translate-x-[-25%] translate-y-[-25%] h-[4.5rem] w-[4.5rem] grid items-center">
               <img className="h-full w-full" src={cajaCeleste} alt="" />
-              <div
-                className="absolute sombra translate-x-[120%] translate-y-[-10%] text-center text-[#F8F8F8] text-4xl font-bold"
-              >
+              <div className="absolute sombra translate-x-[120%] translate-y-[-10%] text-center text-[#F8F8F8] text-4xl font-bold">
                 2
               </div>
             </div>
@@ -64,9 +60,7 @@ export const ElegirnosSection = () => {
             </h2>
             <div className="absolute top-0 left-0 translate-x-[-25%] translate-y-[-25%] h-[4.5rem] w-[4.5rem] grid items-center">
               <img className="h-full w-full" src={cajaCeleste} alt="" />
-              <div
-                className="absolute sombra translate-x-[120%] translate-y-[-10%] text-center text-[#F8F8F8] text-4xl font-bold"
-              >
+              <div className="absolute sombra translate-x-[120%] translate-y-[-10%] text-center text-[#F8F8F8] text-4xl font-bold">
                 3
               </div>
             </div>
@@ -87,9 +81,7 @@ export const ElegirnosSection = () => {
             </h2>
             <div className="absolute top-0 left-0 translate-x-[-25%] translate-y-[-25%] h-[4.5rem] w-[4.5rem] grid items-center">
               <img className="h-full w-full" src={cajaCeleste} alt="" />
-              <div
-                className="absolute sombra translate-x-[120%] translate-y-[-10%] text-center text-[#F8F8F8] text-4xl font-bold"
-              >
+              <div className="absolute sombra translate-x-[120%] translate-y-[-10%] text-center text-[#F8F8F8] text-4xl font-bold">
                 4
               </div>
             </div>

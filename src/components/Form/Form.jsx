@@ -3,6 +3,7 @@ import emailjs from '@emailjs/browser';
 import { AlertMessage } from '../AlertMessage/AlertMessage';
 import ticket from '../../assets/ticket.svg';
 import vector from '../../assets/vector.svg';
+import './Form.css'
 
 const Form = () => {
   const [name, setName] = useState('');
@@ -54,10 +55,11 @@ const Form = () => {
         <br />
         ¡Contáctanos hoy mismo!
       </p>
-      <div className="mt-14 max-w-6xl mx-auto w-full flex flex-col sm:flex-row">
+      <h6 className='text-white font-semibold text-2xl mt-10 sm:translate-x-96 sm:block hidden'>Formulario de contacto</h6>
+      <div className="mt-4 max-w-6xl mx-auto w-full flex flex-col sm:flex-row">
         <form
           onSubmit={sendEmail}
-          className="px-8 font-['Roboto, sans_serif'] mx-auto"
+          className="px-8 mt-8 font-['Roboto, sans_serif'] mx-5"
         >
           <div className="container mx-auto">
             <div className={`grid sm:grid-cols-2 grid-cols-1 gap-4`}>
@@ -157,7 +159,7 @@ const Form = () => {
             </div>
           </div>
         </form>
-        <div className="w-full sm:w-1/2 -mt-2 px-12 lg:block sm:hidden md:hidden hidden">
+        <div className="w-full sm:w-1/2 mt-8 px-12 lg:block sm:hidden md:hidden hidden">
           <div className="w-[340px] h-[345px] bg-gray-200 rounded-[10px] shadow border-2 border-gray-200">
             <div className="relative">
               <img
