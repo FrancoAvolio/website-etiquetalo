@@ -32,7 +32,7 @@ export const Navbar = () => {
       <div className="sm:hidden w-full">
         {menuOpen ? (
           <button
-            className="text-white text-xl p-2 translate-x-64 -translate-y-20 fadeIn"
+            className="text-white text-xl p-2 translate-x-60 -translate-y-16 fadeIn"
             onClick={toggleMenu}
           >
             X
@@ -66,25 +66,25 @@ export const Navbar = () => {
     >
       <li
         onClick={() => scrollToSection('productos')}
-        className=" text-white text-lg font-semibold font-['Roboto', 'sans_serif'] subrayado pt-2 sm:pt-2"
+        className=" text-white text-md sm:text-lg font-semibold font-['Roboto', 'sans_serif'] subrayado pt-1 sm:pt-2"
       >
         Nuestros productos
       </li>
       <li
         onClick={() => scrollToSection('servicios')}
-        className=" text-white text-lg font-semibold font-['Roboto', 'sans_serif'] subrayado pt-6 sm:pt-2"
+        className=" text-white text-md sm:text-lg font-semibold font-['Roboto', 'sans_serif'] subrayado pt-4 sm:pt-2"
       >
         Tipos de etiquetas
       </li>
       <li
         onClick={() => scrollToSection('porque-elegirnos')}
-        className="text-white text-lg font-semibold font-['Roboto', 'sans_serif'] subrayado pt-6 sm:pt-2"
+        className="text-white text-md sm:text-lg font-semibold font-['Roboto', 'sans_serif'] subrayado pt-4 sm:pt-2"
       >
         ¿Por qué elegirnos?
       </li>
       <li
         onClick={() => scrollToSection('form')}
-        className="-mt-1 pt-6 sm:pt-2"
+        className="pt-4 sm:pt-2"
       >
         <HomeButton titulo={'Contáctanos'} />
       </li>
