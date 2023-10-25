@@ -6,7 +6,7 @@ import './ElegirnosSection.css'
 
 export const ElegirnosSection = () => {
   return (
-    <div className="flex flex-col flex-wrap h-auto mt-[8rem]">
+    <div className="realtive z-20 flex flex-col flex-wrap h-auto mt-[8rem]">
       <div className="text-center text-[#16284E] sm:text-[2.5rem] text-3xl font-bold font-['Roboto', sans_serif] mt-2 mb-[2rem] flex-wrap h-auto">
         <h2 className=''>
           ¿Por qué elegirnos?
@@ -112,6 +112,7 @@ export const ElegirnosSection = () => {
           alt=""
         />
       </div>
+      
     </div>
   );
 }

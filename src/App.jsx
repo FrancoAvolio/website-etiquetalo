@@ -15,7 +15,7 @@ import ScrollButton from './components/Scroll/ScrollButton';
 import Products from './components/Sections/Products';
 import Form from './components/Form/Form';
 
-import background from './assets/home-background.jpg';
+import background from './assets/home-background.png';
 import handshake from './assets/handshake.svg';
 import tag_heart from './assets/tag_heart.svg';
 import hands_heart from './assets/hands_heart.svg';
@@ -105,7 +105,7 @@ function App() {
       <div className="absolute top-0 bottom-0 h-[50rem] w-full z-10">
         <img
           src={background}
-          className="absolute top-0 bottom-0 w-full z-10 h-[40.625rem]"
+          className="absolute top-0 bottom-0 w-full z-10 h-[40.625rem] object-cover"
           alt="Vite logo"
         />
       </div>
@@ -189,25 +189,25 @@ function App() {
               lista={textilLista}
             />
             <EtiquetasCard
-              titulo={'Plásticas Transparentes '}
+              titulo={'Plásticas Transparentes'}
               imagen={PlasticaTransparente}
               aplicacion={'varias'}
               lista={plasticasTransparentesLista}
             />
             <EtiquetasCard
-              titulo={'Plásticas color'}
+              titulo={'Plásticas Fondo Color/Blanco'}
               imagen={PlasticasColor}
               aplicacion={'varias.'}
               lista={plasticasColorLista}
             />
             <EtiquetasCard
-              titulo={'Económicas Ilustración color'}
+              titulo={'Ilustración Fondo Color/Blanco'}
               imagen={EconomicasColor}
               aplicacion={'Bienes de cambio de rotacion media/alta. '}
               lista={economicasColor}
             />
             <EtiquetasCard
-              titulo={'Económicas termosensible'}
+              titulo={'Termosensible'}
               imagen={EconomicasTermosensibles}
               aplicacion={'Bienes de cambio de alta rotación. '}
               lista={economicasTermosensibles}
@@ -217,11 +217,25 @@ function App() {
 
         <div
           id="porque-elegirnos"
-          className=" z-30 flex justify-center flex-col sm:w-auto flex-wrap sm:px-[3.5rem] mt-[5rem] h-auto w-auto px-6"
+          className=" flex justify-center flex-col sm:w-auto flex-wrap sm:px-[3.5rem] mt-[5rem] h-auto w-auto px-6"
           style={{ background:'linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #E8E8E8 31%)',}}
         >
           <ElegirnosSection />
+          <div className='z-10 relative me-0 pe-0 translate-x-[56px]'>
+            <div className=' relative p-0 inset-0'>
+                <div className='trianguloFondo absolute bottom-0 right-0' ></div>
+                <div className='trianguloFrente absolute bottom-0 right-0'></div>
+
+            </div>
+          </div>
         </div>
+        {/* <div className='z-20 relative'>
+          <div className='relative p-0 w-auto inset-0'>
+              <div className='trianguloFondo absolute bottom-0 right-0' ></div>
+              <div className='trianguloFrente absolute bottom-0 right-0'></div>
+
+          </div>
+        </div> */}
 
         <Form />
 
