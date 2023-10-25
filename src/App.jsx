@@ -221,10 +221,10 @@ function App() {
           style={{ background:'linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #E8E8E8 31%)',}}
         >
           <ElegirnosSection />
-          <div className='z-10 relative me-0 pe-0 translate-x-[56px]'>
-            <div className=' relative p-0 inset-0'>
+          <div className='z-10 relative me-0 pe-0 sm:translate-x-[56px] p-0 hidden sm:block '>
+            <div className=' relative sm:p-0  inset-0'>
                 <div className='trianguloFondo absolute bottom-0 right-0' ></div>
-                <div className='trianguloFrente absolute bottom-0 right-0 bg-gradient-to-b mt-0 from-[#162843] to-[#3d799e]'></div>
+                <div className='trianguloFrente absolute bottom-0 right-0'></div>
 
             </div>
           </div>
