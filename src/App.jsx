@@ -165,8 +165,8 @@ function App() {
         <section className="w-full h-full sm:mt-[7rem] mt-[8rem] xl:mt-[8rem] lg:mt-[8rem] md:mt-[8rem]">
           <div className="text-center text-[#16284E] sm:text-[40px] font-bold font-['Roboto', sans_serif] text-3xl ">
             Tipos de etiqueta
-            <div className="my-[1px] border-b-[3px] border-[#5BB4EB] w-[295px] mx-auto"></div>
-            <p className="mt-4 mb-6 text-second-blue text-xl font-normal font-['Roboto, sans_serif']">
+            <div className="border-b-[3px] border-[#5BB4EB] w-[295px] mx-auto my-4"></div>
+            <p className="mt-4 mb-6 text-second-blue text-xl font-normal font-['Roboto, sans_serif'] mx-4">
               Dependiendo del material de la etiqueta y del ribbon, ofrecemos
               productos en <br /> distintas calidades, segun tus necesidades y
               aplicaciones:
@@ -225,33 +225,21 @@ function App() {
             <div className=' relative sm:p-0  inset-0'>
                 <div className='trianguloFondo absolute bottom-0 right-0' ></div>
                 <div className='trianguloFrente absolute bottom-0 right-0'></div>
-
             </div>
           </div>
         </div>
-        {/* <div className='z-20 relative'>
-          <div className='relative p-0 w-auto inset-0'>
-              <div className='trianguloFondo absolute bottom-0 right-0' ></div>
-              <div className='trianguloFrente absolute bottom-0 right-0'></div>
-
-          </div>
-        </div> */}
 
         <Form />
 
         <Footer />
 
         <div className="relative z-40">
-<<<<<<< HEAD
-          <a href="https://w.app/Etiquetalo" target="_blank">
-=======
           <a href="https://wa.link/2cpcw0" target="_blank" >
->>>>>>> nico
             <section className="grid place-items-center bg-[#25D366] w-[2.875rem] h-[2.875rem] z-25 fixed bottom-[1.875rem] right-[2.35rem] rounded-full hover:w-[6.25rem] hover:ease-in-out hover:duration-300">
-              <div className="grid place-items-center align-items-center w-[2.875rem] h-[2.875rem]">
-                <AiOutlineWhatsApp className="p-2 text-white text-[2.875rem]" />
-              </div>
-            </section>
+                <div className="grid place-items-center align-items-center w-[2.875rem] h-[2.875rem]">
+                  <AiOutlineWhatsApp className="p-2 text-white text-[2.875rem]" />
+                </div>
+              </section>
           </a>
         </div>
 
