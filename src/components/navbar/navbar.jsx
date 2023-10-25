@@ -21,7 +21,7 @@ export const Navbar = () => {
   return (
 <div className="fadeIn fixed top-0 sm:w-full w-auto items-center">
   <nav
-    className="flex items-center justify-between px-1 mb-10 mx-1 sm:mx-10 my-[1.25rem] sm:h-auto fadeIn"
+    className="flex items-center justify-between px-1 mb-10 mx-0 sm:mx-10 my-[1.25rem] sm:h-auto fadeIn"
     style={{
       background: 'rgba(22, 40, 78, 0.60)',
       borderRadius: 20,
@@ -32,7 +32,7 @@ export const Navbar = () => {
       <div className="sm:hidden w-full">
         {menuOpen ? (
           <button
-            className="text-white text-xl p-2 translate-x-60 -translate-y-16 fadeIn"
+            className="text-white text-xl p-0 translate-x-64 -translate-y-16 fadeIn"
             onClick={toggleMenu}
           >
             X
@@ -62,7 +62,7 @@ export const Navbar = () => {
     <ul
       className={`${
         menuOpen ? 'block' : 'hidden'
-      } fadeIn sm:flex flex sm:flex-row flex-col justify-start -translate-x-6 sm:-translate-x-0 mx-12 sm:mx-0 font-semibold sm:py-2 py-2 sm:px-2 sm:gap-8 lg:flex-wrap md:flex-wrap sm:flex-wrap sm:h-auto`}
+      } fadeIn sm:flex flex sm:flex-row flex-col justify-start -translate-x-4 sm:-translate-x-0 mx-12 sm:mx-0 font-semibold sm:py-2 py-2 sm:px-2 sm:gap-8 lg:flex-wrap md:flex-wrap sm:flex-wrap sm:h-auto`}
     >
       <li
         onClick={() => scrollToSection('productos')}
