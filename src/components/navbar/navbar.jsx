@@ -28,11 +28,11 @@ export const Navbar = () => {
       backdropFilter: 'blur(0.125rem)',
     }}
   >
-    <div className="logo flex items-center p-4 sm:p-0 mx-auto sm:mx-0 w-auto">
+    <div className="logo flex items-center p-4 sm:p-0 mx-auto sm:mx-0 w-auto fadeIn">
       <div className="sm:hidden w-full">
         {menuOpen ? (
           <button
-            className="text-white text-xl p-2 translate-x-64 -translate-y-24"
+            className="text-white text-xl p-2 translate-x-64 -translate-y-24 fadeIn "
             onClick={toggleMenu}
           >
             X
@@ -62,7 +62,7 @@ export const Navbar = () => {
     <ul
       className={`${
         menuOpen ? 'block' : 'hidden'
-      } sm:flex flex sm:flex-row flex-col justify-start -translate-x-6 sm:-translate-x-0 mx-12 sm:mx-0 font-semibold sm:py-2 py-3 sm:px-2 gap-2 sm:gap-8 lg:flex-wrap md:flex-wrap sm:flex-wrap sm:h-auto`}
+      } fadeIn sm:flex flex sm:flex-row flex-col justify-start -translate-x-6 sm:-translate-x-0 mx-12 sm:mx-0 font-semibold sm:py-2 py-3 sm:px-2 gap-2 sm:gap-8 lg:flex-wrap md:flex-wrap sm:flex-wrap sm:h-auto`}
     >
       <li
         onClick={() => scrollToSection('productos')}
