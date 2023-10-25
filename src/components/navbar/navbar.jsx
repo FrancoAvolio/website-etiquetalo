@@ -21,7 +21,7 @@ export const Navbar = () => {
   return (
 <div className="fadeIn fixed top-0 sm:w-full w-auto items-center">
   <nav
-    className="flex items-center justify-between px-1 mb-10 mx-0 sm:mx-10 my-[1.25rem] sm:h-auto fadeIn"
+    className="flex items-center justify-between px-3 sm:px-1 mb-10 mx-0 sm:mx-10 my-[1.25rem] sm:h-auto fadeIn"
     style={{
       background: 'rgba(22, 40, 78, 0.60)',
       borderRadius: 20,
@@ -52,7 +52,7 @@ export const Navbar = () => {
       </div>
       {!menuOpen && (
         <img
-          className="w-full sm:w-48 h-24 sm:h-24 sm:mx-auto sm:px-3 pb-3 pt-1 ml-auto"
+          className="w-full sm:w-48 h-24 sm:h-24 sm:mx-auto sm:px-3 pb-3 pt-1 ml-12"
           src={logoAzul}
           alt="logo de etiquetalo"
         />
