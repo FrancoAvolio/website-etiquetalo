@@ -92,7 +92,8 @@ function App() {
         </p>
       </section>
 
-      <section className="relative z-20 flex items-center justify-center gap-5 h-auto flex-wrap my-5 px-7 md:h-[12.5rem] max-w-[390px] 2sm:m-auto sm:max-w-[800px] md:p-0 lg:min-w-[1000px] lg:p-0 xl:max-w-[1100px] sm:px-20 sm:my-[1.875rem] md:w-full sm:m-auto sm:flex-wrap " >
+      <section 
+        className="relative z-20 flex items-center justify-center gap-5 2sm:max-h-[15rem] sm:min-h-[25rem] md:h-[12.5rem] max-w-[390px] 2sm:m-auto sm:max-w-[800px] md:p-0 lg:min-w-[1000px] lg:p-0 xl:max-w-[1100px] sm:px-20 md:w-full sm:m-auto flex-wrap px-7 mt-10 mb-10 h-auto" >
 
         <HomeCard titulo={'Somos profesionales'} imagen={handshake} />
         <HomeCard titulo={'Nos gusta lo que hacemos'} imagen={tag_heart} />
