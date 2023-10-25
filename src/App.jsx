@@ -221,8 +221,8 @@ function App() {
           style={{ background:'linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #E8E8E8 31%)',}}
         >
           <ElegirnosSection />
-          <div className='z-10 relative me-0 pe-0 translate-x-[56px]'>
-            <div className=' relative p-0 inset-0'>
+          <div className='z-10 relative me-0 pe-0 sm:translate-x-[56px] p-0 hidden sm:block '>
+            <div className=' relative sm:p-0  inset-0'>
                 <div className='trianguloFondo absolute bottom-0 right-0' ></div>
                 <div className='trianguloFrente absolute bottom-0 right-0'></div>
 
@@ -242,7 +242,11 @@ function App() {
         <Footer />
 
         <div className="relative z-40">
+<<<<<<< HEAD
           <a href="https://w.app/Etiquetalo" target="_blank">
+=======
+          <a href="https://wa.link/2cpcw0" target="_blank" >
+>>>>>>> nico
             <section className="grid place-items-center bg-[#25D366] w-[2.875rem] h-[2.875rem] z-25 fixed bottom-[1.875rem] right-[2.35rem] rounded-full hover:w-[6.25rem] hover:ease-in-out hover:duration-300">
               <div className="grid place-items-center align-items-center w-[2.875rem] h-[2.875rem]">
                 <AiOutlineWhatsApp className="p-2 text-white text-[2.875rem]" />

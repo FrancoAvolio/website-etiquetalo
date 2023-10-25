@@ -45,7 +45,8 @@ const Form = () => {
   return (
     <section
       id="form"
-      className="bg-gradient-to-b mt-[10rem] from-[#162843] to-[#3d799e] p-12"
+      className=" mt-0 p-12"
+      style={{background: 'linear-gradient(180deg, #16284E 0%, #3D799E 100%)'}}
     >
       <div className="w-full text-center text-white text-[32px] sm:text-[54px] font-semibold font-['Roboto, sans_serif']">
         ¿Listo para Transformar tu Etiquetado?
@@ -200,7 +201,10 @@ const Form = () => {
               </li>
             </ol>
           </div>
-          <div className="w-[340.10px] h-[91.10px] border-t-dashed  bg-second-blue rounded-bl-[10px] rounded-br-[10px] border-t-2 border-4 border-gray-200 -mt-16 ">
+          <div 
+            className="w-[340.10px] h-[91.10px] border-t-dashed  bg-second-blue rounded-bl-[10px] rounded-br-[10px] border-t-2 border-4 border-gray-200 -mt-16 "
+            style={{borderTop: '3.5px #E8E8E8 dashed'}}
+          >
             <p className="text-center p-2 text-gray-200">
               ¿Ya pensaste en el diseño? <br /> Adjuntanos la imagen en <br />{' '}
               info@etiquetalo.com.ar
