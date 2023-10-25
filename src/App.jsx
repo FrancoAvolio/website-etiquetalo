@@ -15,7 +15,7 @@ import ScrollButton from './components/Scroll/ScrollButton';
 import Products from './components/Sections/Products';
 import Form from './components/Form/Form';
 
-import background from './assets/home-background.jpg';
+import background from './assets/home-background.png';
 import handshake from './assets/handshake.svg';
 import tag_heart from './assets/tag_heart.svg';
 import hands_heart from './assets/hands_heart.svg';
@@ -92,17 +92,20 @@ function App() {
         </p>
       </section>
 
-      <section className="md:h-[12.5rem] sm:h-auto sm:p-5 relative z-20 flex items-center justify-center gap-5 sm:my-[1.875rem] sm:flex-wrap sh-auto flex-wrap my-5 px-7">
+      <section 
+        className="relative z-20 flex items-center justify-center gap-5 2sm:max-h-[15rem] sm:min-h-[25rem] md:h-[12.5rem] max-w-[390px] 2sm:m-auto sm:max-w-[800px] md:p-0 lg:min-w-[1000px] lg:p-0 xl:max-w-[1100px] sm:px-20 md:w-full sm:m-auto flex-wrap px-7 mt-10 mb-10 h-auto" >
+
         <HomeCard titulo={'Somos profesionales'} imagen={handshake} />
         <HomeCard titulo={'Nos gusta lo que hacemos'} imagen={tag_heart} />
         <HomeCard titulo={'Soluciones de calidad'} imagen={hands_heart} />
         <HomeCard titulo={'Atentos a tus consultas'} imagen={headset} />
+
       </section>
 
       <div className="absolute top-0 bottom-0 h-[50rem] w-full z-10">
         <img
           src={background}
-          className="absolute top-0 bottom-0 w-full z-10 h-[40.625rem]"
+          className="absolute top-0 bottom-0 w-full z-10 h-[40.625rem] object-cover"
           alt="Vite logo"
         />
       </div>
@@ -110,13 +113,13 @@ function App() {
       <div
         id="productos"
         className="relative z-20 mt-[4rem] h-full"
-        style={{
-          backgroundImage:
-            'linear-gradient(180deg, #ffffff 0%, #e8e8e8 20%, #e8e8e8 83%, #ffffff 100%)',
-        }}
+        style={{ backgroundImage: 'linear-gradient(180deg, #ffffff 0%, #e8e8e8 20%, #e8e8e8 83%, #ffffff 100%)',}}
       >
         <div className="flex items-center justify-center pt-[3.125rem]  h-full">
           <div className="text-blue-950 text-[2.5rem] font-bold font-['Roboto', sans_serif] text-[#16284E] sm:mb-10">
+            <h2 className="text-center text-3xl sm:text-[40px]">
+              Nuestros productos
+            </h2>
             <h2 className="text-center text-3xl sm:text-[40px]">
               Nuestros productos
             </h2>
@@ -165,7 +168,7 @@ function App() {
         <section className="w-full h-full sm:mt-[7rem] mt-[8rem] xl:mt-[8rem] lg:mt-[8rem] md:mt-[8rem]">
           <div className="text-center text-[#16284E] sm:text-[40px] font-bold font-['Roboto', sans_serif] text-3xl ">
             Tipos de etiqueta
-            <div className="sm:my-[1rem] border-b-[0.188rem] border-[#5BB4EB] w-[15rem] sm:w-[18.6rem] mx-auto"></div>
+            <div className="my-[1px] border-b-[3px] border-[#5BB4EB] w-[295px] mx-auto"></div>
             <p className="mt-4 mb-6 text-second-blue text-xl font-normal font-['Roboto, sans_serif']">
               Dependiendo del material de la etiqueta y del ribbon, ofrecemos
               productos en <br /> distintas calidades, segun tus necesidades y
@@ -189,25 +192,25 @@ function App() {
               lista={textilLista}
             />
             <EtiquetasCard
-              titulo={'Plásticas Transparentes '}
+              titulo={'Plásticas Transparentes'}
               imagen={PlasticaTransparente}
               aplicacion={'varias'}
               lista={plasticasTransparentesLista}
             />
             <EtiquetasCard
-              titulo={'Plásticas color'}
+              titulo={'Plásticas Fondo Color/Blanco'}
               imagen={PlasticasColor}
               aplicacion={'varias.'}
               lista={plasticasColorLista}
             />
             <EtiquetasCard
-              titulo={'Económicas Ilustración color'}
+              titulo={'Ilustración Fondo Color/Blanco'}
               imagen={EconomicasColor}
               aplicacion={'Bienes de cambio de rotacion media/alta. '}
               lista={economicasColor}
             />
             <EtiquetasCard
-              titulo={'Económicas termosensible'}
+              titulo={'Termosensible'}
               imagen={EconomicasTermosensibles}
               aplicacion={'Bienes de cambio de alta rotación. '}
               lista={economicasTermosensibles}
@@ -217,14 +220,25 @@ function App() {
 
         <div
           id="porque-elegirnos"
-          className=" z-30 flex justify-center flex-col sm:w-full flex-wrap sm:px-[60px] mt-[5rem] h-auto w-auto px-6"
-          style={{
-            background:
-              'linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #E8E8E8 31%)',
-          }}
+          className=" flex justify-center flex-col sm:w-auto flex-wrap sm:px-[3.5rem] mt-[5rem] h-auto w-auto px-6"
+          style={{ background:'linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #E8E8E8 31%)',}}
         >
           <ElegirnosSection />
+          <div className='z-10 relative me-0 pe-0 translate-x-[56px]'>
+            <div className=' relative p-0 inset-0'>
+                <div className='trianguloFondo absolute bottom-0 right-0' ></div>
+                <div className='trianguloFrente absolute bottom-0 right-0'></div>
+
+            </div>
+          </div>
         </div>
+        {/* <div className='z-20 relative'>
+          <div className='relative p-0 w-auto inset-0'>
+              <div className='trianguloFondo absolute bottom-0 right-0' ></div>
+              <div className='trianguloFrente absolute bottom-0 right-0'></div>
+
+          </div>
+        </div> */}
 
         <Form />
 

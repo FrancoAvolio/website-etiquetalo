@@ -1,18 +1,23 @@
 import React from 'react'
-import imagenElegirnos from './../../assets/trabajador_con_etiquedadora.png'
+// import imagenElegirnos from './../../assets/trabajador_con_etiquedadora.png'
+import imagenElegirnos from './../../assets/caja_trabajadores.png'
 import cajaCeleste from './../../assets/caja_celeste.png'
 import './ElegirnosSection.css'
 
 export const ElegirnosSection = () => {
   return (
-    <div className="flex flex-col flex-wrap h-auto mt-[8rem]">
+    <div className="realtive z-20 flex flex-col flex-wrap h-auto mt-[8rem]">
       <div className="text-center text-[#16284E] sm:text-[2.5rem] text-3xl font-bold font-['Roboto', sans_serif] mt-2 mb-[2rem] flex-wrap h-auto">
         ¿Por qué elegirnos?
         <div className="sm:my-[1rem] border-b-[0.188rem] border-[#5BB4EB] w-[17rem] sm:w-[21.1rem] mx-auto"></div>
       </div>
+
+
       <div className="flex flex-row lg:flex-nowrap justify-center items-center gap-[2rem] mt-[4rem] sm:p-11 h-auto w-full p-0 flex-wrap">
-        <ul className="flex flex-col gap-[2.5rem] justify-between sm:w-[40rem] w-full h-auto lg:min-w-[400px]">
-          <div className="relative bg-[#FFF] sm:w-full md:h-[8.75rem] rounded-tr-[20px] rounded-bl-[20px] text-[#16284E] grid items-center py-4 ps-[6rem] pe-3 w-full h-auto">
+
+
+        <ul className="flex flex-col gap-[2.5rem] justify-between sm:w-auto w-full h-auto lg:min-w-[400px] lg:w-[35rem] lg:m-0">
+          <div className="relative bg-[#FFF] sm:w-full md:h-[8.75rem] rounded-tr-[20px] rounded-bl-[20px]  text-[#16284E] grid items-center py-4 ps-[6rem] pe-3 w-full h-auto">
             <h2 className="absolute top-[-19%] left-[12%] text-[#16284E] sm:text-[1.5rem] font-semibold font-['Roboto', 'sans_serif'] leading-7 w-full text-xl sm:ms-0 ms-3">
               Te asesoramos
             </h2>
@@ -53,6 +58,8 @@ export const ElegirnosSection = () => {
               </li>
             </ul>
           </div>
+
+
 
           <div className="relative bg-[#FFF] sm:w-full md:h-[8.75rem] rounded-tr-[20px] rounded-bl-[20px] text-[#16284E] grid items-center py-4 ps-[6rem] pe-3 w-full h-auto">
             <h2 className="absolute top-[-19%] left-[12%] text-[#16284E] sm:text-[1.5rem] font-semibold font-['Roboto', 'sans_serif'] leading-7 w-full text-xl sm:ms-0 ms-3">
@@ -103,6 +110,7 @@ export const ElegirnosSection = () => {
           alt=""
         />
       </div>
+      
     </div>
   );
 }
