@@ -120,9 +120,6 @@ function App() {
             <h2 className="text-center text-3xl sm:text-[40px]">
               Nuestros productos
             </h2>
-            <h2 className="text-center text-3xl sm:text-[40px]">
-              Nuestros productos
-            </h2>
             <div className="sm:my-[1rem] border-b-[0.188rem] border-[#5BB4EB] sm:w-[21.1rem] mx-auto"></div>
           </div>
         </div>
