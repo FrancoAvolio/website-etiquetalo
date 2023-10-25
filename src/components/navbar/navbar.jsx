@@ -2,7 +2,7 @@ import React from 'react';
 import logoAzul from '../../assets/logo_azul.png';
 import { HomeButton } from '../HomeButton/HomeButton';
 import './navbar.css';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { GiHamburgerMenu } from 'react-icons/gi';
 
 export const Navbar = () => {
@@ -12,7 +12,22 @@ export const Navbar = () => {
       section.scrollIntoView({ behavior: 'smooth' });
     }
   };
+  const isMobileView = window.innerWidth <= 640;
   const [menuOpen, setMenuOpen] = useState(false);
+  
+    useEffect(() => {
+      const handleResize = () => {
+        if (window.innerWidth > 640) {
+          setMenuOpen(false);
+        }
+      };
+
+      window.addEventListener('resize', handleResize);
+
+      return () => {
+        window.removeEventListener('resize', handleResize);
+      };
+    }, []);
 
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
@@ -52,7 +67,7 @@ export const Navbar = () => {
               </button>
             )}
           </div>
-          {!menuOpen && (
+          {(!menuOpen || !isMobileView) && (
             <img
               className="w-full sm:w-48 h-24 sm:h-24 sm:mx-auto sm:px-3 pb-3 pt-1 ml-12"
               src={logoAzul}
