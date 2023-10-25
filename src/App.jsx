@@ -224,7 +224,7 @@ function App() {
           <div className='z-10 relative me-0 pe-0 translate-x-[56px]'>
             <div className=' relative p-0 inset-0'>
                 <div className='trianguloFondo absolute bottom-0 right-0' ></div>
-                <div className='trianguloFrente absolute bottom-0 right-0'></div>
+                <div className='trianguloFrente absolute bottom-0 right-0 bg-gradient-to-b mt-0 from-[#162843] to-[#3d799e]'></div>
 
             </div>
           </div>
