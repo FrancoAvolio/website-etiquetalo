@@ -62,7 +62,7 @@ export const Navbar = () => {
     <ul
       className={`${
         menuOpen ? 'block' : 'hidden'
-      } sm:flex flex sm:flex-row flex-col justify-start -translate-x-9 sm:-translate-x-0 mx-12 sm:mx-0 font-semibold sm:py-2 py-3 sm:px-2 gap-2 sm:gap-8 lg:flex-wrap md:flex-wrap sm:flex-wrap sm:h-auto`}
+      } sm:flex flex sm:flex-row flex-col justify-start -translate-x-6 sm:-translate-x-0 mx-12 sm:mx-0 font-semibold sm:py-2 py-3 sm:px-2 gap-2 sm:gap-8 lg:flex-wrap md:flex-wrap sm:flex-wrap sm:h-auto`}
     >
       <li
         onClick={() => scrollToSection('productos')}
