@@ -23,7 +23,7 @@ export const ElegirnosSection = () => {
             </h2>
             <div className="absolute top-0 left-0 translate-x-[-25%] translate-y-[-25%] sm:h-[4.5rem] sm:w-[4.5rem] h-[3rem] w-[3rem] grid items-center">
               <img className="h-full w-full" src={cajaCeleste} alt="" />
-              <div className="absolute sombra translate-x-[120%] translate-y-[-10%] text-center text-[#F8F8F8] sm:text-4xl text-2xl font-bold">
+              <div className="absolute sombra translate-x-[120%] translate-y-[-10%] text-center text-[#F8F8F8] sm:text-4xl text-[1.5rem] font-bold">
                 1
               </div>
             </div>
@@ -45,7 +45,7 @@ export const ElegirnosSection = () => {
             </h2>
             <div className="absolute top-0 left-0 translate-x-[-25%] translate-y-[-25%] sm:h-[4.5rem] sm:w-[4.5rem] h-[3rem] w-[3rem] grid items-center">
               <img className="h-full w-full" src={cajaCeleste} alt="" />
-              <div className="absolute sombra translate-x-[120%] translate-y-[-10%] text-center text-[#F8F8F8] sm:text-4xl text-2xl font-bold">
+              <div className="absolute sombra translate-x-[120%] translate-y-[-10%] text-center text-[#F8F8F8] sm:text-4xl text-[1.5rem] font-bold">
                 2
               </div>
             </div>
@@ -67,7 +67,7 @@ export const ElegirnosSection = () => {
             </h2>
             <div className="absolute top-0 left-0 translate-x-[-25%] translate-y-[-25%] sm:h-[4.5rem] sm:w-[4.5rem] h-[3rem] w-[3rem] grid items-center">
               <img className="h-full w-full" src={cajaCeleste} alt="" />
-              <div className="absolute sombra translate-x-[120%] translate-y-[-10%] text-center text-[#F8F8F8] sm:text-4xl text-2xl font-bold">
+              <div className="absolute sombra translate-x-[120%] translate-y-[-10%] text-center text-[#F8F8F8] sm:text-4xl text-[1.5rem] font-bold">
                 3
               </div>
             </div>
@@ -88,7 +88,7 @@ export const ElegirnosSection = () => {
             </h2>
             <div className="absolute top-0 left-0 translate-x-[-25%] translate-y-[-25%] sm:h-[4.5rem] sm:w-[4.5rem] h-[3rem] w-[3rem] grid items-center">
               <img className="h-full w-full" src={cajaCeleste} alt="" />
-              <div className="absolute sombra translate-x-[120%] translate-y-[-10%] text-center text-[#F8F8F8] sm:text-4xl text-2xl font-bold">
+              <div className="absolute sombra translate-x-[120%] translate-y-[-10%] text-center text-[#F8F8F8] sm:text-4xl text-[1.5rem] font-bold">
                 4
               </div>
             </div>
