@@ -162,10 +162,10 @@ function App() {
             'linear-gradient(180deg, #ffffff 0%, #e8e8e8 20%, #e8e8e8 83%, #ffffff 100%)',
         }}
       >
-        <section className="w-full h-full sm:mt-[7rem] mt-[5rem] xl:mt-[8rem] lg:mt-[8rem] md:mt-[8rem]">
+        <section className="w-full h-full sm:mt-[7rem] mt-[3.8rem] xl:mt-[8rem] lg:mt-[8rem] md:mt-[8rem]">
           <div className="text-center text-[#16284E] sm:text-[40px] font-bold font-['Roboto', sans_serif] text-3xl ">
             Tipos de etiqueta
-            <div className="border-b-[3px] border-[#5BB4EB] w-[295px] mx-auto my-4"></div>
+            <div className="border-b-[3px] border-[#5BB4EB] w-[248px] sm:w-[295px] mx-auto my-0 sm:my-4"></div>
             <p className="mt-4 mb-6 text-second-blue text-xl font-normal font-['Roboto, sans_serif'] mx-4">
               Dependiendo del material de la etiqueta y del ribbon, ofrecemos
               productos en <br /> distintas calidades, segun tus necesidades y
