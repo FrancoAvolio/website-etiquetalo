@@ -174,7 +174,7 @@ function App() {
           </div>
         </section>
 
-        <div className="w-full flex justify-center h-full bg-transparent mt-14 sm:mt-[10rem]">
+        <div className="w-full flex justify-center h-full bg-transparent mt-[119px] sm:mt-[10rem]">
           <div className="grid gap-y-20 sm:gap-x-5 gap-4 2xl:grid-cols-3 xl:grid-cols-3 lg:grid-cols-3 grid-cols-2 md:mx-16 mx-2 bg-transparent w-full ">
             <EtiquetasCard
               titulo={'Seguridad (VOID)'}
