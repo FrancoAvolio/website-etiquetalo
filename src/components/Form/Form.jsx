@@ -46,7 +46,7 @@ const Form = () => {
   return (
     <section
       id="form"
-      className=" mt-0 p-12"
+      className=" mt-24 sm:mt-0 p-12"
       style={{background: 'linear-gradient(180deg, #16284E 0%, #3D799E 100%)'}}
     >
       <div className="w-full text-center text-white text-[32px] sm:text-[54px] font-semibold font-['Roboto, sans_serif']">

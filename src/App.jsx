@@ -115,8 +115,8 @@ function App() {
         className="relative z-20 mt-[4rem] h-full"
         style={{ backgroundImage: 'linear-gradient(180deg, #ffffff 0%, #e8e8e8 20%, #e8e8e8 83%, #ffffff 100%)',}}
       >
-        <div className="flex items-center justify-center pt-[3.125rem]  h-full">
-          <div className="text-blue-950 text-[2.5rem] font-bold font-['Roboto', sans_serif] text-[#16284E] sm:mb-10">
+        <div className="flex items-center justify-center pt-[3.125rem] h-full">
+          <div className="text-blue-950 text-[2.5rem] font-bold font-['Roboto', sans_serif] text-[#16284E] sm:mb-10 mt-6 sm:mt-0">
             <h2 className="text-center text-3xl sm:text-[40px]">
               Nuestros productos
             </h2>
@@ -162,7 +162,7 @@ function App() {
             'linear-gradient(180deg, #ffffff 0%, #e8e8e8 20%, #e8e8e8 83%, #ffffff 100%)',
         }}
       >
-        <section className="w-full h-full sm:mt-[7rem] mt-[8rem] xl:mt-[8rem] lg:mt-[8rem] md:mt-[8rem]">
+        <section className="w-full h-full sm:mt-[7rem] mt-[5rem] xl:mt-[8rem] lg:mt-[8rem] md:mt-[8rem]">
           <div className="text-center text-[#16284E] sm:text-[40px] font-bold font-['Roboto', sans_serif] text-3xl ">
             Tipos de etiqueta
             <div className="border-b-[3px] border-[#5BB4EB] w-[295px] mx-auto my-4"></div>
@@ -217,7 +217,7 @@ function App() {
 
         <div
           id="porque-elegirnos"
-          className=" flex justify-center flex-col sm:w-auto flex-wrap sm:px-[3.5rem] mt-[5rem] h-auto w-auto px-6"
+          className=" flex justify-center flex-col sm:w-auto flex-wrap sm:px-[3.5rem] mt-8 sm:mt-[7rem] h-auto w-auto px-6"
           style={{ background:'linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #E8E8E8 31%)',}}
         >
           <ElegirnosSection />
