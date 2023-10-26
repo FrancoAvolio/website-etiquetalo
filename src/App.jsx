@@ -15,7 +15,7 @@ import ScrollButton from './components/Scroll/ScrollButton';
 import Products from './components/Sections/Products';
 import Form from './components/Form/Form';
 
-import background from './assets/home-background.png';
+import background from './assets/home-background.svg';
 import handshake from './assets/handshake.svg';
 import tag_heart from './assets/tag_heart.svg';
 import hands_heart from './assets/hands_heart.svg';

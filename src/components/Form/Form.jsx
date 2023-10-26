@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import emailjs from '@emailjs/browser';
 import { AlertMessage } from '../AlertMessage/AlertMessage';
-import ticket from '../../assets/ticket.svg';
+// import ticket from '../../assets/ticket.svg';
+import tiquet from '../../assets/tiquet.svg';
 import vector from '../../assets/vector.svg';
 import './Form.css'
 
@@ -165,7 +166,7 @@ const Form = () => {
             <div className="relative">
               <img
                 className="absolute -top-8 -left-7"
-                src={ticket}
+                src={tiquet}
                 alt="ticket"
               />
               <p className="w-[274.86px] absolute -left-[1%] top-0 rotate-[-6.11deg] text-center text-white text-xl font-semibold font-['Roboto, sans_serif']">
