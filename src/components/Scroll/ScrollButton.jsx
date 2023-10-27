@@ -1,5 +1,6 @@
 import { FaArrowUp } from 'react-icons/fa';
 import { useState, useEffect } from 'react';
+import React from 'react';
 
 const ScrollButton = () => {
   const [isVisible, setIsVisible] = useState(false);
