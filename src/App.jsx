@@ -1,6 +1,6 @@
 import './index.css';
 import './App.css';
-
+import React from 'react';
 import { AiOutlineWhatsApp } from 'react-icons/ai';
 import { Navbar } from './components/navbar/navbar';
 import { HomeCard } from './components/HomeCard/HomeCard';
