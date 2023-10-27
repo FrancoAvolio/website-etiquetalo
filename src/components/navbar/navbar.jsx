@@ -100,7 +100,7 @@ export const Navbar = () => {
             ¿Por qué elegirnos?
           </li>
           <li onClick={() => scrollToSection('form')} className="pt-4 sm:pt-2">
-            <HomeButton titulo={'Contáctanos'} />
+            <HomeButton titulo={'Contactanos'} />
           </li>
         </ul>
       </nav>
