@@ -166,7 +166,7 @@ function App() {
           <div className="text-center text-[#16284E] sm:text-[40px] font-bold font-['Roboto', sans_serif] text-3xl ">
             Tipos de etiqueta
             <div className="border-b-[3px] border-[#5BB4EB] w-[248px] sm:w-[295px] mx-auto my-0 sm:my-4"></div>
-            <p className="mt-4 mb-6 text-second-blue text-xl font-normal font-['Roboto, sans_serif'] mx-4">
+            <p className="mt-4 mb-6 text-second-blue sm:text-xl text-[16px] text-center font-normal font-['Roboto, sans_serif'] mx-4">
               Dependiendo del material de la etiqueta y del ribbon, ofrecemos
               productos en <br /> distintas calidades, segun tus necesidades y
               aplicaciones:
@@ -175,7 +175,7 @@ function App() {
         </section>
 
         <div className="w-full flex justify-center h-full bg-transparent mt-[119px] sm:mt-[10rem]">
-          <div className="grid gap-y-20 sm:gap-x-5 gap-4 2xl:grid-cols-3 xl:grid-cols-3 lg:grid-cols-3 grid-cols-2 md:mx-16 mx-2 bg-transparent w-full ">
+          <div className="grid sm:gap-y-20 sm:gap-x-5 gap-2 2xl:grid-cols-3 xl:grid-cols-3 lg:grid-cols-3 grid-cols-2 md:mx-16 mx-2 bg-transparent w-full ">
             <EtiquetasCard
               titulo={'Seguridad (VOID)'}
               imagen={Seguridad}
@@ -235,9 +235,9 @@ function App() {
 
         <div className="relative z-40">
           <a href="https://wa.link/2cpcw0" target="_blank" >
-            <section className="grid place-items-center bg-[#25D366] w-[2.875rem] h-[2.875rem] z-25 fixed bottom-[1.875rem] right-[2.35rem] rounded-full hover:w-[6.25rem] hover:ease-in-out hover:duration-300">
-                <div className="grid place-items-center align-items-center w-[2.875rem] h-[2.875rem]">
-                  <AiOutlineWhatsApp className="p-2 text-white text-[2.875rem]" />
+            <section className="grid place-items-center bg-[#25D366] sm:w-[2.875rem] sm:h-[2.875rem] h-[2rem] w-[2rem] z-25 fixed bottom-[1.875rem] right-[2.35rem] rounded-full sm:hover:w-[6.25rem] hover:w-[3rem] hover:ease-in-out hover:duration-300">
+                <div className="grid place-items-center align-items-center sm:w-[2.875rem] sm:h-[2.875rem] h-[2rem] w-[2rem]">
+                  <AiOutlineWhatsApp className="p-2 text-white sm:text-[2.875rem] text-[2rem]" />
                 </div>
               </section>
           </a>
