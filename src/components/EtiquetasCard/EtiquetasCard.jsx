@@ -64,7 +64,7 @@ export const EtiquetasCard = ({titulo, imagen, aplicacion, lista}) => {
 
                     </div>
 
-                    <div className="card-sub-title ps-2">
+                    <div className="card-sub-title sm:ps-5 ps-2">
                         <ul className="list-disc font-['Roboto, sans_serif'] md:text-xl sm:text-[16px] font-normal text-[10px]" >
                             {lista.map((item) => (            
                                 <li>{item}</li>
