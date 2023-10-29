@@ -235,9 +235,9 @@ function App() {
 
         <div className="relative z-40">
           <a href="https://wa.link/2cpcw0" target="_blank" >
-            <section className="grid place-items-center bg-[#25D366] sm:w-[2.875rem] sm:h-[2.875rem] h-[2rem] w-[2rem] z-25 fixed bottom-[1.875rem] right-[2.35rem] rounded-full sm:hover:w-[6.25rem] hover:w-[3rem] hover:ease-in-out hover:duration-300">
-                <div className="grid place-items-center align-items-center sm:w-[2.875rem] sm:h-[2.875rem] h-[2rem] w-[2rem]">
-                  <AiOutlineWhatsApp className="p-2 text-white sm:text-[2.875rem] text-[2rem]" />
+            <section className="grid place-items-center bg-[#25D366] w-[2.875rem] h-[2.875rem] z-25 fixed bottom-[1.875rem] right-[3.5rem] rounded-full sm:hover:w-[6.25rem] hover:w-[3rem] hover:ease-in-out hover:duration-300">
+                <div className="grid place-items-center align-items-center w-[2.875rem] h-[2.875rem]">
+                  <AiOutlineWhatsApp className="p-2 text-white text-[2.875rem]" />
                 </div>
               </section>
           </a>
