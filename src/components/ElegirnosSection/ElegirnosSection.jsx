@@ -6,16 +6,13 @@ import './ElegirnosSection.css'
 
 export const ElegirnosSection = () => {
   return (
-    <div className="realtive z-20 flex flex-col flex-wrap h-auto mt-[8rem] sm:mb-[5rem] mb-10">
-      <div className="text-center text-[#16284E] sm:text-[2.5rem] 2sm:text-3xl text-2xl font-bold font-['Roboto', sans_serif] mt-2 mb-[2rem] flex-wrap h-auto">
+    <div className="realtive z-20 flex flex-col flex-nowrap h-auto mt-[8rem] sm:mb-[5rem] mb-10">
+      <div className="text-center text-[#16284E] sm:text-[40px] font-bold font-['Roboto', sans_serif] text-3xl ">
         ¿Por qué elegirnos?
-        <div className="sm:my-[1rem] border-b-[0.188rem] border-[#5BB4EB] w-[17rem] sm:w-[21.1rem] mx-auto"></div>
+        <div className="border-b-[3px] border-[#5BB4EB] w-[248px] sm:w-[318px] mx-auto my-0 sm:my-4"></div>
       </div>
 
-
       <div className="flex flex-row lg:flex-nowrap justify-center items-center gap-[2rem] mt-[4rem] sm:p-11 h-auto w-full p-0 flex-wrap">
-
-
         <ul className="flex flex-col gap-[2.5rem] justify-between sm:w-auto w-full h-auto lg:min-w-[400px] lg:w-[35rem] lg:m-0">
           <div className="relative bg-[#FFF] sm:w-full md:h-[8.75rem] rounded-tr-[20px] rounded-bl-[20px]  text-[#16284E] grid items-center sm:pt-4 sm:pb-4 pt-5 pb-5 sm:ps-[6rem] ps-[3rem] pe-3 w-full h-auto">
             <h2 className="absolute top-[-19%] left-[12%] text-[#16284E] text-[1rem] sm:text-[1.4rem] font-semibold font-['Roboto', 'sans_serif'] w-full sm:ms-0 2sm:ms-3  md:mb-1 2sm:mt-1 2sm:mb-0 mt-4 mb-3 ms-2">
@@ -58,8 +55,6 @@ export const ElegirnosSection = () => {
               </li>
             </ul>
           </div>
-
-
 
           <div className="relative bg-[#FFF] sm:w-full md:h-[8.75rem] rounded-tr-[20px] rounded-bl-[20px]  text-[#16284E] grid items-center sm:pt-4 sm:pb-4 pt-5 pb-5 sm:ps-[6rem] ps-[3rem] pe-3 w-full h-auto">
             <h2 className="absolute top-[-19%] left-[12%] text-[#16284E] text-[1rem] sm:text-[1.4rem] font-semibold font-['Roboto', 'sans_serif'] w-full sm:ms-0 2sm:ms-3  md:mb-1 2sm:mt-1 2sm:mb-0 mt-4 mb-3 ms-2">
@@ -110,7 +105,6 @@ export const ElegirnosSection = () => {
           alt=""
         />
       </div>
-      
     </div>
   );
 }

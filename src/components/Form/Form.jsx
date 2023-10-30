@@ -61,7 +61,7 @@ const Form = () => {
       <div className="mt-4 max-w-6xl mx-auto w-full flex flex-col sm:flex-row">
         <form
           onSubmit={sendEmail}
-          className="px-8 mt-8 font-['Roboto, sans_serif'] mx-5"
+          className="px-1 sm:px-12 mt-8 font-['Roboto, sans_serif'] mx-5"
         >
           <div className="container mx-auto">
             <div className={`grid sm:grid-cols-2 grid-cols-1 gap-4`}>
